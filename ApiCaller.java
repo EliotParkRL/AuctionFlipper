@@ -5,15 +5,27 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
-
-
-//adlifhaiuhgiphgriowejroij
-
+/**
+ * Almost whole class written by ChatGPT
+ */
 public class ApiCaller {
+    String apiKey;
+
+    /**
+     * ApiCaller class
+     * @param aApiKey Valid API key for Hypixel
+     */
+    public ApiCaller (String aApiKey){
+        apiKey = aApiKey;
+    }
+
+    /**
+     * returns new auctions
+     * @return First page of new auctions
+     */
     public String CallNewAuctions() {
         try {
             // Construct the API endpoint URL with the UUID directly appended to it
-            String apiKey = "2ae819ac-896b-4a25-8134-44fc676f7f9b";
             String page = "10";
             String apiUrl = "https://api.hypixel.net/v2/skyblock/auctions_ended?key=" + apiKey + "&page=" + encodeValue(page);
 
@@ -50,10 +62,13 @@ public class ApiCaller {
         }
     }
 
-    public static String CallFinishedAuctions() {
+    /**
+     * returns finished auctions
+     * @return last 60 seconds of called actions
+     */
+    public String CallFinishedAuctions() {
         try {
             // Construct the API endpoint URL with the UUID directly appended to it
-            String apiKey = "2ae819ac-896b-4a25-8134-44fc676f7f9b";
             String page = "1";
             String apiUrl = "https://api.hypixel.net/v2/skyblock/auctions?key=" + apiKey + "&page=" + encodeValue(page);
 
@@ -97,7 +112,6 @@ public class ApiCaller {
     public String CallSpecificAuction(String type, String specific) {
         try {
             // Construct the API endpoint URL with the UUID directly appended to it
-            String apiKey = "2ae819ac-896b-4a25-8134-44fc676f7f9b";
             type = "&" + type + "=";
             String apiUrl = "https://api.hypixel.net/v2/skyblock/auctions?key=" + apiKey + type + encodeValue(specific);
 

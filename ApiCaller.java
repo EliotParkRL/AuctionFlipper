@@ -44,6 +44,8 @@ public class ApiCaller {
             String line;
 
             while ((line = reader.readLine()) != null) {
+                // Insert three line breaks before every occurrence of "{"uuid"
+                line = line.replaceAll("\\{\"uuid\"", "\n\n\n{\"uuid\"");
                 response.append(line);
             }
 
@@ -87,6 +89,8 @@ public class ApiCaller {
             String line;
 
             while ((line = reader.readLine()) != null) {
+                // Insert three line breaks before every occurrence of "{"uuid"
+                line = line.replaceAll("\\{\"uuid\"", "\n\n\n{\"uuid\"");
                 response.append(line);
             }
 
@@ -113,7 +117,7 @@ public class ApiCaller {
         try {
             // Construct the API endpoint URL with the UUID directly appended to it
             type = "&" + type + "=";
-            String apiUrl = "https://api.hypixel.net/v2/skyblock/auctions?key=" + apiKey + type + encodeValue(specific);
+            String apiUrl = "https://api.hypixel.net/v2/skyblock/auction?key=" + apiKey + type + encodeValue(specific);
 
             // Create a URL object with the constructed API endpoint URL
             URL url = new URL(apiUrl);
@@ -130,6 +134,8 @@ public class ApiCaller {
             String line;
 
             while ((line = reader.readLine()) != null) {
+                // Insert three line breaks before every occurrence of "{"uuid"
+                line = line.replaceAll("\\{\"uuid\"", "\n\n\n{\"uuid\"");
                 response.append(line);
             }
 
@@ -150,7 +156,7 @@ public class ApiCaller {
     }
 
     /**
-     * Gets a specific auction
+     * Gets profile data of a player
      * @param uuid uuid of the player profile
      */
     public String CallProfileData(String uuid) {

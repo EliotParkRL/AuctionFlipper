@@ -149,7 +149,48 @@ public class ApiCaller {
         }
     }
 
+    /**
+     * Gets a specific auction
+     * @param uuid uuid of the player profile
+     */
+    public String CallProfileData(String uuid) {
+        try {
+            // Construct the API endpoint URL with the UUID directly appended to it
+            String apiUrl = "https://api.hypixel.net/v2/skyblock/profile?key=" + apiKey + "&profile=" + encodeValue(uuid);
 
+            // Create a URL object with the constructed API endpoint URL
+            URL url = new URL(apiUrl);
+
+            // Open a connection to the URL
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+
+            // Set the request method to GET
+            connection.setRequestMethod("GET");
+
+            // Read the response from the API
+            BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            StringBuilder response = new StringBuilder();
+            String line;
+
+            while ((line = reader.readLine()) != null) {
+                response.append(line);
+            }
+
+            // Close the reader and connection
+            reader.close();
+            connection.disconnect();
+
+            // Return the response from the API
+            System.out.println("Response from API:");
+            return(response.toString());
+        } catch (Exception e) {
+            // Handle any exceptions that occur during the API call
+            System.err.println("Error: " + e.getMessage());
+            e.printStackTrace();
+            return("There was an error");
+
+        }
+    }
 
     // Helper method to encode URL parameters
     public static String encodeValue(String value) throws UnsupportedEncodingException {

@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -14,6 +15,26 @@ public class AuctionedItem {
     public AuctionedItem(String aJsonData){
         jsonData = aJsonData;
         //add something here that pulls everything apart
+    }
+
+    public HashMap<String, String> printReasonableJSON(){
+        HashMap<String, String> info = new HashMap<>();
+        info.put("uuid", jsonData.substring(9, 41));
+        int itemLocation = jsonData.indexOf("item_name");
+        int[] quoteLocations = new int[3];
+        int j = 0;
+        for(int i = itemLocation; i < jsonData.length(); i++){
+            if((String.valueOf(jsonData.charAt(i))).equals("\"")){
+                quoteLocations[j] = i;
+                j++;
+            }
+            if(j == 3){
+                break;
+            }
+        }
+        int priceLocation = jsonData.indexOf("starting_bid");
+        info.put("price", jsonData.substring(priceLocation+14, priceLocation+21));
+        return info;
     }
 
     /**
@@ -41,8 +62,9 @@ public class AuctionedItem {
         String[] lines = cleanStringArray( data.split("\\r?\\n"));
         for (String line : lines) {
             AuctionedItem item = createAuctionedItem(line);
-            toReturn.add(item);
-            System.out.println("Created AuctionedItem: " + item.tempName());
+            if(item.dumpJSON().contains("\"bin\":true")){
+                toReturn.add(item);
+            }
         }
 
         return toReturn;

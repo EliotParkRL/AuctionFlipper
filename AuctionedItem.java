@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -14,6 +15,14 @@ public class AuctionedItem {
     public AuctionedItem(String aJsonData){
         jsonData = aJsonData;
         //add something here that pulls everything apart
+    }
+
+    public HashMap<String, String> printReasonableJSON(){
+        HashMap<String, String> info = new HashMap<>();
+        info.put("uuid", jsonData.substring(9, 41));
+        int itemLocation = jsonData.indexOf("item_name");
+
+        return info;
     }
 
     /**

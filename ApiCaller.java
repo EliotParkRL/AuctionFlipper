@@ -198,7 +198,9 @@ public class ApiCaller {
         }
     }
 
-    // Helper method to encode URL parameters
+    /**
+     * Helper method to encode URL parameters
+      */
     public static String encodeValue(String value) throws UnsupportedEncodingException {
         return URLEncoder.encode(value, "UTF-8");
     }

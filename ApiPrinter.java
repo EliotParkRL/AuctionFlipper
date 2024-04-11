@@ -4,7 +4,7 @@ public class ApiPrinter {
     public static void main(String[] args) {
         ArrayList<AuctionedItem> test = new ArrayList<>();
 
-        ApiCaller MainCaller = new ApiCaller("2ae819ac-896b-4a25-8134-44fc676f7f9b");
+        ApiCaller MainCaller = new ApiCaller("f43b2f7b-affd-4d71-b51b-a3ee3111657f");
         test = AuctionedItem.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions());
         for(AuctionedItem item : test){
             System.out.println(item.tempName());

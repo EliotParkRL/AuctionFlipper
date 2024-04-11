@@ -7,6 +7,7 @@ import java.util.List;
  */
 public class AuctionedItem {
     String jsonData;
+    static int numOfAuctions;
 
     /**
      * makes the json data coherent
@@ -55,6 +56,7 @@ public class AuctionedItem {
             AuctionedItem item = createAuctionedItem(line);
             toReturn.add(item);
             System.out.println("Created AuctionedItem: " + item.tempName());
+            numOfAuctions++;
         }
 
         return toReturn;

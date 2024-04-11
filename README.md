@@ -2,6 +2,8 @@
 contact calvin if you get error 403, or figure out how to fix the api key yourself https://developer.hypixel.net/dashboard
 you could also leave an issue
 
+DELETE OUT BEFORE PUSHING
+
 Steps:
 1. API call
 2. Parse API output

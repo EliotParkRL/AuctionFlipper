@@ -32,6 +32,7 @@ public class AuctionedItem {
                 break;
             }
         }
+        info.put("item_name", jsonData.substring(quoteLocations[1]+1, quoteLocations[2]).replace("\\u0027", "'"));
         int priceLocation = jsonData.indexOf("starting_bid");
         info.put("price", jsonData.substring(priceLocation+14, priceLocation+21));
         return info;

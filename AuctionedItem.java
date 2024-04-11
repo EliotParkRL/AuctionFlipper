@@ -21,7 +21,10 @@ public class AuctionedItem {
         HashMap<String, String> info = new HashMap<>();
         info.put("uuid", jsonData.substring(9, 41));
         int itemLocation = jsonData.indexOf("item_name");
+        int[] quoteLocations = new int[3];
+        for(int i = itemLocation; i < jsonData.length(); i++){
 
+        }
         return info;
     }
 

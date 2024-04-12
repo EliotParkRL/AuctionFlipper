@@ -5,11 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Base64;
 import java.util.zip.*;
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.util.Base64;
-import java.util.Base64;
 import java.util.zip.GZIPInputStream;
 
 
@@ -18,6 +14,7 @@ import java.util.zip.GZIPInputStream;
  */
 public class AuctionedItem {
     String jsonData;
+    HashMap<String, String> reasonableJsonData;
 
     /**
      * makes the json data coherent
@@ -25,10 +22,23 @@ public class AuctionedItem {
      */
     public AuctionedItem(String aJsonData){
         jsonData = aJsonData;
+        reasonableJsonData = getReasonableJSON();
         //add something here that pulls everything apart
     }
 
-    public HashMap<String, String> printReasonableJSON(){
+    /**
+     * Returns the reasonable JSON data
+     * @return the readable JSON data
+     */
+    public HashMap<String, String> returnReasonableJSON(){
+        return reasonableJsonData;
+    }
+
+    /**
+     * Gets translated JSON data
+     * @return readable json data
+     */
+    private HashMap<String, String> getReasonableJSON(){
         HashMap<String, String> info = new HashMap<>();
         info.put("uuid", jsonData.substring(9, 41));
         info.put("item_name", grabInfo("item_name").replace("\\u0027", "'"));
@@ -44,10 +54,15 @@ public class AuctionedItem {
         info.put("price", jsonData.substring(priceLocation[0], priceLocation[1]));
         String itemBytesStr = grabInfo("item_bytes");
 
-        info.put("item_bytes", itemBytesStr);
+        info.put("item_bytes", decompressGzipString(itemBytesStr));
         return info;
     }
 
+    /**
+     * Grabs info from the JSON data
+     * @param typeInfo the info you're looking for
+     * @return the String that is the data
+     */
     private String grabInfo(String typeInfo){
         int infoLocation = jsonData.indexOf(typeInfo);
         int[] quoteLocations = new int[3];
@@ -139,6 +154,11 @@ public class AuctionedItem {
      * @return decompressed string
      */
     public static String decompressGzipString(String base64CompressedString) {
+        base64CompressedString = base64CompressedString.replace("\\u003d", "=");
+//        int blackslashIndex = base64CompressedString.indexOf("\\");
+//        if(blackslashIndex != -1){
+//            base64CompressedString = base64CompressedString.substring(0, blackslashIndex);
+//        }
         try {
             byte[] compressedData = Base64.getDecoder().decode(base64CompressedString);
 

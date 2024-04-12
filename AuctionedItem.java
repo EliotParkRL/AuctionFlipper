@@ -135,7 +135,7 @@ public class AuctionedItem {
 
     /**
      * parses item_bytes, chatgpt cooked with gas
-     * @param base64CompressedString
+     * @param base64CompressedString MUST NOT HAVE FORWARD SLASHES
      * @return decompressed string
      */
     public static String decompressGzipString(String base64CompressedString) {
@@ -157,10 +157,10 @@ public class AuctionedItem {
             }
         } catch (ZipException e) {
             // Handle case where input string is not in GZIP format
-            return "-1";
+            return "Not in GZIP format";
         } catch (IOException e) {
             e.printStackTrace();
-            return "-1";
+            return "something broke";
         }
     }
 }

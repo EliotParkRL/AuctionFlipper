@@ -4,14 +4,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Base64;
-import java.util.zip.DataFormatException;
-import java.util.zip.GZIPInputStream;
-import java.util.zip.InflaterInputStream;
+import java.util.zip.*;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.Base64;
-import java.util.zip.Inflater;
 import java.util.Base64;
 import java.util.zip.GZIPInputStream;
 
@@ -134,5 +131,36 @@ public class AuctionedItem {
         // Convert the list back to an array
         String[] cleanedArray = cleanedList.toArray(new String[0]);
         return cleanedArray;
+    }
+
+    /**
+     * parses item_bytes, chatgpt cooked with gas
+     * @param base64CompressedString
+     * @return decompressed string
+     */
+    public static String decompressGzipString(String base64CompressedString) {
+        try {
+            byte[] compressedData = Base64.getDecoder().decode(base64CompressedString);
+
+            try (ByteArrayInputStream inputStream = new ByteArrayInputStream(compressedData);
+                 ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+                 GZIPInputStream gzipInputStream = new GZIPInputStream(inputStream)) {
+
+                byte[] buffer = new byte[1024];
+                int bytesRead;
+
+                while ((bytesRead = gzipInputStream.read(buffer)) != -1) {
+                    outputStream.write(buffer, 0, bytesRead);
+                }
+
+                return outputStream.toString();
+            }
+        } catch (ZipException e) {
+            // Handle case where input string is not in GZIP format
+            return "-1";
+        } catch (IOException e) {
+            e.printStackTrace();
+            return "-1";
+        }
     }
 }

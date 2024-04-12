@@ -1,6 +1,20 @@
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Base64;
+import java.util.zip.DataFormatException;
+import java.util.zip.GZIPInputStream;
+import java.util.zip.InflaterInputStream;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.util.Base64;
+import java.util.zip.Inflater;
+import java.util.Base64;
+import java.util.zip.GZIPInputStream;
+
 
 /**
  * class that represents a BIN auctioned item that was bought
@@ -20,10 +34,28 @@ public class AuctionedItem {
     public HashMap<String, String> printReasonableJSON(){
         HashMap<String, String> info = new HashMap<>();
         info.put("uuid", jsonData.substring(9, 41));
-        int itemLocation = jsonData.indexOf("item_name");
+        info.put("item_name", grabInfo("item_name").replace("\\u0027", "'"));
+        int[] priceLocation = new int[2];
+        for(int i = jsonData.indexOf("starting_bid"); i < jsonData.length(); i++){
+            if((String.valueOf(jsonData.charAt(i))).equals(":")){
+                priceLocation[0] = i+1;
+            } else if((String.valueOf(jsonData.charAt(i))).equals(",")){
+                priceLocation[1] = i;
+                break;
+            }
+        }
+        info.put("price", jsonData.substring(priceLocation[0], priceLocation[1]));
+        String itemBytesStr = grabInfo("item_bytes");
+
+        info.put("item_bytes", itemBytesStr);
+        return info;
+    }
+
+    private String grabInfo(String typeInfo){
+        int infoLocation = jsonData.indexOf(typeInfo);
         int[] quoteLocations = new int[3];
         int j = 0;
-        for(int i = itemLocation; i < jsonData.length(); i++){
+        for(int i = infoLocation; i < jsonData.length(); i++){
             if((String.valueOf(jsonData.charAt(i))).equals("\"")){
                 quoteLocations[j] = i;
                 j++;
@@ -32,10 +64,7 @@ public class AuctionedItem {
                 break;
             }
         }
-        info.put("item_name", jsonData.substring(quoteLocations[1]+1, quoteLocations[2]).replace("\\u0027", "'"));
-        int priceLocation = jsonData.indexOf("starting_bid");
-        info.put("price", jsonData.substring(priceLocation+14, priceLocation+21));
-        return info;
+        return jsonData.substring(quoteLocations[1]+1, quoteLocations[2]);
     }
 
     /**

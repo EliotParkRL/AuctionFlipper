@@ -12,6 +12,6 @@ public class ApiPrinter {
             //System.out.println(item.dumpJSON());
             System.out.println(item.returnReasonableJSON());
         }
-        System.out.println(MainCaller.CallFinishedAuctions());
+//        System.out.println(MainCaller.CallFinishedAuctions());
     }
 }

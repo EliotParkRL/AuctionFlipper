@@ -40,10 +40,10 @@ public class AuctionedItem {
      */
     private HashMap<String, String> getReasonableJSON(){
         HashMap<String, String> info = new HashMap<>();
-        info.put("uuid", jsonData.substring(9, 41));
-        info.put("item_name", grabInfo("item_name").replace("\\u0027", "'"));
+        info.put("auction_id", grabInfo("auction_id"));
+//        info.put("item_name", grabInfo("item_name").replace("\\u0027", "'"));
         int[] priceLocation = new int[2];
-        for(int i = jsonData.indexOf("starting_bid"); i < jsonData.length(); i++){
+        for(int i = jsonData.indexOf("price"); i < jsonData.length(); i++){
             if((String.valueOf(jsonData.charAt(i))).equals(":")){
                 priceLocation[0] = i+1;
             } else if((String.valueOf(jsonData.charAt(i))).equals(",")){
@@ -101,7 +101,8 @@ public class AuctionedItem {
      */
     public static ArrayList<AuctionedItem> createAuctionedItemsFromApi(String data) {
         ArrayList<AuctionedItem> toReturn = new ArrayList<>();
-        String[] lines = cleanStringArray( data.split("\\r?\\n"));
+        String[] lines = cleanStringArray( data.split("},\\{"));
+
         for (String line : lines) {
             AuctionedItem item = createAuctionedItem(line);
             if(item.dumpJSON().contains("\"bin\":true")){

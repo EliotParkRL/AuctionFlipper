@@ -72,7 +72,10 @@ public class ApiCaller {
         try {
             // Construct the API endpoint URL with the UUID directly appended to it
             String page = "1";
-            String apiUrl = "https://api.hypixel.net/v2/skyblock/auctions_ended?key=" + apiKey + "&page=" + encodeValue(page);
+
+            String apiUrl = "https://api.hypixel.net/v2/skyblock/auctions_ended?key=" + apiKey;
+            // + "&page=" + encodeValue(page);
+
 
             // Create a URL object with the constructed API endpoint URL
             URL url = new URL(apiUrl);

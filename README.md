@@ -16,7 +16,14 @@ Steps:
 7. Type command in chat with a forge mod
 8. Sell maybe?
 
-
+To Do:
+1. Write data collector
+2. Start collecting data
+3. Write price calc
+4. Write incoming auction reader
+5. Write purchase decision maker
+6. Write minecr-side automation
+7. Run the thing
 
 Blacklisted Items list:
 - Skins

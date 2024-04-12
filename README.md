@@ -22,7 +22,7 @@ To Do:
 3. Write price calc
 4. Write incoming auction reader
 5. Write purchase decision maker
-6. Write minecr-side automation
+6. Write minecraft-side automation
 7. Run the thing
 
 Blacklisted Items list:

@@ -9,9 +9,9 @@ public class ApiPrinter {
         test = AuctionedItem.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions());
 
         for(AuctionedItem item : test){
-//            System.out.println(item.dumpJSON());
+            //System.out.println(item.dumpJSON());
             System.out.println(item.returnReasonableJSON());
         }
-        System.out.println(test.size());
+        System.out.println(MainCaller.CallFinishedAuctions());
     }
 }

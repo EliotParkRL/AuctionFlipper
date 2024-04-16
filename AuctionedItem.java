@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Base64;
+import java.util.regex.Pattern;
 import java.util.zip.*;
 import java.io.ByteArrayOutputStream;
 import java.util.zip.GZIPInputStream;
@@ -53,8 +54,12 @@ public class AuctionedItem {
         }
         info.put("price", jsonData.substring(priceLocation[0], priceLocation[1]));
         String itemBytesStr = grabInfo("item_bytes");
+        String itemBytesClean = decompressGzipString(itemBytesStr);
+        itemBytesClean = cleanString(itemBytesClean);
 
-        info.put("item_bytes", decompressGzipString(itemBytesStr));
+        info.put("item_bytes", itemBytesClean);
+
+
         return info;
     }
 
@@ -183,5 +188,13 @@ public class AuctionedItem {
             e.printStackTrace();
             return "something broke";
         }
+    }
+
+    public static String cleanString(String inputString) {
+        // Define the regular expression pattern to match Latin characters, spaces, and ✪
+        Pattern pattern = Pattern.compile("[^a-zA-Z\\s✪]+");
+        // Use the pattern to replace non-matching characters with an empty string
+        String cleanedString = inputString.replaceAll(pattern.pattern(), "");
+        return cleanedString;
     }
 }

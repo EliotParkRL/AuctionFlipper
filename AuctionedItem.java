@@ -194,7 +194,7 @@ public class AuctionedItem {
         // Define the regular expression pattern to match Latin characters, spaces, and ✪
         Pattern pattern = Pattern.compile("[^a-zA-Z\\s✪]+");
         // Use the pattern to replace non-matching characters with an empty string
-        String cleanedString = inputString.replaceAll(pattern.pattern(), "");
+        String cleanedString = inputString.replaceAll(pattern.pattern(), " ");
         return cleanedString;
     }
 }

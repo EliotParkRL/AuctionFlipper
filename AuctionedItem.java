@@ -197,4 +197,9 @@ public class AuctionedItem {
         String cleanedString = inputString.replaceAll(pattern.pattern(), " ");
         return cleanedString;
     }
+
+//    public static ArrayList<String> getEnchants(String input){
+//
+//
+//    }
 }

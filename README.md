@@ -5,17 +5,22 @@ you could also leave an issue
 DELETE OUT BEFORE PUSHING
 
 Steps:
-1. API call
-2. Parse API output
-3. a) Take an item
-   b) Parse the enchants, rarity, stars, gems etc.
+_1. API call_
+_2. Parse API output_
+_3. a) Take an item
+   b) Parse the enchants_
+   c) Recombs
+   d) Stars
+   e) Ultimate Enchants
+   f) Attributes
 
-Parsing item data:
+_Parsing item data:
 1. Remove all color tags (§ + num)
 2. Remove all non-printable characters (�)
 3. Look at enchants through "Lor" tag not "enchants" tag
-
+_
    c) Find auction ID and store it
+   
 5. Find price of the selected item
 6. Compare the prices (threshold)
 7. Return auction ID

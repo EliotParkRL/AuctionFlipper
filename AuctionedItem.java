@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Base64;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.*;
 import java.io.ByteArrayOutputStream;
@@ -16,6 +17,7 @@ import java.util.zip.GZIPInputStream;
 public class AuctionedItem {
     String jsonData;
     HashMap<String, String> reasonableJsonData;
+    ArrayList<String> enchants = new ArrayList<>();
 
     /**
      * makes the json data coherent
@@ -24,6 +26,7 @@ public class AuctionedItem {
     public AuctionedItem(String aJsonData){
         jsonData = aJsonData;
         reasonableJsonData = getReasonableJSON();
+        enchants = getEnchants();
         //add something here that pulls everything apart
     }
 
@@ -33,6 +36,38 @@ public class AuctionedItem {
      */
     public HashMap<String, String> returnReasonableJSON(){
         return reasonableJsonData;
+    }
+
+    public ArrayList<String> getEnchants(){
+        String input = returnReasonableJSON().get("item_bytes");
+        int displayIndex = input.indexOf("display");
+        if (displayIndex != -1) {
+            int loreIndex = input.indexOf("Lore", displayIndex);
+            if (loreIndex != -1) {
+                int endOfLoreIndex = input.indexOf("b ", loreIndex); // assuming 'b ' is the end delimiter
+                if (endOfLoreIndex != -1) {
+                    String loreSection = input.substring(loreIndex, endOfLoreIndex);
+                    ArrayList<String> enchants = new ArrayList<>();
+
+                    // Define regex pattern to match enchantments
+                    String enchantPattern = "(Bane of Arthropods|Champion|Cleave|Critical|Cubism|Divine Gift|Dragon Hunter|" +
+                            "Ender Slayer|Execute|Experience|Fire Aspect|First Strike|Giant Killer|Impaling|Knockback|" +
+                            "Lethality|Life Steal|Looting|Luck|Mana Steal|Prosecute|Scavenger|Sharpness|Smite|Smoldering|" +
+                            "Syphon|Tabasco|Thunderlord|Titan Killer|Triple-Strike|Vampirism|Venomous|Vicious) (V|IV|III|II|I)";
+                    Pattern pattern = Pattern.compile(enchantPattern);
+                    Matcher matcher = pattern.matcher(loreSection);
+
+                    while (matcher.find()) {
+                        String enchantName = matcher.group(1);
+                        String romanNumeral = matcher.group(2);
+                        enchants.add(enchantName + " " + romanNumeral);
+                    }
+
+                    return enchants;
+                }
+            }
+        }
+        return new ArrayList<String>();
     }
 
     /**

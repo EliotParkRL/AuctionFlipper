@@ -14,8 +14,7 @@ public class ApiPrinter {
             System.out.println();
             System.out.println();
             System.out.println();
-            System.out.println(item.returnReasonableJSON());
-
+            System.out.println(item.getEnchants());
         }
         DataAnalyzer data = new DataAnalyzer();
         data.analyzeData();

@@ -11,7 +11,12 @@ public class AutoFlipper {
             mainArrayList = AuctionedItem.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions());
 
             for(AuctionedItem item : mainArrayList){
-                //if ()
+                if (item.getAuctionPrice() < .85*item.getPredictedPrice()){
+                    System.out.println(item.getAuctionID());
+                }
+                if (true){
+                    System.out.println("/viewauction " + item.getAuctionID());
+                }
             }
             //compare prices
             //buy anything with a 15% discrepancy - get ah id, create pastable string

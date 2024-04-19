@@ -14,7 +14,7 @@ import java.util.zip.GZIPInputStream;
 /**
  * class that represents a BIN auctioned item that was bought
  */
-public class AuctionedItem {
+public class OngoingAuction {
     String jsonData;
     HashMap<String, String> reasonableJsonData;
     ArrayList<String> enchants = new ArrayList<>();
@@ -23,7 +23,7 @@ public class AuctionedItem {
      * makes the json data coherent
      * @param aJsonData JSON data pulled from the api
      */
-    public AuctionedItem(String aJsonData){
+    public OngoingAuction(String aJsonData){
         jsonData = aJsonData;
         reasonableJsonData = getReasonableJSON();
         enchants = getEnchants();

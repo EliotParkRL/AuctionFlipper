@@ -136,15 +136,15 @@ public class OngoingAuction {
     }
 
     /**
-     * creates auctionItems from api string dump
+     * creates OngoingAuctions from api string dump
      * @param data api string dump
      */
-    public static ArrayList<AuctionedItem> createAuctionedItemsFromApi(String data) {
-        ArrayList<AuctionedItem> toReturn = new ArrayList<>();
+    public static ArrayList<OngoingAuction> createOngoingAuctionsFromApi(String data) {
+        ArrayList<OngoingAuction> toReturn = new ArrayList<>();
         String[] lines = cleanStringArray( data.split("},\\{"));
 
         for (String line : lines) {
-            AuctionedItem item = createAuctionedItem(line);
+            OngoingAuction item = createOngoingAuction(line);
             if(item.dumpJSON().contains("\"bin\":true")){
                 toReturn.add(item);
             }
@@ -154,12 +154,12 @@ public class OngoingAuction {
     }
 
     /**
-     * automatically creates auctionedItem
+     * automatically creates OngoingAuction
      * @param line String to input
      * @return item
      */
-    private static AuctionedItem createAuctionedItem(String line) {
-        return new AuctionedItem(line);
+    private static OngoingAuction createOngoingAuction(String line) {
+        return new OngoingAuction(line);
     }
 
     /**

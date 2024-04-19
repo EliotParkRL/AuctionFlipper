@@ -14,10 +14,7 @@ public class ApiPrinter {
             System.out.println();
             System.out.println();
             System.out.println();
-            System.out.println(item.getEnchants());
+            System.out.println(item.getAuctionPrice());
         }
-        DataAnalyzer data = new DataAnalyzer();
-        data.analyzeData();
-//        System.out.println(MainCaller.CallFinishedAuctions());
     }
 }

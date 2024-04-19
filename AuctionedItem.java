@@ -233,6 +233,22 @@ public class AuctionedItem {
         return cleanedString;
     }
 
+    /**
+     * gets actual auction price
+     * @return price
+     */
+    public int getAuctionPrice(){
+        return Integer.parseInt(reasonableJsonData.get("price"));
+    }
+
+    /** TODO
+     * gets predicted auction price
+     * @return price
+     */
+    public int getPredictedPrice(){
+        return 0;
+    }
+
 //    public static ArrayList<String> getEnchants(String input){
 //
 //

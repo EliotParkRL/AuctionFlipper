@@ -10,6 +10,9 @@ public class AutoFlipper {
             ApiCaller MainCaller = new ApiCaller("f43b2f7b-affd-4d71-b51b-a3ee3111657f");
             mainArrayList = AuctionedItem.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions());
 
+            for(AuctionedItem item : mainArrayList){
+                //if ()
+            }
             //compare prices
             //buy anything with a 15% discrepancy - get ah id, create pastable string
             //get sell prices

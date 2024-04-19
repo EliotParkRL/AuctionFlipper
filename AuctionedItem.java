@@ -38,7 +38,7 @@ public class AuctionedItem {
         return reasonableJsonData;
     }
 
-    public ArrayList<String> getEnchants(){
+    private ArrayList<String> getEnchants(){
         String input = returnReasonableJSON().get("item_bytes");
         int displayIndex = input.indexOf("display");
         if (displayIndex != -1) {
@@ -167,7 +167,7 @@ public class AuctionedItem {
      * @param array to be cleaned
      * @return cleaned array
      */
-    public static String[] cleanStringArray(String[] array) {
+    private static String[] cleanStringArray(String[] array) {
         List<String> cleanedList = new ArrayList<>();
 
         boolean responseFound = false; // Flag to track if "response from api" is found
@@ -194,12 +194,8 @@ public class AuctionedItem {
      * @param base64CompressedString MUST NOT HAVE FORWARD SLASHES
      * @return decompressed string
      */
-    public static String decompressGzipString(String base64CompressedString) {
+    private String decompressGzipString(String base64CompressedString) {
         base64CompressedString = base64CompressedString.replace("\\u003d", "=");
-//        int blackslashIndex = base64CompressedString.indexOf("\\");
-//        if(blackslashIndex != -1){
-//            base64CompressedString = base64CompressedString.substring(0, blackslashIndex);
-//        }
         try {
             byte[] compressedData = Base64.getDecoder().decode(base64CompressedString);
 
@@ -225,7 +221,7 @@ public class AuctionedItem {
         }
     }
 
-    public static String cleanString(String inputString) {
+    private String cleanString(String inputString) {
         // Define the regular expression pattern to match Latin characters, spaces, and ✪
         Pattern pattern = Pattern.compile("[^a-zA-Z\\s✪]+");
         // Use the pattern to replace non-matching characters with an empty string

@@ -18,15 +18,17 @@ public class AuctionedItem {
     String jsonData;
     HashMap<String, String> reasonableJsonData;
     ArrayList<String> enchants = new ArrayList<>();
+    boolean sold;
 
     /**
      * makes the json data coherent
      * @param aJsonData JSON data pulled from the api
      */
-    public AuctionedItem(String aJsonData){
+    public AuctionedItem(String aJsonData, boolean sold){
+        this.sold = sold;
         jsonData = aJsonData;
-        reasonableJsonData = getReasonableJSON();
-        enchants = getEnchants();
+        reasonableJsonData = returnReasonableJSON();
+        enchants = returnEnchants();
         //add something here that pulls everything apart
     }
 
@@ -34,11 +36,14 @@ public class AuctionedItem {
      * Returns the reasonable JSON data
      * @return the readable JSON data
      */
-    public HashMap<String, String> returnReasonableJSON(){
+    public HashMap<String, String> getReasonableJSON(){
         return reasonableJsonData;
     }
 
-    private ArrayList<String> getEnchants(){
+    public ArrayList<String> getEnchants(){
+        return enchants;
+    }
+    private ArrayList<String> returnEnchants(){
         String input = returnReasonableJSON().get("item_bytes");
         int displayIndex = input.indexOf("display");
         if (displayIndex != -1) {
@@ -74,28 +79,47 @@ public class AuctionedItem {
      * Gets translated JSON data
      * @return readable json data
      */
-    private HashMap<String, String> getReasonableJSON(){
-        HashMap<String, String> info = new HashMap<>();
-        info.put("auction_id", grabInfo("auction_id"));
-//        info.put("item_name", grabInfo("item_name").replace("\\u0027", "'"));
-        int[] priceLocation = new int[2];
-        for(int i = jsonData.indexOf("price"); i < jsonData.length(); i++){
-            if((String.valueOf(jsonData.charAt(i))).equals(":")){
-                priceLocation[0] = i+1;
-            } else if((String.valueOf(jsonData.charAt(i))).equals(",")){
-                priceLocation[1] = i;
-                break;
+    private HashMap<String, String> returnReasonableJSON(){
+        if(sold){
+            HashMap<String, String> info = new HashMap<>();
+            info.put("auction_id", grabInfo("auction_id"));
+            int[] priceLocation = new int[2];
+            for(int i = jsonData.indexOf("price"); i < jsonData.length(); i++){
+                if((String.valueOf(jsonData.charAt(i))).equals(":")){
+                    priceLocation[0] = i+1;
+                } else if((String.valueOf(jsonData.charAt(i))).equals(",")){
+                    priceLocation[1] = i;
+                    break;
+                }
             }
+            info.put("price", jsonData.substring(priceLocation[0], priceLocation[1]));
+            String itemBytesStr = grabInfo("item_bytes");
+            String itemBytesClean = decompressGzipString(itemBytesStr);
+            itemBytesClean = cleanString(itemBytesClean);
+
+            info.put("item_bytes", itemBytesClean);
+            return info;
+        } else{
+            HashMap<String, String> info = new HashMap<>();
+            info.put("uuid", grabInfo("uuid"));
+            info.put("item_name", grabInfo("item_name").replace("\\u0027", "'"));
+            int[] priceLocation = new int[2];
+            for(int i = jsonData.indexOf("starting_bid"); i < jsonData.length(); i++){
+                if((String.valueOf(jsonData.charAt(i))).equals(":")){
+                    priceLocation[0] = i+1;
+                } else if((String.valueOf(jsonData.charAt(i))).equals(",")){
+                    priceLocation[1] = i;
+                    break;
+                }
+            }
+            info.put("price", jsonData.substring(priceLocation[0], priceLocation[1]));
+            String itemBytesStr = grabInfo("item_bytes");
+            String itemBytesClean = decompressGzipString(itemBytesStr);
+            itemBytesClean = cleanString(itemBytesClean);
+            info.put("item_bytes", itemBytesClean);
+            return info;
         }
-        info.put("price", jsonData.substring(priceLocation[0], priceLocation[1]));
-        String itemBytesStr = grabInfo("item_bytes");
-        String itemBytesClean = decompressGzipString(itemBytesStr);
-        itemBytesClean = cleanString(itemBytesClean);
 
-        info.put("item_bytes", itemBytesClean);
-
-
-        return info;
     }
 
     /**
@@ -139,14 +163,18 @@ public class AuctionedItem {
      * creates auctionItems from api string dump
      * @param data api string dump
      */
-    public static ArrayList<AuctionedItem> createAuctionedItemsFromApi(String data) {
+    public static ArrayList<AuctionedItem> createAuctionedItemsFromApi(String data, boolean sold) {
         ArrayList<AuctionedItem> toReturn = new ArrayList<>();
-        String[] lines = cleanStringArray( data.split("},\\{"));
+        String[] lines;
+        if(sold){
+            lines = cleanStringArray( data.split("},\\{"));
+        }else{
+            lines = cleanStringArray( data.split("\\r?\\n"));
+        }
 
         for (String line : lines) {
-            AuctionedItem item = createAuctionedItem(line);
-            if(item.dumpJSON().contains("\"bin\":true")){
-                toReturn.add(item);
+            if(line.contains("\"bin\":true")){
+                toReturn.add(createAuctionedItem(line, sold));
             }
         }
 
@@ -158,8 +186,8 @@ public class AuctionedItem {
      * @param line String to input
      * @return item
      */
-    private static AuctionedItem createAuctionedItem(String line) {
-        return new AuctionedItem(line);
+    private static AuctionedItem createAuctionedItem(String line, boolean sold) {
+        return new AuctionedItem(line, sold);
     }
 
     /**

@@ -5,12 +5,12 @@ public class AutoFlipper {
         while(true){
             //get recent auctions
             //create auctioneditems objects
-            ArrayList<OngoingAuction> mainArrayList = new ArrayList<>();
+            ArrayList<AuctionedItem> mainArrayList = new ArrayList<>();
 
             ApiCaller MainCaller = new ApiCaller("f43b2f7b-affd-4d71-b51b-a3ee3111657f");
-            mainArrayList = OngoingAuction.createOngoingAuctionsFromApi(MainCaller.CallFinishedAuctions());
+            mainArrayList = AuctionedItem.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions(), true);
 
-            for(OngoingAuction item : mainArrayList){
+            for(AuctionedItem item : mainArrayList){
                 if (item.getAuctionPrice() < .85*item.getPredictedPrice()){
                     CommandSender.executeCommand("/viewauction " + item.getAuctionID());
                 }

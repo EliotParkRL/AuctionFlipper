@@ -8,7 +8,7 @@ public class AutoFlipper {
             ArrayList<AuctionedItem> mainArrayList = new ArrayList<>();
 
             ApiCaller MainCaller = new ApiCaller("f43b2f7b-affd-4d71-b51b-a3ee3111657f");
-            mainArrayList = AuctionedItem.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions());
+            mainArrayList = AuctionedItem.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions(), true);
 
             for(AuctionedItem item : mainArrayList){
                 if (item.getAuctionPrice() < .85*item.getPredictedPrice()){

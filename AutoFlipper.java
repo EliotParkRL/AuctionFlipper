@@ -12,10 +12,10 @@ public class AutoFlipper {
 
             for(AuctionedItem item : mainArrayList){
                 if (item.getAuctionPrice() < .85*item.getPredictedPrice()){
-                    System.out.println(item.getAuctionID());
+                    CommandSender.executeCommand("/viewauction " + item.getAuctionID());
                 }
                 if (true){
-                    System.out.println("/viewauction " + item.getAuctionID());
+                    CommandSender.executeCommand("/viewauction " + item.getAuctionID());
                 }
             }
             //compare prices

@@ -16,8 +16,9 @@ public class ApiPrinter {
             System.out.println();
             System.out.println();
             System.out.println();
-            item.writeArrayListToCSV("output.csv");
-//            System.out.println(item.getAuctionPrice());
+
+            item.writeArrayListToCSV("output.csv",item.getAuctionPrice());
+            System.out.println(item.getAuctionID());
 //            System.out.println(item.getReasonableJSON());
             System.out.println(item.getEnchants());
         }

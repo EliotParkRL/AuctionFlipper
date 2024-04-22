@@ -1,5 +1,4 @@
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -7,9 +6,7 @@ import java.util.Base64;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.*;
-import java.io.ByteArrayOutputStream;
 import java.util.zip.GZIPInputStream;
-import java.io.FileWriter;
 
 
 /**
@@ -277,12 +274,15 @@ public class AuctionedItem {
     public String getAuctionID(){
         return reasonableJsonData.get("auction_id");
     }
-    public void writeArrayListToCSV(String csvFilePath) throws IOException{
+    public void writeArrayListToCSV(String csvFilePath, int auctionPrice) throws IOException{
         FileWriter writer = new FileWriter(csvFilePath,true);
         for (String enchant : enchants) {
             writer.append(enchant);
             writer.append(',');
         }
+        writer.append(Integer.toString(auctionPrice));
+        writer.append(',');
+        writer.append(getAuctionID());
         writer.append('\n');
         writer.close();
     }

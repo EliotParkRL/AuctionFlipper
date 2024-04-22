@@ -12,7 +12,7 @@ public class ApiPrinter {
         test2 = AuctionedItem.createAuctionedItemsFromApi(MainCaller.CallNewAuctions(), false);
 
         for(AuctionedItem item : test2){
-//          System.out.println(item.dumpJSON());
+          System.out.println(item.dumpJSON());
             System.out.println();
             System.out.println();
             System.out.println();
@@ -20,7 +20,8 @@ public class ApiPrinter {
             item.writeArrayListToCSV("output.csv",item.getAuctionPrice());
             System.out.println(item.getAuctionID());
 //            System.out.println(item.getReasonableJSON());
-            System.out.println(item.getEnchants());
+//            System.out.println(item.getEnchants());
         }
+        System.out.println(test.size());
     }
 }

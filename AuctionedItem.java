@@ -9,6 +9,7 @@ import java.util.regex.Pattern;
 import java.util.zip.*;
 import java.io.ByteArrayOutputStream;
 import java.util.zip.GZIPInputStream;
+import java.io.FileWriter;
 
 
 /**
@@ -276,7 +277,15 @@ public class AuctionedItem {
     public String getAuctionID(){
         return reasonableJsonData.get("auction_id");
     }
-
+    public void writeArrayListToCSV(String csvFilePath) throws IOException{
+        FileWriter writer = new FileWriter(csvFilePath,true);
+        for (String enchant : enchants) {
+            writer.append(enchant);
+            writer.append(',');
+        }
+        writer.append('\n');
+        writer.close();
+    }
 //    public static ArrayList<String> getEnchants(String input){
 //
 //

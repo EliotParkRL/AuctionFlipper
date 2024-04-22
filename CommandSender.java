@@ -13,23 +13,17 @@ public class CommandSender {
         automateKeyPresses(text);
     }
 
-    private static void automateKeyPresses(String text) {
+    public static void automateKeyPresses(String text) {
         try {
             Robot robot = new Robot();
-            for (int i = 0; i < text.length(); i++) {
-                char character = text.charAt(i);
+            char[] chars = text.toCharArray();
+            int[] keyCodes = new int[chars.length];
+            for (int i = 0; i < chars.length; i++) {
+                char character = chars[i];
                 int keyCode = KeyEvent.getExtendedKeyCodeForChar(character);
-                if (Character.isUpperCase(character)) {
-                    robot.keyPress(KeyEvent.VK_SHIFT);
-                }
-                robot.keyPress(keyCode);
-                robot.keyRelease(keyCode);
-                if (Character.isUpperCase(character)) {
-                    robot.keyRelease(KeyEvent.VK_SHIFT);
-                }
-                Thread.sleep(10); // Adjust delay between keypresses if needed
+                keyCodes[i] = keyCode;
             }
-        } catch (AWTException | InterruptedException e) {
+        } catch (AWTException e) {
             e.printStackTrace();
         }
     }

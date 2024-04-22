@@ -9,6 +9,7 @@ import java.util.regex.Pattern;
 import java.util.zip.*;
 import java.io.ByteArrayOutputStream;
 import java.util.zip.GZIPInputStream;
+import java.io.FileWriter;
 
 
 /**
@@ -101,7 +102,7 @@ public class AuctionedItem {
             return info;
         } else{
             HashMap<String, String> info = new HashMap<>();
-            info.put("uuid", grabInfo("uuid"));
+            info.put("auction_id", grabInfo("uuid"));
             info.put("item_name", grabInfo("item_name").replace("\\u0027", "'"));
             int[] priceLocation = new int[2];
             for(int i = jsonData.indexOf("starting_bid"); i < jsonData.length(); i++){
@@ -276,7 +277,15 @@ public class AuctionedItem {
     public String getAuctionID(){
         return reasonableJsonData.get("auction_id");
     }
-
+    public void writeArrayListToCSV(String csvFilePath) throws IOException{
+        FileWriter writer = new FileWriter(csvFilePath,true);
+        for (String enchant : enchants) {
+            writer.append(enchant);
+            writer.append(',');
+        }
+        writer.append('\n');
+        writer.close();
+    }
 //    public static ArrayList<String> getEnchants(String input){
 //
 //

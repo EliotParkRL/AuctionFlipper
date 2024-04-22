@@ -2,8 +2,8 @@
 contact calvin if you get error 403, or figure out how to fix the api key yourself https://developer.hypixel.net/dashboard
 you could also leave an issue
 
-FOR SOLD ITEMS: need to get item_name, attributes from item_bytes. \n
-FOR UNSOLD ITEMS: need to get attributes from item_bytes
+1. FOR SOLD ITEMS: need to get item_name, attributes from item_bytes.
+2. FOR UNSOLD ITEMS: need to get attributes from item_bytes
 
 DELETE OUT BEFORE PUSHING
 

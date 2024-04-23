@@ -16,6 +16,8 @@ public class AuctionedItem {
     String jsonData;
     HashMap<String, String> reasonableJsonData;
     ArrayList<String> enchants = new ArrayList<>();
+    int auctionPrice = Integer.parseInt(reasonableJsonData.get("price"));
+    String auctionID;
     boolean sold;
 
     /**
@@ -274,12 +276,13 @@ public class AuctionedItem {
     public String getAuctionID(){
         return reasonableJsonData.get("auction_id");
     }
-    public void writeArrayListToCSV(String csvFilePath, int auctionPrice) throws IOException{
+    public void writeArrayListToCSV(String csvFilePath, int price) throws IOException{
         FileWriter writer = new FileWriter(csvFilePath,true);
         for (String enchant : enchants) {
             writer.append(enchant);
             writer.append(',');
         }
+
         writer.append(Integer.toString(auctionPrice));
         writer.append(',');
         writer.append(getAuctionID());

@@ -1,30 +1,27 @@
-import java.awt.*;
-import java.awt.event.KeyEvent;
+import net.minecraft.client.Minecraft;
+import net.minecraftforge.client.event.ClientChatReceivedEvent;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-public class CommandSender {
+@Mod(modid = "my_mod", version = "1.0")
+public class MyMod {
 
-    public static void executeCommand(String command){
-        System.out.println(command);
-        automateKeyPresses(command);
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event) {
+        MinecraftForge.EVENT_BUS.register(this);
     }
 
-    public static void main(String[] args) {
-        String text = "Hello, World!";
-        automateKeyPresses(text);
-    }
-
-    public static void automateKeyPresses(String text) {
-        try {
-            Robot robot = new Robot();
-            char[] chars = text.toCharArray();
-            int[] keyCodes = new int[chars.length];
-            for (int i = 0; i < chars.length; i++) {
-                char character = chars[i];
-                int keyCode = KeyEvent.getExtendedKeyCodeForChar(character);
-                keyCodes[i] = keyCode;
-            }
-        } catch (AWTException e) {
-            e.printStackTrace();
+    @SubscribeEvent
+    public void onChatReceived(ClientChatReceivedEvent event) {
+        String message = event.getMessage().getUnformattedText();
+        if (message.equals("!mycommand")) {
+            executeCommand("/say Hello, world!");
         }
+    }
+
+    private void executeCommand(String command) {
+        Minecraft.getMinecraft().player.sendChatMessage(command);
     }
 }

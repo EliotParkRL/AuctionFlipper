@@ -1,5 +1,4 @@
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -7,9 +6,7 @@ import java.util.Base64;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.*;
-import java.io.ByteArrayOutputStream;
 import java.util.zip.GZIPInputStream;
-import java.io.FileWriter;
 
 
 /**
@@ -19,6 +16,7 @@ public class AuctionedItem {
     String jsonData;
     HashMap<String, String> reasonableJsonData;
     ArrayList<String> enchants = new ArrayList<>();
+    String auctionID;
     boolean sold;
 
     /**
@@ -283,6 +281,10 @@ public class AuctionedItem {
             writer.append(enchant);
             writer.append(',');
         }
+
+        writer.append(Integer.toString(getAuctionPrice()));
+        writer.append(',');
+        writer.append(getAuctionID());
         writer.append('\n');
         writer.close();
     }

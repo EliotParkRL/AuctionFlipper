@@ -102,7 +102,7 @@ public class AuctionedItem {
             return info;
         } else{
             HashMap<String, String> info = new HashMap<>();
-            info.put("uuid", grabInfo("uuid"));
+            info.put("auction_id", grabInfo("uuid"));
             info.put("item_name", grabInfo("item_name").replace("\\u0027", "'"));
             int[] priceLocation = new int[2];
             for(int i = jsonData.indexOf("starting_bid"); i < jsonData.length(); i++){

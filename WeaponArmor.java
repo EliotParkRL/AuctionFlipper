@@ -60,7 +60,7 @@ public class WeaponArmor extends AuctionedItem{
 
         for (String line : lines) {
             if(line.contains("\"bin\":true")){
-                toReturn.add(createAuctionedItem(data, sold));
+                toReturn.add(createAuctionedItem(line, sold));
             }
         }
 

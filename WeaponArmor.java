@@ -5,10 +5,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class WeaponArmor extends AuctionedItem{
-    public WeaponArmor(AuctionDetails details){
-        super(details);
+    ArrayList<String> enchants = new ArrayList<>();
+
+
+    public WeaponArmor(String jsonData, boolean sold){
+        super(jsonData, sold);
         enchants = returnEnchants();
     }
+
 
     public ArrayList<String> getEnchants(){
         return enchants;
@@ -69,7 +73,7 @@ public class WeaponArmor extends AuctionedItem{
      * @return item
      */
     private static WeaponArmor createAuctionedItem(String line, boolean sold) {
-        return new WeaponArmor(new AuctionDetails(line, sold));
+        return new WeaponArmor(line, sold);
     }
 
     public void writeArrayListToCSV(String csvFilePath) throws IOException {

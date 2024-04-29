@@ -12,22 +12,20 @@ import java.util.zip.GZIPInputStream;
 /**
  * class that represents a BIN auctioned item that was bought
  */
-public class AuctionedItem {
+public abstract class AuctionedItem {
     String jsonData;
     HashMap<String, String> reasonableJsonData;
     ArrayList<String> enchants = new ArrayList<>();
-    String auctionID;
     boolean sold;
 
     /**
      * makes the json data coherent
-     * @param aJsonData JSON data pulled from the api
+     * @param details object with info
      */
-    public AuctionedItem(String aJsonData, boolean sold){
-        this.sold = sold;
-        jsonData = aJsonData;
+    public AuctionedItem(AuctionDetails details) {
+        this.sold = details.sold;
+        jsonData = details.aJsonData;
         reasonableJsonData = returnReasonableJSON();
-        enchants = returnEnchants();
         //add something here that pulls everything apart
     }
 
@@ -39,46 +37,13 @@ public class AuctionedItem {
         return reasonableJsonData;
     }
 
-    public ArrayList<String> getEnchants(){
-        return enchants;
-    }
-    private ArrayList<String> returnEnchants(){
-        String input = returnReasonableJSON().get("item_bytes");
-        int displayIndex = input.indexOf("display");
-        if (displayIndex != -1) {
-            int loreIndex = input.indexOf("Lore", displayIndex);
-            if (loreIndex != -1) {
-                int endOfLoreIndex = input.indexOf("b ", loreIndex); // assuming 'b ' is the end delimiter
-                if (endOfLoreIndex != -1) {
-                    String loreSection = input.substring(loreIndex, endOfLoreIndex);
-                    ArrayList<String> enchants = new ArrayList<>();
 
-                    // Define regex pattern to match enchantments
-                    String enchantPattern = "(Bane of Arthropods|Champion|Cleave|Critical|Cubism|Divine Gift|Dragon Hunter|" +
-                            "Ender Slayer|Execute|Experience|Fire Aspect|First Strike|Giant Killer|Impaling|Knockback|" +
-                            "Lethality|Life Steal|Looting|Luck|Mana Steal|Prosecute|Scavenger|Sharpness|Smite|Smoldering|" +
-                            "Syphon|Tabasco|Thunderlord|Titan Killer|Triple-Strike|Vampirism|Venomous|Vicious) (V|IV|III|II|I)";
-                    Pattern pattern = Pattern.compile(enchantPattern);
-                    Matcher matcher = pattern.matcher(loreSection);
-
-                    while (matcher.find()) {
-                        String enchantName = matcher.group(1);
-                        String romanNumeral = matcher.group(2);
-                        enchants.add(enchantName + " " + romanNumeral);
-                    }
-
-                    return enchants;
-                }
-            }
-        }
-        return new ArrayList<String>();
-    }
 
     /**
      * Gets translated JSON data
      * @return readable json data
      */
-    private HashMap<String, String> returnReasonableJSON(){
+    HashMap<String, String> returnReasonableJSON(){
         if(sold){
             HashMap<String, String> info = new HashMap<>();
             info.put("auction_id", grabInfo("auction_id"));
@@ -162,39 +127,14 @@ public class AuctionedItem {
      * creates auctionItems from api string dump
      * @param data api string dump
      */
-    public static ArrayList<AuctionedItem> createAuctionedItemsFromApi(String data, boolean sold) {
-        ArrayList<AuctionedItem> toReturn = new ArrayList<>();
-        String[] lines;
-        if(sold){
-            lines = cleanStringArray( data.split("},\\{"));
-        }else{
-            lines = cleanStringArray( data.split("\\r?\\n"));
-        }
 
-        for (String line : lines) {
-            if(line.contains("\"bin\":true")){
-                toReturn.add(createAuctionedItem(line, sold));
-            }
-        }
-
-        return toReturn;
-    }
-
-    /**
-     * automatically creates auctionedItem
-     * @param line String to input
-     * @return item
-     */
-    private static AuctionedItem createAuctionedItem(String line, boolean sold) {
-        return new AuctionedItem(line, sold);
-    }
 
     /**
      * deletes empty lines in an array of strings, chatGPT cooked
      * @param array to be cleaned
      * @return cleaned array
      */
-    private static String[] cleanStringArray(String[] array) {
+    static String[] cleanStringArray(String[] array) {
         List<String> cleanedList = new ArrayList<>();
 
         boolean responseFound = false; // Flag to track if "response from api" is found
@@ -277,10 +217,6 @@ public class AuctionedItem {
     }
     public void writeArrayListToCSV(String csvFilePath) throws IOException{
         FileWriter writer = new FileWriter(csvFilePath,true);
-        for (String enchant : enchants) {
-            writer.append(enchant);
-            writer.append(',');
-        }
 
         writer.append(Integer.toString(getAuctionPrice()));
         writer.append(',');

@@ -15,18 +15,13 @@ import java.util.zip.GZIPInputStream;
 public abstract class AuctionedItem {
     String jsonData;
     HashMap<String, String> reasonableJsonData;
-    ArrayList<String> enchants = new ArrayList<>();
     boolean sold;
 
-    /**
-     * makes the json data coherent
-     * @param details object with info
-     */
-    public AuctionedItem(AuctionDetails details) {
-        this.sold = details.sold;
-        jsonData = details.aJsonData;
+
+    public AuctionedItem(String jsonData, boolean sold){
+        this.sold = sold;
+        this.jsonData = jsonData;
         reasonableJsonData = returnReasonableJSON();
-        //add something here that pulls everything apart
     }
 
     /**

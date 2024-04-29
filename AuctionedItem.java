@@ -91,7 +91,7 @@ public abstract class AuctionedItem {
      * @param typeInfo the info you're looking for
      * @return the String that is the data
      */
-    private String grabInfo(String typeInfo){
+    public String grabInfo(String typeInfo){
         int infoLocation = jsonData.indexOf(typeInfo);
         int[] quoteLocations = new int[3];
         int j = 0;
@@ -161,7 +161,7 @@ public abstract class AuctionedItem {
      * @param base64CompressedString MUST NOT HAVE FORWARD SLASHES
      * @return decompressed string
      */
-    private String decompressGzipString(String base64CompressedString) {
+    String decompressGzipString(String base64CompressedString) {
         base64CompressedString = base64CompressedString.replace("\\u003d", "=");
         try {
             byte[] compressedData = Base64.getDecoder().decode(base64CompressedString);
@@ -188,7 +188,7 @@ public abstract class AuctionedItem {
         }
     }
 
-    private String cleanString(String inputString) {
+    String cleanString(String inputString) {
         // Define the regular expression pattern to match Latin characters, spaces, and ✪
         Pattern pattern = Pattern.compile("[^a-zA-Z\\s✪]+");
         // Use the pattern to replace non-matching characters with an empty string

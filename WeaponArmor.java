@@ -60,7 +60,7 @@ public class WeaponArmor extends AuctionedItem{
 
         for (String line : lines) {
             if(line.contains("\"bin\":true")){
-                toReturn.add(createAuctionedItem(data, sold));
+                toReturn.add(createAuctionedItem(line, sold));
             }
         }
 
@@ -78,14 +78,16 @@ public class WeaponArmor extends AuctionedItem{
 
     public void writeArrayListToCSV(String csvFilePath) throws IOException {
         FileWriter writer = new FileWriter(csvFilePath,true);
+
+        writer.append(getAuctionID());
+        writer.append(',');
+        writer.append(Integer.toString(getAuctionPrice()));
+
         for (String enchant : enchants) {
             writer.append(enchant);
             writer.append(',');
         }
 
-        writer.append(Integer.toString(getAuctionPrice()));
-        writer.append(',');
-        writer.append(getAuctionID());
         writer.append('\n');
         writer.close();
     }

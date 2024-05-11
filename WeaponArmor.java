@@ -81,7 +81,7 @@ public class WeaponArmor extends AuctionedItem{
 
         writer.append(getAuctionID());
         writer.append(',');
-        writer.append(Integer.toString(getAuctionPrice()));
+        writer.append(Long.toString(getAuctionPrice()));
 
         for (String enchant : enchants) {
             writer.append(enchant);

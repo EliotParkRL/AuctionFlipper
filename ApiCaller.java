@@ -207,4 +207,43 @@ public class ApiCaller {
     public static String encodeValue(String value) throws UnsupportedEncodingException {
         return URLEncoder.encode(value, "UTF-8");
     }
+
+    public static String auctionDetails(String uuid){
+        try {
+            // Construct the API endpoint URL with the UUID directly appended to it
+            String apiUrl = "https://sky.coflnet.com/api/auction/" + encodeValue(uuid);
+
+            // Create a URL object with the constructed API endpoint URL
+            URL url = new URL(apiUrl);
+
+            // Open a connection to the URL
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+
+            // Set the request method to GET
+            connection.setRequestMethod("GET");
+
+            // Read the response from the API
+            BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            StringBuilder response = new StringBuilder();
+            String line;
+
+            while ((line = reader.readLine()) != null) {
+                response.append(line);
+            }
+
+            // Close the reader and connection
+            reader.close();
+            connection.disconnect();
+
+            // Return the response from the API
+            System.out.println("Response from API:");
+            return(response.toString());
+        } catch (Exception e) {
+            // Handle any exceptions that occur during the API call
+            System.err.println("Error: " + e.getMessage());
+            e.printStackTrace();
+            return("There was an error");
+
+        }
+    }
 }

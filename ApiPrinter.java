@@ -24,6 +24,6 @@ public class ApiPrinter {
         }
         System.out.println(test.size());
 
-        System.out.println(ApiCaller.auctionDetails("cdae7cc791de420ca8fe4855dcd2fef6"));
+        Clipboard.copyToClipboard("testing");
     }
 }

@@ -6,19 +6,35 @@ import java.util.regex.Pattern;
 
 public class WeaponArmor extends AuctionedItem{
     ArrayList<String> enchants = new ArrayList<>();
-
+    String name;
 
     public WeaponArmor(String jsonData, boolean sold){
         super(jsonData, sold);
         enchants = returnEnchants();
+        name = findName();
     }
 
+    public String getName(){
+        return name;
+    }
+    private String findName(){
+        String item_bytes = reasonableJsonData.get("item_bytes");
+        if(item_bytes.contains("Necron s Chestplate")){
+            return "Necron's Chestplate";
+        } else if(item_bytes.contains("Necron s Boots")){
+            return "Necron's Boots";
+        } else if(item_bytes.contains("Necron s Leggings")){
+            return "Necron's Leggings";
+        } else if(item_bytes.contains("Necron s Helmet"))
+            return "Necron's Helmet";
+        return "";
+    }
 
     public ArrayList<String> getEnchants(){
         return enchants;
     }
     private ArrayList<String> returnEnchants(){
-        String input = returnReasonableJSON().get("item_bytes");
+        String input = getReasonableJSON().get("item_bytes");
         int displayIndex = input.indexOf("display");
         if (displayIndex != -1) {
             int loreIndex = input.indexOf("Lore", displayIndex);

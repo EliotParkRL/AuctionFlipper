@@ -22,6 +22,7 @@ public abstract class AuctionedItem {
         this.sold = sold;
         this.jsonData = jsonData;
         reasonableJsonData = returnReasonableJSON();
+        this.jsonData = jsonData;
     }
 
     /**
@@ -77,6 +78,11 @@ public abstract class AuctionedItem {
             info.put("item_name", getName(info));
         }
         return info;
+//        if(sold){
+//            return ApiCaller.auctionDetails(grabInfo("auction_id"));
+//        } else {
+//            return ApiCaller.auctionDetails(grabInfo("uuid"));
+//        }
 
     }
 
@@ -163,6 +169,8 @@ public abstract class AuctionedItem {
      */
     String decompressGzipString(String base64CompressedString) {
         base64CompressedString = base64CompressedString.replace("\\u003d", "=");
+        jsonData = base64CompressedString;
+
         try {
             byte[] compressedData = Base64.getDecoder().decode(base64CompressedString);
 

@@ -11,9 +11,9 @@ public class AutoFlipper {
             mainArrayList = WeaponArmor.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions(), true);
 
             for(AuctionedItem item : mainArrayList){
-                if (item.getAuctionPrice() < .85*item.getPredictedPrice()){
+//                if (item.getAuctionPrice() < .85*item.getPredictedPrice()){
                     //CommandSender.executeCommand("/viewauction " + item.getAuctionID());
-                }
+//                }
                 if (true){
                     //CommandSender.executeCommand("/viewauction " + item.getAuctionID());
                 }

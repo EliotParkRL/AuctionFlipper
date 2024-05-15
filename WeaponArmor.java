@@ -25,8 +25,17 @@ public class WeaponArmor extends AuctionedItem{
             return "Necron's Boots";
         } else if(item_bytes.contains("Necron s Leggings")){
             return "Necron's Leggings";
-        } else if(item_bytes.contains("Necron s Helmet"))
+        } else if(item_bytes.contains("Necron s Helmet")) {
             return "Necron's Helmet";
+        } else if(item_bytes.contains("Shadow Assassin Chestplate")) {
+            return "Shadow Assassin Chestplate";
+        } else if(item_bytes.contains("Shadow Assassin Boots")) {
+            return "Shadow Assassin Boots";
+        } else if(item_bytes.contains("Shadow Assassin Leggings")) {
+            return "Shadow Assassin Leggings";
+        } else if(item_bytes.contains("Shadow Assassin Helmet")) {
+            return "Shadow Assassin Helmet";
+        }
         return "";
     }
 

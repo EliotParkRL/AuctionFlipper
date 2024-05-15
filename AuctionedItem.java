@@ -22,6 +22,7 @@ public abstract class AuctionedItem {
         this.sold = sold;
         this.jsonData = jsonData;
         reasonableJsonData = returnReasonableJSON();
+        this.jsonData = jsonData;
     }
 
     /**
@@ -39,8 +40,8 @@ public abstract class AuctionedItem {
      * @return readable json data
      */
     HashMap<String, String> returnReasonableJSON(){
+        HashMap<String, String> info = new HashMap<>();
         if(sold){
-            HashMap<String, String> info = new HashMap<>();
             info.put("auction_id", grabInfo("auction_id"));
             int[] priceLocation = new int[2];
             for(int i = jsonData.indexOf("price"); i < jsonData.length(); i++){
@@ -57,9 +58,7 @@ public abstract class AuctionedItem {
             itemBytesClean = cleanString(itemBytesClean);
 
             info.put("item_bytes", itemBytesClean);
-            return info;
         } else{
-            HashMap<String, String> info = new HashMap<>();
             info.put("auction_id", grabInfo("uuid"));
             info.put("item_name", grabInfo("item_name").replace("\\u0027", "'"));
             int[] priceLocation = new int[2];
@@ -76,9 +75,21 @@ public abstract class AuctionedItem {
             String itemBytesClean = decompressGzipString(itemBytesStr);
             itemBytesClean = cleanString(itemBytesClean);
             info.put("item_bytes", itemBytesClean);
-            return info;
+            info.put("item_name", getName(info));
         }
+        return info;
+//        if(sold){
+//            return ApiCaller.auctionDetails(grabInfo("auction_id"));
+//        } else {
+//            return ApiCaller.auctionDetails(grabInfo("uuid"));
+//        }
 
+    }
+
+    String getName(HashMap<String, String> info){
+        int nameLocation = info.get("item_bytes").indexOf("item_name");
+        String itemName = info.get("item_bytes").substring(nameLocation + "item_bytes".length() + 1, info.get("item_bytes").length() - 1);
+        return itemName;
     }
 
     /**
@@ -158,6 +169,8 @@ public abstract class AuctionedItem {
      */
     String decompressGzipString(String base64CompressedString) {
         base64CompressedString = base64CompressedString.replace("\\u003d", "=");
+        jsonData = base64CompressedString;
+
         try {
             byte[] compressedData = Base64.getDecoder().decode(base64CompressedString);
 
@@ -195,8 +208,8 @@ public abstract class AuctionedItem {
      * gets actual auction price
      * @return price
      */
-    public int getAuctionPrice(){
-        return Integer.parseInt(reasonableJsonData.get("price"));
+    public long getAuctionPrice(){
+        return Long.parseLong(reasonableJsonData.get("price"));
     }
 
     /** TODO
@@ -210,10 +223,14 @@ public abstract class AuctionedItem {
     public String getAuctionID(){
         return reasonableJsonData.get("auction_id");
     }
+
+    public String getName(){
+        return reasonableJsonData.get("item_name");
+    }
     public void writeArrayListToCSV(String csvFilePath) throws IOException{
         FileWriter writer = new FileWriter(csvFilePath,true);
 
-        writer.append(Integer.toString(getAuctionPrice()));
+        writer.append(Long.toString(getAuctionPrice()));
         writer.append(',');
         writer.append(getAuctionID());
         writer.append('\n');

@@ -11,18 +11,17 @@ public class AutoFlipper {
             mainArrayList = WeaponArmor.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions(), true);
 
             for(AuctionedItem item : mainArrayList){
-//                if (item.getAuctionPrice() < .85*item.getPredictedPrice()){
-                    //CommandSender.executeCommand("/viewauction " + item.getAuctionID());
-//                }
+                if (item.getAuctionPrice() < .85*item.getPredictedPrice()){
+                    Clipboard.copyToClipboard("/viewauction " + item.getAuctionID());
+                    System.out.println(item.getAuctionID());
+                }
                 if (true){
-                    //CommandSender.executeCommand("/viewauction " + item.getAuctionID());
+                    Clipboard.copyToClipboard("/viewauction " + item.getAuctionID());
+                    System.out.println(item.getAuctionID());
                 }
             }
-            //compare prices
-            //buy anything with a 15% discrepancy - get ah id, create pastable string
-            //get sell prices
-            //post auction
-            //wait a second or two
+
+
         }
     }
 }

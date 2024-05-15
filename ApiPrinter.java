@@ -26,11 +26,11 @@ public class ApiPrinter {
 //            timer.startWatch();
 //            System.out.println(ApiCaller.auctionDetails(item.getAuctionID()));
 //            item.writeArrayListToCSV("output.csv");
+
 //            System.out.println(item.getReasonableJSON());
 //            System.out.println(item.getEnchants());
         }
         System.out.println(test.size());
-
 //        System.out.println(ApiCaller.auctionDetails("6629fe12f188442bb9548d35d5e42cb3"));
     }
 }

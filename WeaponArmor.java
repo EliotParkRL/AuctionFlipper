@@ -35,6 +35,30 @@ public class WeaponArmor extends AuctionedItem{
             return "Shadow Assassin Leggings";
         } else if(item_bytes.contains("Shadow Assassin Helmet")) {
             return "Shadow Assassin Helmet";
+        } else if(item_bytes.contains("Storm s Helmet")) {
+            return "Storm's Helmet";
+        } else if(item_bytes.contains("Storm s Boots")) {
+            return "Storm's Boots";
+        } else if(item_bytes.contains("Storm s Chestplate")) {
+            return "Storm's Chestplate";
+        } else if(item_bytes.contains("Storm s Leggings")) {
+            return "Storm's Leggings";
+        } else if(item_bytes.contains("Goldor s Helmet")) {
+            return "Goldor's Helmet";
+        } else if(item_bytes.contains("Goldor s Boots")) {
+            return "Goldor's Boots";
+        } else if(item_bytes.contains("Goldor s Chestplate")) {
+            return "Goldor's Chestplate";
+        } else if(item_bytes.contains("Goldor s Leggings")) {
+            return "Goldor's Leggings";
+        } else if(item_bytes.contains("Maxor s Helmet")) {
+            return "Maxor's Helmet";
+        } else if(item_bytes.contains("Maxor s Boots")) {
+            return "Maxor's Boots";
+        } else if(item_bytes.contains("Maxor s Chestplate")) {
+            return "Maxor's Chestplate";
+        } else if(item_bytes.contains("Maxor s Leggings")) {
+            return "Maxor's Leggings";
         }
         return "";
     }

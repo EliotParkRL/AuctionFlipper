@@ -12,6 +12,7 @@ public class WeaponArmor extends AuctionedItem{
     String name;
     String apiData = "";
     int numFPBS;
+    String reforge;
 
     /**
      * constructor
@@ -29,6 +30,8 @@ public class WeaponArmor extends AuctionedItem{
         if(!name.isEmpty()){
             apiData = ApiCaller.auctionDetails(getAuctionID());
             numFPBS = countFBPS();
+            reforge = (grabInfo("reforge", apiData));
+            reforge = reforge.toLowerCase();
         }
     }
 
@@ -57,6 +60,14 @@ public class WeaponArmor extends AuctionedItem{
      */
     public String getName(){
         return name;
+    }
+
+    /**
+     * getter method for the item reforge
+     * @return item name ie "ancient"
+     */
+    public String getReforge(){
+        return reforge;
     }
 
     /**

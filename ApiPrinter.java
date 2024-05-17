@@ -27,6 +27,7 @@ public class ApiPrinter {
                 System.out.println(item.numFPBS);
                 System.out.println("/viewauction " + item.getAuctionID());
                 System.out.println(item.apiData);
+                System.out.println(item.getDate());
                 System.out.println();
                 System.out.println();
             }

@@ -9,9 +9,9 @@ public class ApiPrinter {
 
         ApiCaller MainCaller = new ApiCaller("f43b2f7b-affd-4d71-b51b-a3ee3111657f");
         test = WeaponArmor.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions(), true);
-        test2 = WeaponArmor.createAuctionedItemsFromApi(MainCaller.CallNewAuctions(), false);
+//        test2 = WeaponArmor.createAuctionedItemsFromApi(MainCaller.CallNewAuctions(), false);
         timer.startWatch();
-
+        int count = 0;
 
         for(WeaponArmor item : test){
 //          System.out.println(item.dumpJSON());
@@ -19,6 +19,17 @@ public class ApiPrinter {
 //            System.out.println();
 //            System.out.println();
             System.out.print(item.getReasonableJSON());
+
+            if(!item.getName().isEmpty()){
+                count += 1;
+                System.out.println(item.getName());
+                System.out.println(item.getReasonableJSON());
+                System.out.println("/viewauction " + item.getAuctionID());
+                System.out.println(item.apiData);
+                System.out.println();
+                System.out.println();
+            }
+
 //            System.out.println(item.getAuctionPrice());
 //            System.out.println(item.getName());
 //            System.out.println(item.getAuctionID());
@@ -31,6 +42,7 @@ public class ApiPrinter {
 //            System.out.println(item.getReasonableJSON());
 //            System.out.println(item.getEnchants());
         }
+        System.out.println(count);
         System.out.println(test.size());
 //        System.out.println(ApiCaller.auctionDetails("6629fe12f188442bb9548d35d5e42cb3"));
     }

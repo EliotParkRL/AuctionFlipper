@@ -12,6 +12,8 @@ public class ApiPrinter {
         test2 = WeaponArmor.createAuctionedItemsFromApi(MainCaller.CallNewAuctions(), false);
         timer.startWatch();
 
+        System.out.println(" ");
+
         for(WeaponArmor item : test){
 //          System.out.println(item.dumpJSON());
 //            System.out.println();

@@ -36,6 +36,10 @@ public class WeaponArmor extends AuctionedItem{
         }
     }
 
+    public int getNumFPBS(){
+        return numFPBS;
+    }
+
     private void findReforge(){
         reforge = (grabInfo("reforge", apiData));
         reforge = reforge.toLowerCase();
@@ -222,13 +226,24 @@ public class WeaponArmor extends AuctionedItem{
     public void writeArrayListToCSV(String csvFilePath) throws IOException {
         FileWriter writer = new FileWriter(csvFilePath,true);
 
-        writer.append(getAuctionID());
+        writer.append(getDate());
+        writer.append(',');
+        writer.append(getName());
         writer.append(',');
         writer.append(Long.toString(getAuctionPrice()));
+        writer.append(',');
+        writer.append(getAuctionID());
+        writer.append(',');
+        writer.append(getReforge());
+        writer.append(',');
+        writer.append(String.valueOf(getStarLevel()));
+        writer.append(',');
+        writer.append(String.valueOf(getNumFPBS()));
+        writer.append(',');
 
         for (String enchant : enchants) {
             writer.append(enchant);
-            writer.append(',');
+            writer.append('|');
         }
 
         writer.append('\n');

@@ -1,2 +1,1 @@
-data = 14
-print(data)
+#across we have

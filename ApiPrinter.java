@@ -8,8 +8,8 @@ public class ApiPrinter {
         StopWatch timer = new StopWatch();
 
         ApiCaller MainCaller = new ApiCaller("f43b2f7b-affd-4d71-b51b-a3ee3111657f");
-        String finishedAuctions = "";
-        String temp = "";
+        String finishedAuctions = MainCaller.CallFinishedAuctions();
+        String temp = finishedAuctions;
 //        test2 = WeaponArmor.createAuctionedItemsFromApi(MainCaller.CallNewAuctions(), false);
         int count = 0;
         StopWatch watch = new StopWatch();

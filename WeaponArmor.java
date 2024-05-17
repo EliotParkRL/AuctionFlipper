@@ -11,6 +11,7 @@ public class WeaponArmor extends AuctionedItem{
     ArrayList<String> enchants = new ArrayList<>();
     String name;
     String apiData = "";
+    String reforge;
 
     /**
      * constructor
@@ -27,6 +28,8 @@ public class WeaponArmor extends AuctionedItem{
     public void isWeaponArmor(){
         if(!name.isEmpty()){
             apiData = ApiCaller.auctionDetails(getAuctionID());
+            reforge = (grabInfo("reforge", apiData));
+            reforge = reforge.toLowerCase();
         }
     }
 
@@ -36,6 +39,14 @@ public class WeaponArmor extends AuctionedItem{
      */
     public String getName(){
         return name;
+    }
+
+    /**
+     * getter method for the item reforge
+     * @return item name ie "ancient"
+     */
+    public String getReforge(){
+        return reforge;
     }
 
     /**

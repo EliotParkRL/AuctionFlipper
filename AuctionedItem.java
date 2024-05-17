@@ -1,4 +1,5 @@
 import java.io.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -16,6 +17,7 @@ public abstract class AuctionedItem {
     String jsonData;
     HashMap<String, String> reasonableJsonData;
     boolean sold;
+    String date;
 
 
     public AuctionedItem(String jsonData, boolean sold){
@@ -23,6 +25,7 @@ public abstract class AuctionedItem {
         this.jsonData = jsonData;
         reasonableJsonData = returnReasonableJSON();
         this.jsonData = jsonData;
+        this.date = String.valueOf(LocalDate.now());
     }
 
     /**
@@ -33,7 +36,13 @@ public abstract class AuctionedItem {
         return reasonableJsonData;
     }
 
-
+    /**
+     * getter method for the date of the item being sold
+     * @return item name ie "2024-05-17"
+     */
+    public String getDate(){
+        return date;
+    }
 
     /**
      * Gets translated JSON data

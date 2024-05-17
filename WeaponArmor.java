@@ -9,7 +9,9 @@ import java.util.regex.Pattern;
  */
 public class WeaponArmor extends AuctionedItem{
     ArrayList<String> enchants = new ArrayList<>();
+    String apiData;
     String name;
+    public boolean itRan = false;
 
     /**
      * constructor
@@ -18,8 +20,15 @@ public class WeaponArmor extends AuctionedItem{
      */
     public WeaponArmor(String jsonData, boolean sold){
         super(jsonData, sold);
-        enchants = returnEnchants();
         name = findName();
+        enchants = returnEnchants();
+        isWeaponArmor();
+    }
+
+    public void isWeaponArmor(){
+        if(!name.isEmpty()){
+            apiData = ApiCaller.auctionDetails(getAuctionID());
+        }
     }
 
     /**
@@ -44,7 +53,9 @@ public class WeaponArmor extends AuctionedItem{
             return "Necron's Leggings";
         } else if(item_bytes.contains("Necron s Helmet")) {
             return "Necron's Helmet";
-        } else if(item_bytes.contains("Shadow Assassin Chestplate")) {
+        }
+
+        else if(item_bytes.contains("Shadow Assassin Chestplate")) {
             return "Shadow Assassin Chestplate";
         } else if(item_bytes.contains("Shadow Assassin Boots")) {
             return "Shadow Assassin Boots";
@@ -77,6 +88,33 @@ public class WeaponArmor extends AuctionedItem{
         } else if(item_bytes.contains("Maxor s Leggings")) {
             return "Maxor's Leggings";
         }
+
+        else if(item_bytes.contains("Goldor s Boots")) {
+            return "Goldor's Boots";
+        } else if(item_bytes.contains("Goldor s Chestplate")) {
+            return "Goldor's Chestplate";
+        } else if(item_bytes.contains("Goldor s Leggings")) {
+            return "Goldor's Leggings";
+        } else if(item_bytes.contains("Goldor s Helmet")) {
+            return "Goldor's Helmet";
+        }
+
+        else if(item_bytes.contains("Storm s Chestplate")) {
+            return "Storm's Chestplate";
+        } else if(item_bytes.contains("Storm s Boots")) {
+            return "Storm's Boots";
+        } else if(item_bytes.contains("Storm s Leggings")) {
+            return "Storm's Leggings";
+        } else if(item_bytes.contains("Storm s Helmet")) {
+            return "Storm's Helmet";
+        }
+
+        else if(item_bytes.contains("Golden Necron Head")) {
+            return "Golden Necron Head";
+        } else if(item_bytes.contains("Diamond Necron Head")) {
+            return "Diamond Necron Head";
+        }
+
         return "";
     }
 
@@ -183,4 +221,13 @@ public class WeaponArmor extends AuctionedItem{
         writer.append('\n');
         writer.close();
     }
+
+    // ALMOST NEVER USE THIS, CLEARS OUTPUT.CSV
+//    public static void eraseCells(String csvFilePath) throws IOException{
+//        // Call the method to clear the CSV file
+//        FileWriter fileWriter = new FileWriter(csvFilePath);
+//        // Close the fileWriter to ensure changes are saved
+//        fileWriter.close();
+//        System.out.println("CSV file cleared successfully!");
+//    }
 }

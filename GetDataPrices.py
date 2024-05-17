@@ -1,2 +1,3 @@
-data = 14
-print(data)
+f = open("DataInfo", "w")
+f.write("")
+f.close()

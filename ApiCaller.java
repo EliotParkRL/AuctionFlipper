@@ -234,9 +234,8 @@ public class ApiCaller {
             // Close the reader and connection
             reader.close();
             connection.disconnect();
-
+            System.out.println("aoisdjfoiwejf");
             // Return the response from the API
-            System.out.println("Response from API:");
             return(response.toString());
         } catch (Exception e) {
             // Handle any exceptions that occur during the API call

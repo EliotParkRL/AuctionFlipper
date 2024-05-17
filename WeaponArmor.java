@@ -12,6 +12,7 @@ public class WeaponArmor extends AuctionedItem{
     String name;
     String apiData = "";
     String reforge;
+    int starLevel;
 
     /**
      * constructor
@@ -30,7 +31,22 @@ public class WeaponArmor extends AuctionedItem{
             apiData = ApiCaller.auctionDetails(getAuctionID());
             reforge = (grabInfo("reforge", apiData));
             reforge = reforge.toLowerCase();
+            int start = apiData.indexOf("upgrade_level")+15;
+            int end = apiData.indexOf("upgrade_level")+16;
+            if (apiData.contains("upgrade_level")){
+                starLevel = Integer.parseInt(apiData.substring(start, end));
+            } else {
+                starLevel = 0;
+            }
         }
+    }
+
+    /**
+     * getter method for the item starLevel
+     * @return item name ie "Necron's Chestplate"
+     */
+    public int getStarLevel(){
+        return starLevel;
     }
 
     /**
@@ -129,41 +145,6 @@ public class WeaponArmor extends AuctionedItem{
             return enchantList;
         }
         return new ArrayList<String>();
-//        String input = getReasonableJSON().get("item_bytes");
-//        int displayIndex = input.indexOf("display");
-//        if (displayIndex != -1) {
-//            int loreIndex = input.indexOf("Lore", displayIndex);
-//            if (loreIndex != -1) {
-//                int endOfLoreIndex = input.indexOf("b ", loreIndex); // assuming 'b ' is the end delimiter
-//                if (endOfLoreIndex != -1) {
-//                    String loreSection = input.substring(loreIndex, endOfLoreIndex);
-//                    ArrayList<String> enchants = new ArrayList<>();
-//
-//                    // Define regex pattern to match enchantments
-//                    String enchantPattern = "(Bank|Bobbin’ Time|Chimera|Combo|Duplex|Fatal Tempo|Flash|Habanero Tactics|Inferno|Last Stand|Legion|No Pain No Gain|One For All|Refrigerate|Rend|Soul Eater|Swarm|The One|Ultimate Jerry|Ultimate Wise|Wisdom|" +
-//                            "Bane of Arthropods|Champion|Cleave|Critical|Cubism|Divine Gift|Dragon Hunter|" +
-//                            "Ender Slayer|Execute|Experience|Fire Aspect|First Strike|Giant Killer|Impaling|Knockback|" +
-//                            "Lethality|Life Steal|Looting|Luck|Mana Steal|Prosecute|Scavenger|Sharpness|Smite|Smoldering|" +
-//                            "Syphon|Tabasco|Thunderlord|Titan Killer|Triple-Strike|Vampirism|Venomous|Vicious)(X|IX|VIII|VII|VI|V|IV|III|II|I)";
-//
-//                    //Not all ultimate enchants are probably worth tracking but i just added them for stat tracking.
-//
-//
-//
-//                    Pattern pattern = Pattern.compile(enchantPattern);
-//                    Matcher matcher = pattern.matcher(loreSection);
-//
-//                    while (matcher.find()) {
-//                        String enchantName = matcher.group(1);
-//                        String romanNumeral = matcher.group(2);
-//                        enchants.add(enchantName + " " + romanNumeral);
-//                    }
-//
-//                    return enchants;
-//                }
-//            }
-//        }
-//        return new ArrayList<String>();
     }
 
     /**

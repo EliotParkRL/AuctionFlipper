@@ -18,12 +18,12 @@ public class ApiPrinter {
 //            System.out.println();
 //            System.out.println();
 //            System.out.println();
-            System.out.print(item.getReasonableJSON());
+//            System.out.print(item.getReasonableJSON());
 
             if(!item.getName().isEmpty()){
                 count += 1;
                 System.out.println(item.getName());
-                System.out.println(item.getReasonableJSON());
+ //               System.out.println(item.getReasonableJSON());
                 System.out.println("/viewauction " + item.getAuctionID());
                 System.out.println(item.apiData);
                 System.out.println();

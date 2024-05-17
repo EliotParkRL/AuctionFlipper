@@ -54,7 +54,6 @@ public class ApiCaller {
             connection.disconnect();
 
             // Return the response from the API
-            System.out.println("Response from API:");
             return(response.toString());
         } catch (Exception e) {
             // Handle any exceptions that occur during the API call
@@ -102,7 +101,7 @@ public class ApiCaller {
             connection.disconnect();
 
             // Return the response from the API
-            return("Response from API:" + response.toString());
+            return(response.toString());
         } catch (Exception e) {
             // Handle any exceptions that occur during the API call
             System.err.println("Error: " + e.getMessage());
@@ -147,7 +146,6 @@ public class ApiCaller {
             connection.disconnect();
 
             // Return the response from the API
-            System.out.println("Response from API:");
             return(response.toString());
         } catch (Exception e) {
             // Handle any exceptions that occur during the API call
@@ -190,7 +188,6 @@ public class ApiCaller {
             connection.disconnect();
 
             // Return the response from the API
-            System.out.println("Response from API:");
             return(response.toString());
         } catch (Exception e) {
             // Handle any exceptions that occur during the API call
@@ -236,7 +233,6 @@ public class ApiCaller {
             connection.disconnect();
 
             // Return the response from the API
-            System.out.println("Response from API:");
             return(response.toString());
         } catch (Exception e) {
             // Handle any exceptions that occur during the API call

@@ -19,9 +19,9 @@ public class WeaponArmor extends AuctionedItem{
      */
     public WeaponArmor(String jsonData, boolean sold){
         super(jsonData, sold);
-        enchants = returnEnchants();
         name = findName();
-
+        isWeaponArmor();
+        enchants = returnEnchants();
     }
 
     public void isWeaponArmor(){

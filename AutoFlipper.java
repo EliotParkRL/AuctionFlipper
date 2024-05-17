@@ -8,7 +8,7 @@ public class AutoFlipper {
             ArrayList<WeaponArmor> mainArrayList = new ArrayList<>();
 
             ApiCaller MainCaller = new ApiCaller("f43b2f7b-affd-4d71-b51b-a3ee3111657f");
-            mainArrayList = WeaponArmor.createAuctionedItemsFromApi(MainCaller.CallFinishedAuctions(), true);
+            mainArrayList = WeaponArmor.createWeaponArmorFromApi(MainCaller.CallFinishedAuctions(), true);
 
             for(WeaponArmor item : mainArrayList){
                 if (item.getAuctionPrice() < .85*item.getPredictedPrice()){

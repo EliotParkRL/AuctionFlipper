@@ -42,7 +42,7 @@ public abstract class AuctionedItem {
     HashMap<String, String> returnReasonableJSON(){
         HashMap<String, String> info = new HashMap<>();
         if(sold){
-            info.put("auction_id", grabInfo("auction_id", jsonData));
+            info.put("auction_id", grabInfo("auction_id"));
             int[] priceLocation = new int[2];
             for(int i = jsonData.indexOf("price"); i < jsonData.length(); i++){
                 if((String.valueOf(jsonData.charAt(i))).equals(":")){
@@ -53,13 +53,13 @@ public abstract class AuctionedItem {
                 }
             }
             info.put("price", jsonData.substring(priceLocation[0], priceLocation[1]));
-            String itemBytesStr = grabInfo("item_bytes", jsonData);
+            String itemBytesStr = grabInfo("item_bytes");
             String itemBytesClean = decompressGzipString(itemBytesStr);
             itemBytesClean = cleanString(itemBytesClean);
 
             info.put("item_bytes", itemBytesClean);
         } else{
-            info.put("auction_id", grabInfo("uuid", jsonData));
+            info.put("auction_id", grabInfo("uuid"));
             int[] priceLocation = new int[2];
             for(int i = jsonData.indexOf("starting_bid"); i < jsonData.length(); i++){
                 if((String.valueOf(jsonData.charAt(i))).equals(":")){
@@ -70,7 +70,7 @@ public abstract class AuctionedItem {
                 }
             }
             info.put("price", jsonData.substring(priceLocation[0], priceLocation[1]));
-            String itemBytesStr = grabInfo("item_bytes", jsonData);
+            String itemBytesStr = grabInfo("item_bytes");
             String itemBytesClean = decompressGzipString(itemBytesStr);
             itemBytesClean = cleanString(itemBytesClean);
             info.put("item_bytes", itemBytesClean);
@@ -89,12 +89,12 @@ public abstract class AuctionedItem {
      * @param typeInfo the info you're looking for
      * @return the String that is the data
      */
-    public String grabInfo(String typeInfo, String typeData){
-        int infoLocation = typeData.indexOf(typeInfo);
+    public String grabInfo(String typeInfo){
+        int infoLocation = jsonData.indexOf(typeInfo);
         int[] quoteLocations = new int[3];
         int j = 0;
-        for(int i = infoLocation; i < typeData.length(); i++){
-            if((String.valueOf(typeData.charAt(i))).equals("\"")){
+        for(int i = infoLocation; i < jsonData.length(); i++){
+            if((String.valueOf(jsonData.charAt(i))).equals("\"")){
                 quoteLocations[j] = i;
                 j++;
             }
@@ -102,7 +102,7 @@ public abstract class AuctionedItem {
                 break;
             }
         }
-        return typeData.substring(quoteLocations[1]+1, quoteLocations[2]);
+        return jsonData.substring(quoteLocations[1]+1, quoteLocations[2]);
     }
 
     /**

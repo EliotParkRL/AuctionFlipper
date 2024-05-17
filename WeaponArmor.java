@@ -31,15 +31,23 @@ public class WeaponArmor extends AuctionedItem{
         if(!name.isEmpty()){
             apiData = ApiCaller.auctionDetails(getAuctionID());
             numFPBS = countFBPS();
-            reforge = (grabInfo("reforge", apiData));
-            reforge = reforge.toLowerCase();
-            int start = apiData.indexOf("upgrade_level")+15;
-            int end = apiData.indexOf("upgrade_level")+16;
-            if (apiData.contains("upgrade_level")){
-                starLevel = Integer.parseInt(apiData.substring(start, end));
-            } else {
-                starLevel = 0;
-            }
+            findReforge();
+            findStarLevel();
+        }
+    }
+
+    private void findReforge(){
+        reforge = (grabInfo("reforge", apiData));
+        reforge = reforge.toLowerCase();
+    }
+
+    private void findStarLevel(){
+        int start = apiData.indexOf("upgrade_level")+15;
+        int end = apiData.indexOf("upgrade_level")+16;
+        if (apiData.contains("upgrade_level")){
+            starLevel = Integer.parseInt(apiData.substring(start, end));
+        } else {
+            starLevel = 0;
         }
     }
 

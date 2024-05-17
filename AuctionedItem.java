@@ -206,13 +206,27 @@ public abstract class AuctionedItem {
         return 0;
     }
 
+    /**
+     * gets auction id of the AuctionedItem
+     * @return auction id
+     */
     public String getAuctionID(){
         return reasonableJsonData.get("auction_id");
     }
 
+    /**
+     * gets item name of the AuctionedItem
+     * @return name
+     */
     public String getName(){
         return reasonableJsonData.get("item_name");
     }
+
+    /**
+     * helper method for writing to csv
+     * @param csvFilePath csv to write to
+     * @throws IOException
+     */
     public void writeArrayListToCSV(String csvFilePath) throws IOException{
         FileWriter writer = new FileWriter(csvFilePath,true);
 

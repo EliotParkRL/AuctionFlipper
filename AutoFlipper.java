@@ -12,11 +12,11 @@ public class AutoFlipper {
 
             for(WeaponArmor item : mainArrayList){
                 if (item.getAuctionPrice() < .85*item.getPredictedPrice()){
-                    Clipboard.copyToClipboard("/viewauction " + item.getAuctionID());
+                    Clipboard.copyToClipboardWithSound("/viewauction " + item.getAuctionID());
                     System.out.println(item.getAuctionID());
                 }
                 if (true){
-                    Clipboard.copyToClipboard("/viewauction " + item.getAuctionID());
+                    Clipboard.copyToClipboardWithSound("/viewauction " + item.getAuctionID());
                     System.out.println(item.getAuctionID());
                 }
             }

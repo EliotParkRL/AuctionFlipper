@@ -23,7 +23,8 @@ public class ApiPrinter {
             if(!item.getName().isEmpty()){
                 count += 1;
                 System.out.println(item.getName());
- //               System.out.println(item.getReasonableJSON());
+//                System.out.println(item.getReasonableJSON());
+                System.out.println(item.numFPBS);
                 System.out.println("/viewauction " + item.getAuctionID());
                 System.out.println(item.apiData);
                 System.out.println(item.getStarLevel());

@@ -11,6 +11,7 @@ public class WeaponArmor extends AuctionedItem{
     ArrayList<String> enchants = new ArrayList<>();
     String name;
     String apiData = "";
+    int numFPBS;
     String reforge;
     int starLevel;
 
@@ -29,6 +30,7 @@ public class WeaponArmor extends AuctionedItem{
     public void isWeaponArmor(){
         if(!name.isEmpty()){
             apiData = ApiCaller.auctionDetails(getAuctionID());
+            numFPBS = countFBPS();
             reforge = (grabInfo("reforge", apiData));
             reforge = reforge.toLowerCase();
             int start = apiData.indexOf("upgrade_level")+15;
@@ -39,6 +41,25 @@ public class WeaponArmor extends AuctionedItem{
                 starLevel = 0;
             }
         }
+    }
+
+    private int countFBPS(){
+        int fpbs = 0;
+        String itemBytes = getItemBytes();
+        int hpbs = itemBytes.indexOf("e(+");
+        if(hpbs != -1){
+            String firstAdder = itemBytes.substring(hpbs, itemBytes.indexOf(" ", hpbs));
+            int secondhpbs = itemBytes.indexOf("e(+", hpbs+1);
+            String secondAdder = itemBytes.substring(secondhpbs, itemBytes.indexOf(" ", secondhpbs));
+            int firstGain = Integer.parseInt(firstAdder.replaceAll("[^0-9]+", ""));
+            int secondGain = Integer.parseInt(secondAdder.replaceAll("[^0-9]+", ""));
+            if(firstGain == secondGain && firstGain > 20){
+                fpbs = (firstGain - 20)/2;
+            } else if(firstGain > secondGain && firstGain > 40){
+                fpbs = ((firstGain-40) - (secondGain-20))/2;
+            }
+        }
+        return fpbs;
     }
 
     /**
@@ -70,7 +91,7 @@ public class WeaponArmor extends AuctionedItem{
      * @return a found item name or an empty string
      */
     private String findName(){
-        String item_bytes = reasonableJsonData.get("item_bytes");
+        String item_bytes = getItemBytes();
         if(item_bytes.contains("Necron s Chestplate")){
             return "Necron's Chestplate";
         } else if(item_bytes.contains("Necron s Boots")){
@@ -80,6 +101,7 @@ public class WeaponArmor extends AuctionedItem{
         } else if(item_bytes.contains("Necron s Helmet")) {
             return "Necron's Helmet";
         }
+
         else if(item_bytes.contains("Storm s Helmet")) {
             return "Storm's Helmet";
         } else if(item_bytes.contains("Storm s Boots")) {
@@ -88,7 +110,9 @@ public class WeaponArmor extends AuctionedItem{
             return "Storm's Chestplate";
         } else if(item_bytes.contains("Storm s Leggings")) {
             return "Storm's Leggings";
-        } else if(item_bytes.contains("Goldor s Helmet")) {
+        }
+
+        else if(item_bytes.contains("Goldor s Helmet")) {
             return "Goldor's Helmet";
         } else if(item_bytes.contains("Goldor s Boots")) {
             return "Goldor's Boots";
@@ -96,7 +120,9 @@ public class WeaponArmor extends AuctionedItem{
             return "Goldor's Chestplate";
         } else if(item_bytes.contains("Goldor s Leggings")) {
             return "Goldor's Leggings";
-        } else if(item_bytes.contains("Maxor s Helmet")) {
+        }
+
+        else if(item_bytes.contains("Maxor s Helmet")) {
             return "Maxor's Helmet";
         } else if(item_bytes.contains("Maxor s Boots")) {
             return "Maxor's Boots";

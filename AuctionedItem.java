@@ -20,6 +20,7 @@ public abstract class AuctionedItem {
     String date;
 
 
+
     public AuctionedItem(String jsonData, boolean sold){
         this.sold = sold;
         this.jsonData = jsonData;
@@ -207,7 +208,7 @@ public abstract class AuctionedItem {
 
     String cleanString(String inputString) {
         // Define the regular expression pattern to match Latin characters, spaces, and ✪
-        Pattern pattern = Pattern.compile("[^a-zA-Z\\s✪]+");
+        Pattern pattern = Pattern.compile("[^a-zA-Z0-9()+\\s✪]+");
         // Use the pattern to replace non-matching characters with an empty string
         String cleanedString = inputString.replaceAll(pattern.pattern(), " ");
         return cleanedString;
@@ -243,6 +244,9 @@ public abstract class AuctionedItem {
      */
     public String getName(){
         return reasonableJsonData.get("item_name");
+    }
+    public String getItemBytes(){
+        return reasonableJsonData.get("item_bytes");
     }
 
     /**

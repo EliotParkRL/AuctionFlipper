@@ -4,19 +4,36 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Extension of the AuctionedItem abstract class that works with weapons and armor
+ */
 public class WeaponArmor extends AuctionedItem{
     ArrayList<String> enchants = new ArrayList<>();
     String name;
 
+    /**
+     * constructor
+     * @param jsonData jsonData outputted by the apicaller
+     * @param sold whether the item has been sold or not
+     */
     public WeaponArmor(String jsonData, boolean sold){
         super(jsonData, sold);
         enchants = returnEnchants();
         name = findName();
     }
 
+    /**
+     * getter method for the item name
+     * @return item name ie "Necron's Chestplate"
+     */
     public String getName(){
         return name;
     }
+
+    /**
+     * finds the name of the item
+     * @return a found item name or an empty string
+     */
     private String findName(){
         String item_bytes = reasonableJsonData.get("item_bytes");
         if(item_bytes.contains("Necron s Chestplate")){
@@ -63,9 +80,18 @@ public class WeaponArmor extends AuctionedItem{
         return "";
     }
 
+    /**
+     * getter method for the enchantment list
+     * @return ArrayList of the enchants
+     */
     public ArrayList<String> getEnchants(){
         return enchants;
     }
+
+    /**
+     * finds the enchants on the item
+     * @return ArrayList of the enchants
+     */
     private ArrayList<String> returnEnchants(){
         String input = getReasonableJSON().get("item_bytes");
         int displayIndex = input.indexOf("display");
@@ -104,6 +130,12 @@ public class WeaponArmor extends AuctionedItem{
         return new ArrayList<String>();
     }
 
+    /**
+     * creates an arraylist of WeaponArmors from Api data
+     * @param data data from the api call
+     * @param sold whether the data is from the sold call or the new call
+     * @return an arraylist of WeaponArmors
+     */
     public static ArrayList<WeaponArmor> createAuctionedItemsFromApi(String data, boolean sold) {
         ArrayList<WeaponArmor> toReturn = new ArrayList<>();
         String[] lines;
@@ -131,6 +163,11 @@ public class WeaponArmor extends AuctionedItem{
         return new WeaponArmor(line, sold);
     }
 
+    /**
+     * helper method for writing to csv
+     * @param csvFilePath csv to write to
+     * @throws IOException
+     */
     public void writeArrayListToCSV(String csvFilePath) throws IOException {
         FileWriter writer = new FileWriter(csvFilePath,true);
 

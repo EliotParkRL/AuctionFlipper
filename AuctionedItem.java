@@ -60,6 +60,7 @@ public abstract class AuctionedItem {
             info.put("item_bytes", itemBytesClean);
         } else{
             info.put("auction_id", grabInfo("uuid"));
+            info.put("item_name", grabInfo("item_name").replace("\\u0027", "'"));
             int[] priceLocation = new int[2];
             for(int i = jsonData.indexOf("starting_bid"); i < jsonData.length(); i++){
                 if((String.valueOf(jsonData.charAt(i))).equals(":")){
@@ -74,6 +75,7 @@ public abstract class AuctionedItem {
             String itemBytesClean = decompressGzipString(itemBytesStr);
             itemBytesClean = cleanString(itemBytesClean);
             info.put("item_bytes", itemBytesClean);
+            info.put("item_name", getName(info));
         }
         return info;
 //        if(sold){
@@ -82,6 +84,12 @@ public abstract class AuctionedItem {
 //            return ApiCaller.auctionDetails(grabInfo("uuid"));
 //        }
 
+    }
+
+    String getName(HashMap<String, String> info){
+        int nameLocation = info.get("item_bytes").indexOf("item_name");
+        String itemName = info.get("item_bytes").substring(nameLocation + "item_bytes".length() + 1, info.get("item_bytes").length() - 1);
+        return itemName;
     }
 
     /**
@@ -120,6 +128,12 @@ public abstract class AuctionedItem {
     public String dumpJSON(){
         return jsonData;
     }
+
+    /**
+     * creates auctionItems from api string dump
+     * @param data api string dump
+     */
+
 
     /**
      * deletes empty lines in an array of strings, chatGPT cooked

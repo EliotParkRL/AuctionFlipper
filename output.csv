@@ -1,4 +1,4 @@
-Date,Item Name,Price,Auction ID,Reforge,Star Level,FPBs,Enchants
+Date,Item Name,Price,Auction ID,Reforge,Star Level,FPBs,Enchants,Recomb
 2024-05-17,Goldor's Leggings,37777777,a7c8f9f9f60c4375be8d2a398fb863ab,giant,0,0,ultimate_last_stand 5|rejuvenate 5|mana_vampire 2|thorns 3|growth 5|protection 5|
 2024-05-17,Necron's Leggings,16598969,59390d531382467c829b7d97aeb6a717,none,0,0,
 2024-05-17,Necron's Leggings,22000000,500508c6d91546cd8700ed20065480b1,ancient,5,0,rejuvenate 5|thorns 3|protection 5|growth 5|
@@ -521,3 +521,32 @@ Date,Item Name,Price,Auction ID,Reforge,Star Level,FPBs,Enchants
 2024-05-17,Necron's Boots,30000000,2609f490dd5a4e4d9c74d3071aea5368,ancient,0,5,ultimate_wisdom 5|sugar_rush 3|ferocious_mana 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|
 2024-05-17,Spirit Sceptre,21000000,12f13b1728f04960bc81551c8e67d008,heroic,5,0,ultimate_wise 5|vampirism 6|lethality 6|looting 4|titan_killer 6|critical 6|scavenger 4|smite 6|luck 6|impaling 3|cleave 5|thunderbolt 5|knockback 2|ender_slayer 5|fire_aspect 2|first_strike 4|venomous 5|cubism 5|prosecute 5|
 2024-05-17,Storm's Chestplate,23500000,a4de6ffa60b94132acf97c156c1bfa97,none,5,0,
+2024-05-17,Goldor's Leggings,26000000,cc31b97d8a684530ab8917765563e8ed,giant,5,5,growth 5|protection 5|,true
+2024-05-17,Goldor's Chestplate,35000000,7b91e41d8c014b209128b77b4e635029,giant,5,5,hardened_mana 7|protection 6|ultimate_last_stand 5|true_protection 1|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-17,Goldor's Chestplate,33000000,cdaf442efaeb4a24be996c15a135757f,giant,5,5,growth 5|protection 5|,true
+2024-05-17,Goldor's Chestplate,12300000,2130eb96f18749fc8986a30ebc98f387,none,0,0,,false
+2024-05-17,Goldor's Boots,21000000,ab3d91c020dd459389970ef2b04217f9,giant,5,5,rejuvenate 5|hardened_mana 3|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-17,Necron's Chestplate,24400000,db28951964b0409ebeefd867aa8d8aef,none,0,0,,false
+2024-05-17,Necron's Boots,17000000,a3941c0a3fcd48838f3535db8cdbdf0a,fierce,5,0,rejuvenate 5|depth_strider 3|feather_falling 5|growth 5|protection 5|,false
+2024-05-17,Necron's Chestplate,44000000,6be5b9afa33343b2a89dcf1e723aa379,ancient,5,0,growth 6|ultimate_last_stand 5|protection 6|rejuvenate 5|thorns 3|,true
+2024-05-17,Maxor's Boots,7799000,63257081e9c841aabf7d9908657de5a9,ancient,5,0,thorns 3|growth 5|protection 5|,false
+2024-05-17,Necron's Leggings,25000000,b6123f283da04601a40dea492f8b4654,ancient,5,0,thorns 3|growth 5|protection 5|,false
+2024-05-17,Maxor's Boots,75000000,7e3f9225c34f4f4caf621e856dc916e7,ancient,7,5,growth 6|protection 6|ultimate_last_stand 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|,true
+2024-05-17,Maxor's Leggings,48000000,be0e96bb8401474594d3bb0d01c44e50,necrotic,5,0,mana_vampire 6|smarty_pants 3|ultimate_wisdom 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-17,Goldor's Boots,5000000,28c84a9ce1f647dbb7c8bea6a67fe056,ancient,5,0,hardened_mana 4|feather_falling 5|growth 5|protection 5|,false
+2024-05-17,Necron's Chestplate,29999555,9a0b347fd05b4d8ab04c259bbf190403,ancient,5,0,,false
+2024-05-17,Livid Dagger,8000000,cbd353ecac104b8ca67d85a66767ba79,spicy,2,5,impaling 3|luck 5|critical 5|thunderbolt 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|life_steal 3|giant_killer 5|first_strike 4|venomous 5|sharpness 5|prosecute 5|,false
+2024-05-17,Spirit Sceptre,18899000,093767c344c44fe88c78139ef1d93af6,none,0,0,,false
+2024-05-17,Maxor's Boots,8299000,d4dfa26f981140a3a6a44931ac7d6de5,ancient,5,0,feather_falling 6|protection 5|growth 5|,false
+2024-05-17,Spirit Sceptre,21000000,ea991a5bbb4f422bba5c6e4fbf5985aa,heroic,5,0,ultimate_wise 5|fire_aspect 3|looting 4|critical 6|scavenger 4|impaling 3|luck 5|cleave 5|smite 5|knockback 2|ender_slayer 5|giant_killer 5|first_strike 4|cubism 5|prosecute 5|lethality 5|,false
+2024-05-17,Necron's Chestplate,26400000,bbd7d43484b64e50a8b9f13f40b173ea,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-17,Necron's Leggings,22300000,7d821d84931d4ddd8d9c5f700db18a4e,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-17,Necron's Boots,25460000,a03b218295a543e4a4603f26bac773a6,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-17,Necron's Leggings,24000000,3e50b726789040d8a0b9a6c178906e72,none,2,0,growth 5|,true
+2024-05-17,Storm's Leggings,20000000,2389faaf2d9c438a970649b515bb5ee1,necrotic,5,0,ultimate_wisdom 5|growth 5|protection 5|,false
+2024-05-17,Necron's Helmet,32999999,b0447f7f44494abb8e6df13ea74287a6,ancient,5,0,thorns 3|growth 5|respiration 3|protection 5|aqua_affinity 1|,true
+2024-05-17,Necron's Chestplate,32999999,523ac4807a424ad4a78e5f77c91a7c22,ancient,1,0,,true
+2024-05-17,Necron's Chestplate,22000000,700fa52f1d2744c98dc6506e1fdeec26,none,0,0,,false
+2024-05-17,Maxor's Boots,9500000,943f0c1ac52d475c83e6e9045965a9e1,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,false
+2024-05-17,Necron's Boots,23000000,25228cce1acf404ab118eb0b4d1b111b,fierce,5,0,depth_strider 3|feather_falling 5|growth 5|protection 5|,true
+2024-05-17,Necron's Leggings,34899999,78d51001339e44dd8bc4bbf628a9be16,ancient,0,0,rejuvenate 5|thorns 3|growth 5|protection 5|,true

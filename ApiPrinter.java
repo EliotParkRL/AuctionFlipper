@@ -31,6 +31,7 @@ public class ApiPrinter {
 //                    System.out.println(item.apiData);
 //                    System.out.println(item.getStarLevel());
                         item.writeArrayListToCSV("output.csv");
+                        System.out.println("item added");
 //                    System.out.println();
 //                    System.out.println();
                     }

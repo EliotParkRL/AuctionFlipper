@@ -15,28 +15,31 @@ public class ApiPrinter {
         StopWatch watch = new StopWatch();
         watch.startWatch();
 
-//        while(true){
-//            while(watch.getTimeSeconds() < 8){}
-//            finishedAuctions = MainCaller.CallFinishedAuctions();
-//            if(!finishedAuctions.equals(temp)){
-//                temp = finishedAuctions;
-//                test = WeaponArmor.createAuctionedItemsFromApi(finishedAuctions, true);
-//                for(WeaponArmor item : test){
-//                    if(!item.getName().isEmpty()){
-////                    count++;
-////                    System.out.println(item.getName());
-////                System.out.println(item.getReasonableJSON());
-////                    System.out.println(item.numFPBS);
-////                    System.out.println("/viewauction " + item.getAuctionID());
-////                    System.out.println(item.apiData);
-////                    System.out.println(item.getStarLevel());
-//                        item.writeArrayListToCSV("output.csv");
-////                    System.out.println();
-////                    System.out.println();
-//                    }
-//                }
-//            }
-//        }
+        while (true) {
+            while (watch.getTimeSeconds() < 8) {
+            }
+            finishedAuctions = MainCaller.CallFinishedAuctions();
+            if (!finishedAuctions.equals(temp)) {
+                temp = finishedAuctions;
+                test = WeaponArmor.createAuctionedItemsFromApi(finishedAuctions, true);
+                for (WeaponArmor item : test) {
+                    if (!item.getName().isEmpty()) {
+                        count++;
+                        //System.out.println(item.getName());
+                        //System.out.println(item.getReasonableJSON());
+                        //System.out.println(item.numFPBS);
+                        //System.out.println("/viewauction " + item.getAuctionID());
+                        //System.out.println(item.apiData);
+                        //System.out.println(item.getStarLevel());
+                        item.writeArrayListToCSV("output.csv");
+                        System.out.println("item added");
+                        //System.out.println();
+                        //System.out.println();
+                    }
+                }
+            }
+        }
 
     }
 }
+

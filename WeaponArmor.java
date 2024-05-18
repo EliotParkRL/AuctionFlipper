@@ -1,6 +1,9 @@
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -218,6 +221,8 @@ public class WeaponArmor extends AuctionedItem{
         return new WeaponArmor(line, sold);
     }
 
+
+
     /**
      * helper method for writing to csv
      * @param csvFilePath csv to write to
@@ -250,3 +255,38 @@ public class WeaponArmor extends AuctionedItem{
         writer.close();
     }
 }
+
+// May use to add smth missing to every single line in output.csv if needed, edit within the for loop.
+//    public static void appendToEachLine(String filePath) {
+//        try {
+//            // Read all lines from the file
+//            List<String> lines = Files.readAllLines(Paths.get(filePath));
+//
+//            // Create a list to store modified lines
+//            List<String> modifiedLines = new ArrayList<>();
+//
+//            // Append new data to each line
+//            for (int i = 1; i < lines.size(); i++) {
+//                StopWatch watch = new StopWatch();
+//                watch.startWatch();
+//                while(watch.getTimeSeconds() < 1){}
+//                int index = -1;
+//                int fromIndex = 0;
+//                int occurrenceCount = 0;
+//
+//                while (occurrenceCount < 3) {
+//                    index = lines.get(i).indexOf(",", fromIndex);
+//                    occurrenceCount++;
+//                    fromIndex = index + 1;
+//                }
+//                int index2 = lines.get(i).indexOf(",", fromIndex);
+//                String auctionId = lines.get(i).substring(index+1, index2);
+//                modifiedLines.add(lines.get(i) + "," + ApiCaller.auctionDetails(auctionId).contains("rarity_upgrades"));
+//            }
+//
+//            // Write the modified lines back to the file
+//            Files.write(Paths.get(filePath), modifiedLines);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }

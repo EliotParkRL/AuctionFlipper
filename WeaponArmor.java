@@ -17,6 +17,7 @@ public class WeaponArmor extends AuctionedItem{
     int numFPBS;
     String reforge;
     int starLevel;
+    boolean isRecombobulated = false;
 
     /**
      * constructor
@@ -36,6 +37,7 @@ public class WeaponArmor extends AuctionedItem{
             numFPBS = countFBPS();
             findReforge();
             findStarLevel();
+            findRecomb();
         }
     }
 
@@ -44,8 +46,20 @@ public class WeaponArmor extends AuctionedItem{
     }
 
     private void findReforge(){
-        reforge = (grabInfo("reforge", apiData));
-        reforge = reforge.toLowerCase();
+        if(apiData.contains("reforge")) {
+            reforge = (grabInfo("reforge", apiData));
+            reforge = reforge.toLowerCase();
+        }else {
+            reforge = "none";
+        }
+    }
+
+    private void findRecomb(){
+        isRecombobulated = apiData.contains("rarity_upgrades");
+    }
+
+    public boolean getRecomb(){
+        return isRecombobulated;
     }
 
     private void findStarLevel(){
@@ -251,6 +265,8 @@ public class WeaponArmor extends AuctionedItem{
             writer.append('|');
         }
 
+        writer.append(',');
+        writer.append(String.valueOf(getRecomb()));
         writer.append('\n');
         writer.close();
     }

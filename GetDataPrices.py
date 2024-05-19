@@ -158,17 +158,8 @@ def get_model_dataframe(file):
     # add single feature columns
     for feature in single_features.keys():
         feature_value_list = single_features[feature]
-        if len(feature_value_list) == 1:
-            feature_col = feature + str(feature_value_list[0])
-            feature_map[feature_col] = [feature + ' ' + str(feature_value_list[0])]
-        else:
-            feature_col = feature + str(feature_value_list[0]) + 'to' + str(feature_value_list[1])
-            start_int = feature_value_list[0]
-            enchants_list = []
-            while start_int <= feature_value_list[1]:
-                enchants_list.append(feature + ' ' + str(start_int))
-                start_int = start_int + 1
-            feature_map[feature_col] = enchants_list
+        feature_col = feature + str(feature_value_list[0])
+        feature_map[feature_col] = [feature + ' ' + str(feature_value_list[0])]
         df[feature_col] = np.NaN
         enchants_features.append(feature_col)
 
@@ -237,7 +228,6 @@ def predict_price(model_train_input_file, model_predict_input_file):
     pred_data['AbsDiff'] = abs(pred_data['PredictedPrice'] / pred_data['Price'] - 1)
     pred_data = pred_data.sort_values('AbsDiff', ascending=True)
     print(pred_data[['AuctionID', 'Price', 'PredictedPrice', 'AbsDiff']].head(20))
-    pred_data[['AuctionID', 'Price', 'PredictedPrice', 'AbsDiff']].to_csv('predicted_input_prices.csv')
 
 
 

@@ -9,7 +9,7 @@ public class ApiPrinter {
 
         ApiCaller MainCaller = new ApiCaller("f43b2f7b-affd-4d71-b51b-a3ee3111657f");
         String finishedAuctions = MainCaller.CallFinishedAuctions();
-        test =  test = WeaponArmor.createAuctionedItemsFromApi(finishedAuctions, true); //DELETE
+        test = WeaponArmor.createAuctionedItemsFromApi(finishedAuctions, true); //DELETE
         String temp = finishedAuctions;
         test2 = WeaponArmor.createAuctionedItemsFromApi(MainCaller.CallNewAuctions(), false);
         int count = 0;

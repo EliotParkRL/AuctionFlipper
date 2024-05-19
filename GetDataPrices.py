@@ -237,6 +237,7 @@ def predict_price(model_train_input_file, model_predict_input_file):
     pred_data['AbsDiff'] = abs(pred_data['PredictedPrice'] / pred_data['Price'] - 1)
     pred_data = pred_data.sort_values('AbsDiff', ascending=True)
     print(pred_data[['AuctionID', 'Price', 'PredictedPrice', 'AbsDiff']].head(20))
+    pred_data[['AuctionID', 'Price', 'PredictedPrice', 'AbsDiff']].to_csv('predicted_input_prices.csv')
 
 
 

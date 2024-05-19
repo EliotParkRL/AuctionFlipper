@@ -41,6 +41,10 @@ public class WeaponArmor extends AuctionedItem{
         }
     }
 
+//    private boolean findArt(){
+//
+//    }
+
     public int getNumFPBS(){
         return numFPBS;
     }
@@ -168,6 +172,8 @@ public class WeaponArmor extends AuctionedItem{
             return "Spirit Sceptre";
         } else if(item_bytes.contains("Bouquet of Lies")){
             return "Bouquet of Lies";
+        } else if(item_bytes.contains("Giant s Sword")) {
+            return "Giant's Sword";
         }
 
         else if(item_bytes.contains("Giant s Sword")) {
@@ -276,7 +282,7 @@ public class WeaponArmor extends AuctionedItem{
     }
 }
 
-// May use to add smth missing to every single line in output.csv if needed, edit within the for loop.
+// May use to add smth missing to every single line in model_train_input.csv if needed, edit within the for loop.
 //    public static void appendToEachLine(String filePath) {
 //        try {
 //            // Read all lines from the file

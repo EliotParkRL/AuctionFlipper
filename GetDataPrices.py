@@ -117,6 +117,10 @@ def get_model_dataframe(file):
 
     reforge_features = ['giant', 'none', 'ancient', 'withered', 'fabled', 'loving', 'necrotic', 'spicy', 'heroic',
                         'pure', 'titanic', 'light', 'fierce', 'legendary', 'sharp', 'suspicious']
+    item_features = ["Goldor's Leggings", "Necron's Leggings", "Storm's Chestplate", 'Livid Dagger', "Goldor's Chestplate",
+                     "Necron's Boots", "Necron's Chestplate", "Storm's Boots", "Necron's Helmet", "Goldor's Boots",
+                     'Spirit Sceptre', "Goldor's Helmet", "Maxor's Boots", "Storm's Leggings", "Storm's Helmet",
+                     'Bouquet of Lies', "Maxor's Chestplate", "Maxor's Leggings", "Maxor's Helmet", "item_none"]
     # reforge_features = df.Reforge.unique().tolist()
     enchants_features = []
     recomb_features = ['recomb']
@@ -124,7 +128,11 @@ def get_model_dataframe(file):
 
     df['recomb'] = df['recomb'].astype(np.int16)
     df['Enchants'] = df['Enchants'].fillna('')
-    df = df[df.Reforge.isin(reforge_features)]
+    idx = df.Reforge.isin(reforge_features)
+    df.loc[~idx, 'Reforge'] = 'none'
+    idx = df.ItemName.isin(item_features)
+    df.loc[~idx, 'ItemName'] = 'item_none'
+    #df = df[df.Reforge.isin(reforge_features)]
 
     # calc features
     calc_feature_map = {}
@@ -180,6 +188,16 @@ def get_model_dataframe(file):
                                                                                       enchants_str=x,
                                                                                       feature_map=feature_map))
 
+    item_data = df[['AuctionID', 'Price', 'ItemName']]
+    item_data = item_data.assign(ItemValue=1)
+    # reforge_data['ReforgeValue'] = 1
+    item_data = item_data.pivot_table(index=['AuctionID', 'Price'], columns='ItemName', values='ItemValue')
+    item_data = item_data.reset_index()
+    for item_feature in item_features:
+        if item_feature not in item_data.columns.tolist():
+            item_data[item_feature] = np.NaN
+    item_data = item_data.fillna(0)
+
     reforge_data = df[['AuctionID', 'Price', 'Reforge']]
     reforge_data = reforge_data.assign(ReforgeValue=1)
     # reforge_data['ReforgeValue'] = 1
@@ -191,8 +209,9 @@ def get_model_dataframe(file):
     reforge_data = reforge_data.fillna(0)
 
     other_data = df[['AuctionID'] + enchants_features + recomb_features + fpbs_features]
-    regress_data = reforge_data.merge(other_data, on=['AuctionID'])
-    regress_features = reforge_features + enchants_features + recomb_features + fpbs_features
+    regress_data = reforge_data.merge(other_data, on=['AuctionID'], how='left')
+    regress_data = regress_data.merge(item_data[['AuctionID']+item_features], on=['AuctionID'], how='left')
+    regress_features = reforge_features + enchants_features + recomb_features + fpbs_features + item_features
 
     return regress_data[['Price', 'AuctionID'] + regress_features], regress_features
 
@@ -218,7 +237,7 @@ def predict_price(model_train_input_file, model_predict_input_file):
     pred_data['AbsDiff'] = abs(pred_data['PredictedPrice'] / pred_data['Price'] - 1)
     pred_data = pred_data.sort_values('AbsDiff', ascending=True)
     print(pred_data[['AuctionID', 'Price', 'PredictedPrice', 'AbsDiff']].head(20))
-    # pd.plot(pred_data[['Price', 'PredictedPrice']])
+
 
 
 if __name__ == "__main__":

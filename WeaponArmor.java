@@ -175,6 +175,10 @@ public class WeaponArmor extends AuctionedItem{
         } else if(item_bytes.contains("Giant s Sword")) {
             return "Giant's Sword";
         }
+
+        else if(item_bytes.contains("Giant s Sword")) {
+            return "Giant's Sword";
+        }
         return "";
     }
 

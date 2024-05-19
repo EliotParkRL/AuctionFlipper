@@ -551,3 +551,819 @@ Date,Item Name,Price,Auction ID,Reforge,Star Level,FPBs,Enchants,Recomb
 2024-05-17,Necron's Boots,23000000,25228cce1acf404ab118eb0b4d1b111b,fierce,5,0,depth_strider 3|feather_falling 5|growth 5|protection 5|,true
 2024-05-17,Necron's Leggings,34899999,78d51001339e44dd8bc4bbf628a9be16,ancient,0,0,rejuvenate 5|thorns 3|growth 5|protection 5|,true
 2024-05-17,Necron's Leggings,34899999,78d51001339e44dd8bc4bbf628a9be16,ancient,0,0,rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Maxor's Boots,27500000,e1e6e55341ea43b6b0680527f052404f,ancient,6,0,ultimate_last_stand 5|rejuvenate 5|depth_strider 3|feather_falling 5|growth 5|protection 5|,true
+2024-05-18,Spirit Sceptre,23000000,2cdb43708aab463a8bbaeed2d4588e0a,heroic,0,0,ultimate_wise 5|ender_slayer 6|giant_killer 6|vampirism 6|lethality 6|life_steal 4|looting 4|critical 6|scavenger 4|thunderlord 6|smite 6|luck 6|impaling 3|cleave 5|telekinesis 1|fire_aspect 2|execute 5|first_strike 4|venomous 5|cubism 5|,false
+2024-05-18,Livid Dagger,16399999,38f30934d28a46b49dbd707cbe56685c,fabled,5,0,sharpness 6|syphon 4|ultimate_combo 5|critical 6|impaling 2|luck 5|cleave 5|looting 3|telekinesis 1|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|lethality 5|,true
+2024-05-18,Necron's Boots,11400000,0eec3f02efb6414789bd2743e93342b0,none,0,0,,false
+2024-05-18,Storm's Helmet,370000000,050aa26270064418966394a53f75d8b6,ancient,1,5,ultimate_legion 5|hecatomb 10|growth 6|protection 6|mana_vampire 5|transylvanian 5|rejuvenate 5|respiration 3|aqua_affinity 1|,true
+2024-05-18,Livid Dagger,8000000,37148dfb5be04da2ad5e72668ec2fd9f,fabled,5,0,critical 6|scavenger 4|smite 6|impaling 3|luck 5|cleave 5|looting 3|ender_slayer 5|knockback 1|fire_aspect 2|vampirism 5|execute 5|life_steal 3|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|lethality 5|,false
+2024-05-18,Spirit Sceptre,18890000,88e7305957434134815cc35baef1747d,none,0,0,,false
+2024-05-18,Maxor's Boots,9500000,d4fb68342a914291bda687e26ac188f8,necrotic,5,0,rejuvenate 5|growth 5|protection 5|,false
+2024-05-18,Bouquet of Lies,8199999,3d04692db2cd4adf8524eabbadba0bca,none,0,0,,false
+2024-05-18,Bouquet of Lies,1899999,7756b1a2449242aeb6c02006c9ba0817,none,0,0,,false
+2024-05-18,Bouquet of Lies,16140000,e394502a041749b39f6ad76e4981698d,heroic,3,0,lethality 6|looting 4|thunderlord 6|critical 5|cleave 5|smite 5|fire_aspect 2|life_steal 3|giant_killer 5|,true
+2024-05-18,Storm's Boots,35998999,dd752c7154be48989c61b23914e2fb3f,necrotic,5,0,growth 6|protection 6|ultimate_wisdom 5|sugar_rush 3|mana_vampire 4|rejuvenate 5|feather_falling 10|depth_strider 3|,true
+2024-05-18,Storm's Boots,19500000,13cd5fb39e554cd6a6a076c234c0965b,necrotic,1,0,ultimate_wisdom 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Livid Dagger,7000000,f78ffe8817f44482aa431e03d75bd343,fabled,4,0,lethality 6|ultimate_combo 5|impaling 3|luck 5|critical 5|cleave 5|looting 3|knockback 2|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|,false
+2024-05-18,Necron's Boots,26440000,7abed9bce1f64b7994efc8df087b977d,ancient,5,0,strong_mana 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Leggings,40000000,3c4dba29a4954b23b3be2a54793a4b98,ancient,5,20,ultimate_legion 3|smarty_pants 5|ferocious_mana 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Necron's Boots,30000000,36c57910ce4f45eca6fd73a5798c0760,ancient,5,20,sugar_rush 3|ferocious_mana 5|rejuvenate 5|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Necron's Leggings,30000000,048e6b288dbd419aa9a43763cec2463c,ancient,5,0,rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,55000000,4ccc204627ae489c8f300a447a383e26,ancient,5,20,ultimate_legion 3|ferocious_mana 5|true_protection 1|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,8999000,efa14a6f27ec4ddc9d474337b790ff10,spicy,5,0,ultimate_wise 5|impaling 3|luck 5|critical 5|cleave 5|thunderbolt 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|first_strike 4|venomous 5|sharpness 5|cubism 5|titan_killer 5|prosecute 5|lethality 5|,false
+2024-05-18,Necron's Boots,95000000,c30e023f157340bf9d6a7ea4ba926ddd,ancient,5,5,ultimate_legion 5|growth 6|protection 6|strong_mana 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|,true
+2024-05-18,Maxor's Boots,18500000,2fa09c524c1b42a594006307654dfa6a,necrotic,0,0,protection 6|ultimate_wisdom 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|,true
+2024-05-18,Livid Dagger,6650000,3ff7a564b749457bb67a75b553845bd7,none,0,0,,false
+2024-05-18,Necron's Chestplate,33000000,36f5de31a3cb471f982f6231045f9888,ancient,5,0,rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Spirit Sceptre,39000000,49f1dc9da0f54b7a95a24adc8ac40260,none,0,0,,true
+2024-05-18,Giant's Sword,185000000,1423019503e74d7ea08581dfbfbe4a42,withered,5,0,champion 10|ultimate_soul_eater 2|sharpness 6|giant_killer 6|syphon 4|looting 4|critical 6|scavenger 4|impaling 3|luck 5|cleave 5|ender_slayer 5|fire_aspect 2|vampirism 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|prosecute 5|lethality 5|,true
+2024-05-18,Giant's Sword,143000000,d8d20b5b7bae4e9e92b892d5a349c0d0,none,0,0,,false
+2024-05-18,Livid Dagger,18499999,c595bcc378c74ed3b9a337f4c67055b5,fabled,0,5,ultimate_soul_eater 3|sharpness 6|ender_slayer 6|giant_killer 6|vampirism 6|lethality 6|life_steal 4|looting 4|critical 6|scavenger 4|luck 6|cleave 5|telekinesis 1|fire_aspect 2|execute 5|first_strike 4|venomous 5|cubism 5|,true
+2024-05-18,Storm's Leggings,21500000,c740142ad8764f3aa975d7969f942c71,ancient,5,0,ultimate_wisdom 5|strong_mana 5|rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Goldor's Leggings,7000000,132d92b5bae6488b8f0e401a10522dd7,none,0,0,,false
+2024-05-18,Storm's Chestplate,41500000,c11ea9633868457c811a206d7d63cc4f,loving,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Goldor's Leggings,23000000,939add6998e542e6abd54537d345eedb,giant,5,0,rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Storm's Chestplate,30799000,ec63c6cc83b5417086f555279ad150b4,none,0,0,thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Helmet,12999999,d68eeea347914342afc0474010995a63,none,0,0,,false
+2024-05-18,Necron's Leggings,16499999,21c0bfbba31c4118a622563d6dcaf672,none,0,0,,false
+2024-05-18,Goldor's Chestplate,50000000,81053070566d4ebe837271c57411cf50,giant,6,5,ultimate_last_stand 5|true_protection 1|rejuvenate 5|mana_vampire 1|thorns 3|growth 5|protection 5|,true
+2024-05-18,Necron's Leggings,16799999,c9c4b631f3f24ce7b2e2ed69a7d94df3,none,0,0,,false
+2024-05-18,Necron's Leggings,26500000,07257d65cac24946a1beaccb2da3095f,ancient,4,0,ultimate_last_stand 5|rejuvenate 5|protection 5|growth 5|,false
+2024-05-18,Necron's Chestplate,49900000,40edf2df0c3a4735b67b7a8e7d987871,ancient,0,5,growth 6|ultimate_wisdom 5|ferocious_mana 5|true_protection 1|rejuvenate 5|protection 5|,true
+2024-05-18,Storm's Boots,28500000,3d6007dee0a1474daa30e74f117cf796,necrotic,5,0,ultimate_wisdom 5|mana_vampire 4|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,145800000,4ad02bef19f744c4a1d4ee4c352395e1,ancient,8,5,ultimate_legion 5|ferocious_mana 8|growth 6|protection 6|true_protection 1|rejuvenate 5|,true
+2024-05-18,Necron's Chestplate,43000000,30c983007d3b40c6b7f938537c9546e2,ancient,5,0,ultimate_wisdom 5|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Necron's Chestplate,22000000,8f22f474dd2049e3a4a157da875f6a20,none,0,0,protection 6|,false
+2024-05-18,Giant's Sword,159999000,cc37dc82c219410fa30f918a48314eb3,dirty,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Necron's Leggings,31000000,c463a6fb61f6419591f90b54395bf66c,ancient,5,0,protection 5|growth 5|,true
+2024-05-18,Livid Dagger,7800000,bdbb4142e99f43c4b01c54cfe61c155a,fabled,5,0,ultimate_one_for_all 1|,false
+2024-05-18,Storm's Boots,9700000,3e22e50efdd1401c9decd5c74e221b6d,none,0,0,,false
+2024-05-18,Livid Dagger,8500000,1058e2f4e7fd488aa52caf36619029d6,fabled,5,0,ultimate_combo 5|looting 4|critical 6|luck 6|impaling 3|cleave 5|syphon 3|knockback 2|scavenger 3|ender_slayer 5|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Storm's Leggings,13790000,61845610e691430291fe303302b1a564,none,0,0,,false
+2024-05-18,Necron's Leggings,159000000,7c9bb129db7548258f0ce8bf58aeb40f,ancient,8,5,ultimate_legion 5|smarty_pants 5|growth 6|ferocious_mana 6|protection 6|rejuvenate 5|,true
+2024-05-18,Goldor's Leggings,51000000,90aff5a5c6cc48729e1d8f7df2148f64,giant,6,5,growth 6|protection 6|ultimate_last_stand 5|mana_vampire 5|rejuvenate 5|thorns 3|,true
+2024-05-18,Storm's Chestplate,19999999,4ad8b097923947eb87bbd78a91ca9bce,none,0,0,,false
+2024-05-18,Necron's Helmet,44000000,c3536c130b764dbf9b01e1bb181fa6dd,ancient,5,5,growth 6|protection 6|ultimate_last_stand 5|rejuvenate 5|,true
+2024-05-18,Necron's Boots,26000000,932cf41ad59349fd8fe020c51ffcf197,ancient,5,0,feather_falling 5|protection 5|growth 5|,true
+2024-05-18,Spirit Sceptre,27999999,bf22950324ed4a18a085ada34fa0f71d,heroic,5,0,ultimate_wise 5|smite 6|impaling 3|luck 5|critical 5|cleave 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|lethality 5|,true
+2024-05-18,Storm's Boots,9500000,3913c0a97ebc4d38bdc0ae03b10ac04a,none,0,0,,false
+2024-05-18,Maxor's Boots,4949999,b58216d9b50d484e918eeb6a8f51a3a5,giant,4,0,rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,false
+2024-05-18,Storm's Leggings,13650000,a95834c1bb14451ca23bb1714445ac72,none,0,0,,false
+2024-05-18,Goldor's Chestplate,33000000,e46ec387b353478b87aec6cc23133576,giant,0,5,ultimate_last_stand 5|true_protection 1|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,38000000,18104571dcd14bda9f889f31286f02bf,ancient,5,5,ultimate_last_stand 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,36000000,ebccdded15ac4d7f8e657b4099b8ea8b,ancient,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Giant's Sword,184999000,5657dd79295149dc9be31d46125b26f3,withered,5,5,ultimate_soul_eater 5|champion 10|critical 6|thunderlord 6|smite 6|luck 6|impaling 3|cleave 5|looting 3|ender_slayer 5|scavenger 3|vampirism 5|fire_aspect 2|life_steal 3|execute 5|giant_killer 5|venomous 5|first_strike 4|cubism 5|lethality 5|,true
+2024-05-18,Necron's Chestplate,29900000,eb2f6ac8a2f04a16818f83011611da6b,ancient,0,0,protection 6|true_protection 1|rejuvenate 5|thorns 3|growth 5|,false
+2024-05-18,Necron's Leggings,22500000,98ab4d772e1145179dfa7fe3a99a611d,ancient,5,0,rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Storm's Boots,63789000,729eaa7da29242a8a726a774e759ad05,necrotic,5,5,mana_vampire 6|growth 6|protection 6|ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|,true
+2024-05-18,Livid Dagger,6500000,9ff847a97a654f139e47be76d36bb953,none,0,0,,false
+2024-05-18,Storm's Chestplate,20175555,aeda4c75b39b422ab0567d3adbecc786,none,0,0,,false
+2024-05-18,Necron's Leggings,50000000,139fd04b19934a94bde34f70297c732e,ancient,0,0,ultimate_legion 2|strong_mana 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Giant's Sword,176900000,733b1b5abeea405687c09c8c5b69de7f,withered,5,5,ultimate_soul_eater 5|champion 8|sharpness 6|ender_slayer 6|giant_killer 6|vampirism 6|fire_aspect 3|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|execute 5|first_strike 4|venomous 5|cubism 5|,true
+2024-05-18,Giant's Sword,160000000,5ed6c054f1d7410687f16dc74aa802ea,suspicious,5,5,ultimate_soul_eater 5|champion 10|sharpness 6|giant_killer 6|vampirism 6|fire_aspect 3|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|ender_slayer 5|execute 5|venomous 5|triple_strike 4|cubism 5|,true
+2024-05-18,Livid Dagger,12000000,04e789409dcf401abf5e083d3cabbd83,fabled,5,0,sharpness 6|ender_slayer 6|critical 6|impaling 3|luck 5|cleave 5|looting 3|syphon 3|telekinesis 1|scavenger 3|fire_aspect 2|vampirism 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|titan_killer 5|prosecute 5|lethality 5|,true
+2024-05-18,Livid Dagger,7000000,a0d68ae750f546788cce0a8bc28bc253,legendary,2,0,luck 5|critical 5|cleave 5|thunderbolt 5|looting 3|scavenger 3|ender_slayer 5|knockback 2|vampirism 5|fire_aspect 2|execute 5|life_steal 3|giant_killer 5|venomous 5|first_strike 4|sharpness 5|lethality 5|,false
+2024-05-18,Necron's Boots,39899999,cbb89b20f9e843de9bce618b6b710ae7,ancient,0,5,growth 6|protection 6|ultimate_last_stand 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|,true
+2024-05-18,Spirit Sceptre,21000000,5b53e1cc8d584ae79e0f2d106ef760df,heroic,0,0,ultimate_wise 5|ender_slayer 5|scavenger 3|vampirism 5|giant_killer 5|prosecute 5|,false
+2024-05-18,Necron's Helmet,19800000,603698b1278b4d3ebdc90e17896f3ccb,ancient,5,5,ultimate_last_stand 5|rejuvenate 5|growth 5|protection 5|,false
+2024-05-18,Maxor's Boots,18500000,e481058ef3c445b783dda0f06fb3411d,ancient,5,0,sugar_rush 3|protection 5|growth 5|,true
+2024-05-18,Maxor's Leggings,19999000,9800408bd8ff47899b2ffa711f293a33,necrotic,5,0,growth 5|protection 5|,true
+2024-05-18,Necron's Chestplate,51999998,8aa576a8ef68484baf425207c476734a,ancient,0,0,ultimate_legion 3|growth 6|protection 6|true_protection 1|rejuvenate 5|thorns 3|,true
+2024-05-18,Necron's Chestplate,20000000,af606fc3f99f4ab8941e35e0291abec7,none,0,0,,false
+2024-05-18,Storm's Boots,30000000,31d2ba40e9154baf87baa483a5603c1e,necrotic,5,5,ultimate_wisdom 5|sugar_rush 3|ferocious_mana 5|rejuvenate 5|feather_falling 10|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,44000000,bea80c49bd564b33aecc941155c44fa1,ancient,5,5,ultimate_wisdom 5|true_protection 1|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Storm's Boots,17999999,7e5ce18442af4292a3cafa645c2980d8,necrotic,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Storm's Leggings,31000000,e8a187699bff4f18aea12b96c0a2949d,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Storm's Boots,24000000,91b3846198b7483893cb36a3e452e4ad,necrotic,5,0,rejuvenate 5|feather_falling 7|ultimate_bank 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Storm's Chestplate,45000000,37687904a4834dfba03a4abdf6ea6168,ancient,5,5,ultimate_wisdom 5|strong_mana 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Necron's Helmet,13000000,0500c83a47884a18a440ee97eb4ee216,ancient,1,0,rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Maxor's Boots,9500000,bc925e810cf048fba5edb37b2dcc93cd,ancient,5,0,strong_mana 3|rejuvenate 5|feather_falling 7|depth_strider 3|thorns 3|protection 5|growth 5|,false
+2024-05-18,Necron's Chestplate,40800000,e406bf599ed54144b0ad372665eed387,ancient,5,5,ultimate_last_stand 5|true_protection 1|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Storm's Leggings,34000000,931426b2ec2c4162b29956fdebdb4623,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Goldor's Leggings,40992339,840a6cc4cf3e4bc8b0aadd5f7953fc1e,giant,5,5,ultimate_last_stand 5|rejuvenate 5|hardened_mana 4|protection 5|growth 5|,true
+2024-05-18,Maxor's Boots,7150000,ae50214a88d04b76be766f18f92c4b0c,necrotic,5,0,rejuvenate 5|mana_vampire 2|feather_falling 10|depth_strider 3|protection 5|growth 5|,false
+2024-05-18,Storm's Chestplate,51000000,a903e42221724fa0af36ecd4440d381a,loving,0,0,growth 6|ultimate_wisdom 5|rejuvenate 5|thorns 3|protection 5|,true
+2024-05-18,Livid Dagger,6900000,35261cf6c3154fd689665198f71e7951,sharp,3,0,luck 3|critical 5|cleave 5|looting 3|knockback 2|ender_slayer 5|scavenger 3|fire_aspect 2|vampirism 5|execute 5|life_steal 3|giant_killer 5|venomous 5|first_strike 4|thunderlord 5|sharpness 5|lethality 5|,false
+2024-05-18,Necron's Chestplate,80000000,849a0ccc1ba8459dab8043e2df8e90a6,ancient,5,0,ultimate_legion 5|ferocious_mana 7|true_protection 1|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Giant's Sword,178200000,5aea6515ab90422480084375196e00ff,suspicious,5,5,ultimate_soul_eater 5|champion 10|sharpness 6|giant_killer 6|vampirism 6|fire_aspect 3|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|ender_slayer 5|execute 5|venomous 5|triple_strike 4|cubism 5|,true
+2024-05-18,Necron's Leggings,74000000,cecb92f2b00f4a7c91475ea4d9d966ba,ancient,0,0,ultimate_legion 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,6990000,df22ac2f070e47feb3f2a14a3ddd1aef,none,0,0,impaling 3|luck 5|critical 5|cleave 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Livid Dagger,15000000,546357a7054646bd86f2e3a0526c4033,fabled,0,5,ultimate_soul_eater 2|sharpness 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|ender_slayer 5|telekinesis 1|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|first_strike 4|venomous 5|cubism 5|,true
+2024-05-18,Maxor's Boots,17400000,cfb37891f81c450eb8e63c78a159413e,ancient,5,0,rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Storm's Boots,15950000,d2ae6ecb661b47d2bcbdcea800d91480,necrotic,5,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Storm's Helmet,13500000,231ed17a3cd8415b8a460cf3fbf2062f,ancient,5,0,growth 5|protection 5|,false
+2024-05-18,Goldor's Chestplate,51000000,51ac0e84b2a445f69d76faf4f83fd1c4,giant,6,5,growth 6|protection 6|ultimate_last_stand 5|hardened_mana 5|rejuvenate 5|thorns 3|,true
+2024-05-18,Maxor's Boots,3800000,5dd11084895d49f784ff55106fd6d2bc,ancient,0,0,depth_strider 3|growth 5|protection 5|,false
+2024-05-18,Goldor's Leggings,12000000,ec4b98bbf5704f62b74532f1e055c510,giant,5,0,rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Spirit Sceptre,17889998,dd7fc9304efe4d94826b0ed0d7d09b89,none,0,0,,false
+2024-05-18,Livid Dagger,6700000,ba7650ef7e214f42b7a74d2c224afe83,none,0,0,,false
+2024-05-18,Livid Dagger,15000000,6f2da1da0c0f46b187073b4ac37aa020,fabled,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Maxor's Boots,22000000,91a8e6aaafa84dc2a49bf87f21d2d69a,ancient,5,5,ultimate_wisdom 5|mana_vampire 5|rejuvenate 5|sugar_rush 1|depth_strider 3|thorns 3|feather_falling 5|protection 5|growth 5|,true
+2024-05-18,Spirit Sceptre,20000000,94e65320792243d784458aacfa8421c8,heroic,5,0,ultimate_wise 5|scavenger 4|smite 6|impaling 3|luck 5|critical 5|cleave 5|thunderbolt 5|looting 3|ender_slayer 5|fire_aspect 2|vampirism 5|giant_killer 5|venomous 5|triple_strike 4|cubism 5|prosecute 5|lethality 5|,false
+2024-05-18,Goldor's Boots,19999900,4ea3b18ca4b54c32bde2257cbf876fee,giant,5,0,ultimate_last_stand 5|rejuvenate 5|feather_falling 10|protection 5|growth 5|,true
+2024-05-18,Storm's Leggings,13790000,3fa1b89c68e64f91a10d58d350e383d9,none,0,0,,false
+2024-05-18,Goldor's Leggings,27500000,8201cd0cae27444e90b8f898da86369c,giant,5,0,ultimate_last_stand 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,27000000,1ff3d7f3bae54b03beeeb8336520101e,ancient,5,0,protection 5|growth 5|,false
+2024-05-18,Storm's Chestplate,19990000,b6c3f49fd3474f99a957ce55ba211047,none,0,0,protection 6|,false
+2024-05-18,Necron's Chestplate,22400000,36b4870c55f9495fa32d360e3eec7f95,none,0,0,,false
+2024-05-18,Spirit Sceptre,28000000,5ccab0b1793948caaffc68c0c76dc232,heroic,0,0,ultimate_wise 5|smite 6|impaling 3|luck 5|critical 5|cleave 5|looting 3|telekinesis 1|knockback 2|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|lethality 5|,true
+2024-05-18,Giant's Sword,212000000,22cb470146084b85b91f9bba22a58286,withered,6,5,ultimate_soul_eater 5|thunderlord 7|champion 10|sharpness 6|ender_slayer 6|giant_killer 6|vampirism 6|fire_aspect 3|lethality 6|life_steal 4|looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|venomous 5|first_strike 4|cubism 5|prosecute 5|,true
+2024-05-18,Goldor's Chestplate,31999996,46f527a8fbca4e1e8f353db42d542206,giant,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Maxor's Boots,2100000,ec08def00f2c40a69caf44a52cbbf929,none,0,0,,false
+2024-05-18,Storm's Helmet,200000000,72232966c3c3496e97729791defc896f,ancient,6,5,ultimate_legion 5|hecatomb 10|transylvanian 5|rejuvenate 5|thorns 3|growth 5|protection 5|respiration 3|aqua_affinity 1|,true
+2024-05-18,Necron's Leggings,16798000,04d2a2903b4042f8a4b91592398a1bfd,none,1,0,,false
+2024-05-18,Storm's Leggings,20000000,7e8655a125fa46e69609e68e3899a6e9,necrotic,5,0,rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Necron's Helmet,13789000,417949d3036240128ba5b0546c2694db,none,3,0,,false
+2024-05-18,Giant's Sword,143000000,05b7ddf93c5d4c2498478c9cceebd32d,none,0,0,,false
+2024-05-18,Necron's Leggings,36000000,00814d983d584c8fba48db708f5b8130,ancient,5,5,protection 6|ultimate_wisdom 5|rejuvenate 5|growth 5|,true
+2024-05-18,Goldor's Leggings,109990000,09d66c83266b4ca2b49fcab48935d7cc,giant,7,5,mana_vampire 9|growth 6|protection 6|ultimate_last_stand 5|rejuvenate 5|thorns 3|,true
+2024-05-18,Maxor's Boots,25000000,11c54a12981c46e591814025708fa566,ancient,5,0,ultimate_wisdom 5|rejuvenate 5|feather_falling 10|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Necron's Boots,13000000,7c1c44a88e4c4664a21ccff691c9cae9,ancient,0,0,growth 5|protection 5|,false
+2024-05-18,Storm's Chestplate,29900000,2fd8f9174e5b4b6395638a35761c03ad,loving,5,0,ultimate_wisdom 5|rejuvenate 5|growth 5|protection 5|,false
+2024-05-18,Giant's Sword,164000000,09a01f3cd24746499199df7e2dbf26c8,none,5,5,ultimate_soul_eater 5|smite 7|thunderlord 6|critical 5|first_strike 4|cleave 5|knockback 2|,true
+2024-05-18,Maxor's Boots,19999000,1befcd9cd96a4df6844d26cf62e4a224,ancient,0,0,ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Spirit Sceptre,21000000,4a87b1e2c62e4360825569bdcc5effb5,heroic,5,0,ultimate_wise 5|critical 5|cleave 5|smite 5|syphon 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|venomous 5|first_strike 4|thunderlord 5|titan_killer 5|lethality 5|,false
+2024-05-18,Necron's Chestplate,53000000,d9b618c1bc384b57b0943877893b709a,ancient,5,5,growth 6|protection 6|ultimate_last_stand 5|rejuvenate 5|thorns 3|,true
+2024-05-18,Goldor's Chestplate,54000000,68b562dbcdc5435c8aec5f9d3f1039d7,giant,5,0,ultimate_legion 5|true_protection 1|hardened_mana 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,23000000,e813b0283802420f94dcce1f6560645c,ancient,2,0,protection 6|rejuvenate 5|thorns 3|growth 5|,false
+2024-05-18,Storm's Chestplate,19999000,3a7377f70a7844039b91a1a65d4ba2d6,necrotic,1,0,ultimate_refrigerate 2|rejuvenate 5|growth 5|protection 5|,false
+2024-05-18,Giant's Sword,165000000,6b0f79f1c6f34cd1a34728bfe15b7205,fabled,5,0,ultimate_soul_eater 5|smite 7|ender_slayer 6|giant_killer 6|fire_aspect 3|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|vampirism 5|execute 5|first_strike 4|venomous 5|cubism 5|,false
+2024-05-18,Spirit Sceptre,34900000,58cbf232c0cd4bc099e968bb138e9d1b,strange,0,0,,false
+2024-05-18,Bouquet of Lies,21000000,28364494006b43638d0edf25d6e0ad59,withered,5,0,critical 6|impaling 3|cleave 5|thunderbolt 5|syphon 3|looting 3|ender_slayer 5|knockback 2|fire_aspect 2|vampirism 5|execute 5|first_strike 4|venomous 5|sharpness 5|titan_killer 5|lethality 5|,true
+2024-05-18,Spirit Sceptre,19999000,a2ff4621767a4c25b1986a184582144f,none,2,0,ultimate_wise 5|syphon 4|luck 5|critical 5|cleave 5|looting 3|scavenger 3|fire_aspect 2|giant_killer 5|first_strike 4|sharpness 5|cubism 5|,false
+2024-05-18,Storm's Leggings,21000000,d417fde9512c4144b7d5aeaa9a076cbf,ancient,5,0,rejuvenate 4|thorns 3|protection 5|growth 5|,false
+2024-05-18,Livid Dagger,7500000,4c96260c6b7f42f99df1bab00475007a,spicy,3,0,luck 5|critical 5|cleave 5|thunderbolt 5|looting 3|knockback 2|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Livid Dagger,10000000,afd65b5e79144a73932f7d62c971c6a7,fabled,5,0,ultimate_combo 5|looting 4|critical 6|scavenger 4|smite 6|luck 6|syphon 3|ender_slayer 5|fire_aspect 2|giant_killer 5|first_strike 4|prosecute 5|,false
+2024-05-18,Giant's Sword,170000000,35e836dc498d4294b708edd402bee44d,spicy,5,0,ultimate_soul_eater 5|syphon 4|critical 6|cleave 5|looting 3|knockback 2|scavenger 3|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|lethality 5|,true
+2024-05-18,Necron's Boots,28000000,66ca734d69614d1e9078e888d7534faf,ancient,5,0,ultimate_wisdom 5|ferocious_mana 5|rejuvenate 5|depth_strider 3|thorns 3|feather_falling 5|protection 5|growth 5|,true
+2024-05-18,Spirit Sceptre,7800000,d56254298cd24bb7b84075a8f9ded68c,none,0,0,,false
+2024-05-18,Spirit Sceptre,19510000,2ded8fdf21b0404292db4bc7d1ea8416,fair,5,0,ultimate_wise 1|critical 5|cleave 5|thunderbolt 5|smite 5|knockback 2|vampirism 5|execute 5|life_steal 3|first_strike 4|venomous 5|titan_killer 5|lethality 5|,false
+2024-05-18,Necron's Leggings,37000000,5e8f2b30bb8a4d3994906249cd4de016,ancient,5,5,ultimate_wisdom 5|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Livid Dagger,20000000,9be474b393424e79a95d5ac88f14e640,withered,5,5,ender_slayer 6|syphon 4|lethality 6|ultimate_combo 5|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|telekinesis 1|fire_aspect 2|vampirism 5|giant_killer 5|venomous 5|first_strike 4|sharpness 5|cubism 5|prosecute 5|,true
+2024-05-18,Necron's Boots,15500000,2292c398211b498c98ef037ccfe9339c,none,5,0,depth_strider 3|thorns 3|protection 5|growth 5|,false
+2024-05-18,Necron's Leggings,26000000,f92afbbf779e496b8ccb569558ac298e,ancient,5,0,ultimate_last_stand 4|thorns 3|growth 5|protection 5|,true
+2024-05-18,Necron's Leggings,20000000,267aba418c834fa5b38f9ecf7f6ed3f1,none,5,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Livid Dagger,7999999,7ca7b8ec446641ac953fe5d37450c761,fabled,0,0,ultimate_one_for_all 1|,false
+2024-05-18,Livid Dagger,6800000,02746bc65d5d4d2ca8d9949f28c04db9,none,0,0,,false
+2024-05-18,Goldor's Boots,3000000,6b2091db04bb449590fb7c3be9f7cf2a,giant,0,0,rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,false
+2024-05-18,Goldor's Leggings,8000000,23ba6258c70447e0b1fdededd9950204,giant,0,0,growth 5|protection 5|,false
+2024-05-18,Goldor's Chestplate,17410000,35594d3fb9fb49dba0a0a173884c02d3,giant,5,0,rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Bouquet of Lies,8250000,aa8bcfba0dbc4758a8fb393ccd766952,none,0,0,,false
+2024-05-18,Giant's Sword,170000000,87a2e32defb4441e96a19626a0ae78ca,withered,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Storm's Chestplate,28600000,84355c6e565e49d98e61abd409ed77ee,giant,5,0,ultimate_wisdom 5|mana_vampire 5|rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Goldor's Chestplate,23500000,727e686f98534618a8a20b4d056a777f,giant,5,0,ultimate_last_stand 5|rejuvenate 5|protection 5|growth 5|,false
+2024-05-18,Spirit Sceptre,29500000,2099530ee4f14d538af291f358a9265d,heroic,5,0,ultimate_wise 5|life_steal 4|critical 6|scavenger 4|smite 6|first_strike 4|cleave 5|ender_slayer 5|fire_aspect 2|lethality 5|prosecute 5|,true
+2024-05-18,Livid Dagger,40000000,c4ab29ab856a4d2ab4a842b30d47c7e0,fabled,0,5,vicious 5|ultimate_soul_eater 5|syphon 4|looting 4|critical 6|scavenger 4|smite 6|luck 6|impaling 3|cleave 5|ender_slayer 5|telekinesis 1|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|first_strike 4|venomous 5|cubism 5|lethality 5|,true
+2024-05-18,Livid Dagger,9400000,f41e3bcea50b448d9863560fec8e6c1e,fabled,5,0,ultimate_combo 5|looting 4|critical 6|luck 6|impaling 3|cleave 5|syphon 3|knockback 2|scavenger 3|ender_slayer 5|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Necron's Chestplate,30000000,75bc46ea6746490c8dc3f476859e2e82,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Necron's Leggings,23000000,7d711b6b76fc45d6b6540bfec68913bf,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Storm's Chestplate,39999999,c32c7443c39e49f585d26f16461fedd5,loving,5,0,ultimate_wisdom 5|true_protection 1|hardened_mana 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Storm's Boots,28000000,3d188a0dc8b84c889ce6ff0a343b55e3,necrotic,5,5,ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|growth 5|protection 5|,true
+2024-05-18,Spirit Sceptre,18800000,30b35a28b813474da9c926378da456d5,none,0,0,,false
+2024-05-18,Necron's Chestplate,44000000,5a704e2129434893aae909b7936c19ce,ancient,5,0,ultimate_legion 3|true_protection 1|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Storm's Chestplate,45500000,018947a6a0ff4e83b723583b2a939eab,loving,5,5,protection 6|ultimate_wisdom 5|mana_vampire 4|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-18,Maxor's Boots,7500000,eb5aed330627422b81f3935bb17442c0,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,false
+2024-05-18,Maxor's Boots,7000000,9b4f2ca121b14adea001de47aa8971e3,ancient,5,0,rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Necron's Helmet,46999000,dddcc6b9a15d4e53909b8ebe791a053c,ancient,5,5,hecatomb 7|growth 6|protection 6|ultimate_wisdom 5|transylvanian 5|rejuvenate 5|,true
+2024-05-18,Livid Dagger,6999999,7fc7db5eb09042e3af1b620f1666ec69,withered,2,1,ender_slayer 6|luck 5|critical 5|cleave 5|looting 3|syphon 3|scavenger 3|fire_aspect 2|giant_killer 5|first_strike 4|venomous 5|sharpness 5|,false
+2024-05-18,Maxor's Leggings,20936000,efed467852da40f78cc9008dde7d2cd8,necrotic,5,0,rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Storm's Leggings,17200000,60f74f74ad71410eba7c616f7c736d91,necrotic,5,0,thorns 3|protection 5|growth 5|,false
+2024-05-18,Livid Dagger,6800000,3f0fed2bb8fc42f8bc9c9ff2327fdc8a,none,0,0,,false
+2024-05-18,Maxor's Boots,6800000,a5d677abd8114bd6ac0356a0dc5941f7,ancient,5,0,protection 5|growth 5|,false
+2024-05-18,Livid Dagger,8300000,27bceaaa1f8440e1b831924eda2a901a,fabled,5,0,champion 8|life_steal 4|critical 6|thunderlord 6|impaling 3|luck 5|cleave 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|venomous 5|first_strike 4|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Storm's Boots,41000000,dd8131008c3243f79e59221acbcdaf1a,ancient,0,0,ultimate_wisdom 5|rejuvenate 5|feather_falling 10|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Storm's Leggings,40000000,87751ed2d0ce4f8aa5cc10a104991e68,necrotic,5,5,ultimate_wisdom 5|mana_vampire 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Maxor's Chestplate,31000000,264ed960e7a14f839de5d56cf3ce79a9,fierce,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Leggings,21000000,e245f2c32ea9486eb9d24df7741d9f2c,ancient,5,0,rejuvenate 5|growth 5|protection 5|,false
+2024-05-18,Storm's Leggings,83000000,7b3c10a4c9454fb998e9ff9f09d44c9a,ancient,6,5,ultimate_legion 5|growth 6|protection 6|strong_mana 4|rejuvenate 5|,true
+2024-05-18,Maxor's Boots,20200000,be5cc6cad8204cd3aa2751ce3de95f54,giant,5,0,ultimate_last_stand 5|rejuvenate 5|feather_falling 10|depth_strider 3|growth 5|protection 5|,true
+2024-05-18,Giant's Sword,142000000,82a245a4cde84ff39ceb0073e893afe3,none,0,0,,false
+2024-05-18,Necron's Boots,12000000,82f6267c868a420ab73c2acc5cfb8fe3,none,0,0,,false
+2024-05-18,Necron's Chestplate,48599999,8e925a7ab36242839dcc9f1b0d5f4ccc,ancient,5,5,ultimate_legion 3|protection 6|ferocious_mana 5|true_protection 1|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-18,Giant's Sword,165000000,3728995579a64d36914dca5f99507512,withered,4,0,looting 4|critical 6|scavenger 4|smite 6|luck 6|cleave 5|syphon 3|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|,true
+2024-05-18,Storm's Chestplate,31000000,d016d42e774c4f2ba50050129b98e9dc,loving,5,0,ultimate_refrigerate 2|mana_vampire 5|rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Storm's Helmet,30000000,8e421ec81a124874b0179ca3535b4486,ancient,5,5,ultimate_wisdom 5|rejuvenate 5|protection 5|respiration 3|growth 5|aqua_affinity 1|,true
+2024-05-18,Storm's Leggings,23400000,0227fb2abf38425aa2747c727d5be9f2,necrotic,5,0,mana_vampire 5|rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Storm's Boots,31030000,93846e907a344789a44d533427eec808,ancient,6,5,ultimate_last_stand 5|sugar_rush 3|mana_vampire 4|rejuvenate 5|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,6900000,49ed21243ded4da6be84a3150dcb7955,none,0,0,,false
+2024-05-18,Necron's Leggings,16797998,a5363894f8f94dc7975ede0711d8a451,none,0,0,,false
+2024-05-18,Necron's Leggings,31900000,20e6ce458fcd42d7873ddee4723ba161,ancient,5,0,ultimate_last_stand 4|thorns 3|growth 5|protection 5|,true
+2024-05-18,Livid Dagger,18500000,b0e3eaf8759d4a5286015983cdf05f18,withered,0,0,ultimate_soul_eater 4|ender_slayer 6|vampirism 6|lethality 6|life_steal 4|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|telekinesis 1|execute 5|giant_killer 5|first_strike 4|sharpness 5|cubism 5|,true
+2024-05-18,Goldor's Boots,1850000,3fdfbe61927246aca940e56aa0d03037,none,0,0,,false
+2024-05-18,Spirit Sceptre,22500000,5b31d9f932ed4c4fb305f1acb27790bc,heroic,4,0,ultimate_wise 5|smite 6|luck 5|critical 5|cleave 5|looting 3|syphon 3|knockback 2|ender_slayer 5|scavenger 3|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|first_strike 4|venomous 5|cubism 5|,false
+2024-05-18,Storm's Helmet,9999900,2ea5a4cf99e747bd99a80e1250c7f507,necrotic,5,0,ultimate_wisdom 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Storm's Boots,17999999,424826eb8e234d58829cc92869522a68,ancient,5,0,ultimate_wisdom 5|rejuvenate 5|depth_strider 3|thorns 3|feather_falling 5|growth 5|protection 5|,false
+2024-05-18,Goldor's Leggings,6200000,7288a3adafb043a9bd3e94409948ad27,none,0,0,,false
+2024-05-18,Giant's Sword,189999995,736f54a477174937bda21ab31a2ac62b,suspicious,5,5,ultimate_soul_eater 5|champion 10|sharpness 6|giant_killer 6|vampirism 6|fire_aspect 3|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|ender_slayer 5|execute 5|venomous 5|triple_strike 4|cubism 5|,true
+2024-05-18,Necron's Boots,11999999,43261c2913024a98aa46d893b087805d,ancient,0,0,depth_strider 3|protection 5|,false
+2024-05-18,Necron's Chestplate,21780000,7612a7ebbcbc4b79b40aef840f3a208d,none,0,0,,false
+2024-05-18,Goldor's Chestplate,13999999,b5bbee3a46714538ae4d0668292ec229,none,0,0,,false
+2024-05-18,Necron's Leggings,16797997,aa0087283cd340c48d94c365edfb46b9,ancient,0,0,growth 5|protection 5|,false
+2024-05-18,Goldor's Boots,1894999,ddc9d88a23654139b1bf4645d8308b9c,none,0,0,,false
+2024-05-18,Giant's Sword,150000000,9d60db8d478b4b6194bee51555b4dc72,withered,5,0,ultimate_soul_eater 5|sharpness 6|vampirism 6|lethality 6|life_steal 4|looting 4|critical 6|scavenger 4|luck 6|cleave 5|ender_slayer 5|fire_aspect 2|giant_killer 5|first_strike 4|venomous 4|thunderlord 5|prosecute 5|,true
+2024-05-18,Necron's Leggings,38599000,2e13db17db9f4bbca9061c23e08ab429,ancient,5,5,ultimate_legion 3|ferocious_mana 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Maxor's Boots,3800000,35f31150452f453bab198af7537f7dc4,ancient,0,0,depth_strider 3|growth 5|protection 5|,false
+2024-05-18,Maxor's Boots,33600000,0410af3d5f9e4937ba6ee116a864df2b,ancient,6,5,ultimate_legion 3|growth 6|protection 6|sugar_rush 3|rejuvenate 5|ferocious_mana 3|feather_falling 10|depth_strider 3|thorns 3|,true
+2024-05-18,Goldor's Chestplate,13000000,33948dde571b4aa38b81a4d6b8d4b357,giant,0,0,growth 6|rejuvenate 5|protection 5|,false
+2024-05-18,Spirit Sceptre,18800000,726f7c6e16ca40a9af677277b01e0774,none,0,0,,false
+2024-05-18,Storm's Chestplate,29900000,d6e936d6a73c4aaf81c32d8fc7ce14bd,loving,5,0,ultimate_wisdom 5|growth 5|protection 5|,false
+2024-05-18,Necron's Boots,36030000,0d5d13eb3ab34445af6a86c2d56a3eb4,ancient,5,0,protection 6|ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|,true
+2024-05-18,Necron's Helmet,16500000,95ca439587ba4a8fa7c4192a0d603f2c,ancient,0,0,growth 5|protection 5|,false
+2024-05-18,Necron's Chestplate,29990000,4d5bab938e1b44db9516b538343952b9,ancient,5,0,protection 5|growth 5|,false
+2024-05-18,Giant's Sword,157500000,7b6a3271626940e5b7d6ae689ef96b0c,withered,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Storm's Boots,9250000,62cc93e282ba419680d0e92a3a44bd49,none,0,0,,false
+2024-05-18,Necron's Leggings,21500000,6b4f1ca632d04150ba550201547c909d,ancient,5,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Storm's Leggings,13790000,85e90586f0a94cecb523735db39d64de,none,0,0,,false
+2024-05-18,Necron's Chestplate,318000000,a1d5eb32a73642de8c2ea336cbf707bb,ancient,1,5,ultimate_legion 5|strong_mana 7|growth 6|protection 6|true_protection 1|rejuvenate 5|,true
+2024-05-18,Spirit Sceptre,22000000,da14f53cf7ed4243b792e6d73175d240,heroic,2,0,ultimate_wise 5|looting 4|impaling 3|luck 5|critical 5|cleave 5|syphon 3|scavenger 3|ender_slayer 5|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|,false
+2024-05-18,Necron's Boots,12000000,2e17addf5d6c44e98cdc5c3bfa692d95,none,0,0,,false
+2024-05-18,Storm's Chestplate,19898000,d54fe232f25149bb86d20342da8f0385,none,0,0,,false
+2024-05-18,Necron's Leggings,40370000,7821b048fd4843779cfcaa7effc8c32e,ancient,5,0,protection 6|ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-18,Necron's Helmet,13699999,e1fcd3bdee9049d398e869b7b0abea7e,none,0,0,,false
+2024-05-18,Goldor's Leggings,13000000,fdc99b4615dd4e0f92c46c438056c8a3,giant,5,0,rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Spirit Sceptre,20000000,37630454ec394516b60180d9fa5953bc,none,2,0,ultimate_wise 5|impaling 3|luck 5|critical 5|cleave 5|smite 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|cubism 5|lethality 5|,false
+2024-05-18,Storm's Leggings,39000000,2bdf652992934f0eb19a25152feae050,necrotic,5,0,smarty_pants 5|protection 6|ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-18,Goldor's Boots,30000000,d6be25c7d04244039a64ed8b129381f1,giant,0,0,ultimate_legion 3|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Necron's Boots,12239000,41a2f8c7995a4c958cc5f3ae806702f5,none,1,0,,false
+2024-05-18,Giant's Sword,173000000,fd69b4f26cfb4f319ccbe16d5e6242a9,withered,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Necron's Leggings,16799999,67cde450ca3b4450bf3e2c62a12d0e80,none,0,0,,false
+2024-05-18,Giant's Sword,160000000,0029146588064d13a2be25d1b8e3c94a,withered,5,0,ender_slayer 6|syphon 4|luck 5|critical 5|cleave 5|looting 3|scavenger 3|knockback 2|fire_aspect 2|giant_killer 5|first_strike 4|sharpness 5|cubism 5|,true
+2024-05-18,Necron's Helmet,15000000,15fd91970cc544a4b9f99ade50f2afaf,none,3,0,growth 6|,false
+2024-05-18,Necron's Boots,40000000,30e8d45c87d54835ab53dac83969f79b,ancient,5,0,growth 6|protection 6|mana_vampire 5|ultimate_legion 1|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|,true
+2024-05-18,Necron's Boots,17300000,6943f953fb9e43bea7ab8baf2c089866,ancient,5,0,rejuvenate 5|feather_falling 10|depth_strider 3|protection 5|growth 5|,false
+2024-05-18,Maxor's Boots,18000000,41d3a65740eb469abc92767fd821ffc9,ancient,5,0,ultimate_legion 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Storm's Helmet,10800000,aac648b382054047b5d82836c87c9929,none,0,0,,false
+2024-05-18,Necron's Chestplate,22498999,65a921fa4cb9416a8459d1b3e73e4add,ancient,0,0,growth 5|protection 5|,false
+2024-05-18,Necron's Chestplate,51999999,fa8b3f840b0c4fb88fa27297341ecb72,ancient,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Necron's Chestplate,55000000,c4e115b1b2cf4fa190724bb7a608afda,ancient,5,5,ultimate_legion 3|true_protection 1|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,7000000,88c696bb740f41c0bf38bab433805b88,fabled,0,0,syphon 4|looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|ender_slayer 5|telekinesis 1|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Necron's Leggings,16800000,b899bfa3fe4a438e9a8a5d3dacc77963,none,0,0,,false
+2024-05-18,Bouquet of Lies,8250000,0f13ea608430408289bbd328781527e2,suspicious,0,0,syphon 4|smite 6|luck 5|critical 5|first_strike 4|cleave 5|looting 3|scavenger 3|fire_aspect 2|cubism 5|giant_killer 5|,false
+2024-05-18,Bouquet of Lies,15210000,417cfd37efb44b5d95c944efdc93c72f,suspicious,5,5,champion 4|sharpness 6|giant_killer 6|lethality 6|ultimate_combo 5|looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|syphon 3|telekinesis 1|ender_slayer 5|fire_aspect 2|vampirism 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|prosecute 5|,false
+2024-05-18,Livid Dagger,7000000,a5d939ee59e74465b458bcb362c35c13,spicy,2,0,ultimate_combo 5|looting 4|scavenger 4|impaling 3|luck 5|critical 5|cleave 5|ender_slayer 5|vampirism 5|fire_aspect 2|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|,false
+2024-05-18,Necron's Chestplate,133548343,bd020e217ff7465abe98f651a56693ce,ancient,8,5,ultimate_legion 5|ferocious_mana 5|true_protection 1|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Necron's Chestplate,51000000,758d1839a2874e138dc8ac6a742f822a,ancient,5,5,growth 6|protection 6|mana_vampire 5|ultimate_legion 1|rejuvenate 5|,true
+2024-05-18,Spirit Sceptre,28000000,e31161f20f4243cbadcf408f4d149acd,heroic,5,0,ultimate_wise 5|life_steal 4|looting 4|scavenger 4|smite 6|impaling 3|luck 5|critical 5|cleave 5|ender_slayer 5|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|,true
+2024-05-18,Goldor's Leggings,8000000,eefb0ed5404d4926be09d0197220f13c,giant,0,0,rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Necron's Boots,12200000,6ef8b62341454b2884df2ce4cbd85bf6,none,0,0,,false
+2024-05-18,Goldor's Boots,5312,34bf63df625548469eae2114517a681e,giant,0,0,rejuvenate 5|feather_falling 9|depth_strider 3|thorns 3|growth 5|protection 5|,false
+2024-05-18,Necron's Helmet,13799000,25d0e5a8c4184c9b85f0b73f1f59982e,none,0,0,,false
+2024-05-18,Necron's Leggings,33000000,9c199a13041e40d4804089289da379be,ancient,5,5,rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Necron's Leggings,16800000,3feb645035e44d9ab1205959c9dbe477,none,0,0,,false
+2024-05-18,Giant's Sword,204990000,204a2370e2d24ce8993c899a691b11ea,withered,5,5,ultimate_soul_eater 5|champion 6|ender_slayer 6|giant_killer 6|vampirism 6|fire_aspect 3|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|smite 6|luck 6|impaling 3|cleave 5|thunderbolt 5|execute 5|venomous 5|triple_strike 4|cubism 5|,true
+2024-05-18,Necron's Chestplate,22199999,acee813cbb9748209284aedc094633f5,none,0,0,,false
+2024-05-18,Necron's Boots,19500000,4bfcc184d2c243bcaadc6171a2e0322f,ancient,0,0,depth_strider 3|thorns 3|feather_falling 5|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,22199999,af0902b0eb32425b9a44b0c7bfdb3d99,none,0,0,,false
+2024-05-18,Necron's Leggings,22000000,a89f873a9b5e4c62ba14a84fba1a3fdb,ancient,5,0,rejuvenate 5|ferocious_mana 3|growth 5|protection 5|,false
+2024-05-18,Necron's Chestplate,29000000,4c112c52b1134024a773036af2fe7c91,none,0,0,,true
+2024-05-18,Storm's Boots,22000000,dca9f7178d26492692d365a8d4bebf48,necrotic,5,0,protection 6|feather_falling 10|depth_strider 3|thorns 3|growth 5|,true
+2024-05-18,Storm's Chestplate,40000000,25c41ce16dba40489ffe890ad28220e1,loving,5,0,ultimate_wisdom 5|mana_vampire 5|true_protection 1|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Necron's Chestplate,41000000,b77a2260759149a3ab313766d6ac4277,ancient,5,5,ultimate_legion 1|ferocious_mana 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Bouquet of Lies,29900000,716459a5cfb248678fadb9e322df5432,fabled,5,5,ultimate_soul_eater 5|ender_slayer 6|giant_killer 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|smite 6|luck 6|cleave 5|vampirism 5|fire_aspect 2|execute 5|venomous 5|first_strike 4|cubism 5|,true
+2024-05-18,Giant's Sword,140900000,f22244a1fd1d49a3ae959ecd7d139bbd,spicy,0,0,sharpness 6|syphon 4|looting 4|critical 6|impaling 3|luck 5|cleave 5|knockback 2|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|lethality 5|,false
+2024-05-18,Necron's Chestplate,57000000,48f3114fb4f34513b0b35edc3406ff12,ancient,5,5,growth 6|reflection 5|ultimate_last_stand 5|protection 6|ferocious_mana 5|true_protection 1|rejuvenate 5|,true
+2024-05-18,Necron's Chestplate,24200000,f5b5c89f1b00441e85f69e1b43e5fb40,ancient,0,0,,false
+2024-05-18,Livid Dagger,6800000,d9ddf73cd6374cb78d1bc38006e91775,spicy,0,0,luck 5|critical 5|first_strike 4|cleave 5|sharpness 5|scavenger 3|fire_aspect 2|vampirism 5|prosecute 5|,false
+2024-05-18,Necron's Helmet,17300000,584ffece8f7741628bc742a2a204c630,ancient,5,0,thorns 3|growth 5|protection 5|respiration 3|aqua_affinity 1|,false
+2024-05-18,Necron's Chestplate,29000000,b578619197d0489792e1f8c62718c25a,ancient,5,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Storm's Boots,19000000,37f4fab96eb64eaba4f8c4dd5e1f77b3,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Bouquet of Lies,15000000,b076e4a196db4af6800688f8993d8f40,fabled,5,0,ultimate_wise 5|vampirism 6|lethality 6|looting 4|critical 6|scavenger 4|smite 6|luck 6|cleave 5|syphon 3|telekinesis 1|ender_slayer 5|fire_aspect 2|giant_killer 5|venomous 5|first_strike 4|thunderlord 5|prosecute 5|,false
+2024-05-18,Necron's Leggings,23000000,41cb8082634a4ff5a2704181915f374b,ancient,5,0,rejuvenate 5|growth 5|protection 5|,false
+2024-05-18,Livid Dagger,9999999,f7fe81002c0045f18e85c9b0421a5fd9,withered,5,0,syphon 4|lethality 6|ultimate_combo 5|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|venomous 5|first_strike 4|sharpness 5|cubism 5|,false
+2024-05-18,Necron's Chestplate,24000000,59c84fa9a0db43a69cca08d68b06e250,fierce,0,0,rejuvenate 5|protection 5|growth 5|,false
+2024-05-18,Storm's Boots,30000000,f0f9c231599f4c72b4a02e1a016900ec,necrotic,5,0,strong_mana 6|ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Spirit Sceptre,20000000,d34feb37bb154cfe923ae90bef55f760,none,0,0,,false
+2024-05-18,Necron's Helmet,15000000,df858829b99842b0abbee11bd567912e,none,3,0,growth 6|,false
+2024-05-18,Maxor's Boots,21499997,1b1e234b78b444708ca72a76fc369a82,ancient,5,0,ultimate_wisdom 5|mana_vampire 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|growth 5|protection 5|,true
+2024-05-18,Spirit Sceptre,23331111,9cfd7abb38044886bfa56fd52ff0ab75,heroic,5,0,ultimate_wise 5|looting 4|critical 6|luck 5|cleave 5|thunderbolt 5|ender_slayer 5|scavenger 3|fire_aspect 2|vampirism 5|execute 5|life_steal 3|giant_killer 5|first_strike 4|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Giant's Sword,147000000,1e613c70f60f468b9708f5fe41346251,withered,0,0,ultimate_one_for_all 1|,false
+2024-05-18,Storm's Chestplate,19898999,44fce37494af4885aeb7e1fe1987cc3f,none,0,0,,false
+2024-05-18,Necron's Leggings,55900000,c2e933ae2ea84a61afae96e7be2c9228,ancient,0,5,ultimate_last_stand 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Storm's Leggings,55000000,a0e7bb1688e84b81bde0a95d39ab467a,necrotic,5,0,smarty_pants 5|ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Storm's Leggings,13790000,4c6072092d014918b3e37ece228fef7a,none,0,0,,false
+2024-05-18,Maxor's Boots,2100000,46861c202d6344ef85ecd9da6d7b0b1e,none,0,0,,false
+2024-05-18,Goldor's Boots,1699999,eefa6ba0c7874816aec8d7bf9b1375d8,none,0,0,,false
+2024-05-18,Goldor's Leggings,10000000,94f1394b0e2d46b192c85b109cf84ceb,giant,5,0,ultimate_last_stand 1|thorns 3|growth 5|protection 5|,false
+2024-05-18,Necron's Leggings,16990000,9b8fe41756f649138644eb5c529149a2,none,0,0,,false
+2024-05-18,Maxor's Boots,53000000,06aacb9c8bce4823bd2065f153b5a0f5,ancient,5,5,ultimate_legion 4|mana_vampire 6|protection 6|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|growth 5|,true
+2024-05-18,Storm's Leggings,39000000,7a6f976ea55840fb9b107e9cccc64632,necrotic,5,0,protection 6|ultimate_wisdom 5|hardened_mana 5|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-18,Bouquet of Lies,31500000,95af116d5cd147e1bd37c1ae72e24556,withered,0,0,ultimate_soul_eater 4|giant_killer 6|vampirism 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|smite 6|luck 6|impaling 3|ender_slayer 5|telekinesis 1|execute 5|first_strike 4|cubism 5|,true
+2024-05-18,Maxor's Boots,6000000,79de8e69143b4d589aa73b25fc7e6df4,ancient,5,0,depth_strider 3|growth 5|protection 5|,false
+2024-05-18,Maxor's Boots,6500000,49a30cd6d7f84bccb4760027452bd91f,ancient,5,0,rejuvenate 5|depth_strider 3|growth 5|protection 5|,false
+2024-05-18,Maxor's Boots,6898000,64e5e6795d684c4e9a95d9ca187451a0,ancient,5,0,rejuvenate 4|feather_falling 10|protection 5|growth 5|,false
+2024-05-18,Storm's Chestplate,42900000,de320560046c4cb3ae31f0f2199f87ed,loving,5,0,ultimate_wisdom 5|reflection 3|true_protection 1|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Maxor's Boots,8388888,ab6fe9b07d2948039b346cecba9444e9,none,5,0,,false
+2024-05-18,Spirit Sceptre,21000000,3116e4bfd0d342c0a269975e1150a032,heroic,5,0,ultimate_wise 5|ender_slayer 6|looting 4|critical 6|impaling 3|luck 5|cleave 5|syphon 3|scavenger 3|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|venomous 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Goldor's Chestplate,17799000,f8559be23b5343cd8664aa07091827d3,giant,0,0,growth 6|rejuvenate 5|protection 5|,false
+2024-05-18,Livid Dagger,6989999,542edd1f0d5a4778979ac4643aa2d3f0,none,0,0,,false
+2024-05-18,Storm's Leggings,35900000,401c58c246324eda8455c04cd38c394b,ancient,5,5,ultimate_last_stand 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Necron's Boots,28999000,b5d39f7aae2347e59455872054531880,ancient,0,5,ultimate_last_stand 4|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Storm's Chestplate,49000000,79da770e89554e278fd6a22c09343158,loving,0,0,ultimate_wisdom 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Goldor's Boots,27400000,028bd0ee8cb74c37b8b86893f1c86449,giant,6,5,ultimate_last_stand 5|sugar_rush 3|hardened_mana 5|rejuvenate 5|feather_falling 10|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Goldor's Boots,4500000,711cc25c8d0841edac2d36e469b38c86,giant,5,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Livid Dagger,500010,02567751f50b4694beb5506bf5a93141,withered,3,0,ultimate_one_for_all 1|telekinesis 1|,false
+2024-05-18,Maxor's Boots,130000000,5b480b1f240d4bc184ec18b4b4aface5,ancient,7,5,ultimate_legion 5|growth 6|protection 6|sugar_rush 3|ferocious_mana 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|,true
+2024-05-18,Maxor's Helmet,2995000,24fb4c5566264dfdbf3b3c6c9c843433,none,0,0,,false
+2024-05-18,Spirit Sceptre,21000000,7692672527dd47749216f24f7df52ede,heroic,5,0,ultimate_wise 5|critical 6|scavenger 4|venomous 5|triple_strike 4|thunderlord 5|sharpness 5|life_steal 3|giant_killer 5|prosecute 5|lethality 5|,false
+2024-05-18,Giant's Sword,160000000,4784ed4f0eaa449d8bf31bf73e386612,withered,5,0,ultimate_one_for_all 1|,false
+2024-05-18,Storm's Chestplate,70500000,20ada024d95c48f29c4e9a78cd121c3b,loving,5,5,growth 6|hardened_mana 7|protection 6|ultimate_wisdom 5|reflection 3|true_protection 1|rejuvenate 5|,true
+2024-05-18,Necron's Chestplate,24000000,4af46244788c4500b6c3bc7219c781dc,ancient,5,0,rejuvenate 5|protection 5|growth 5|,false
+2024-05-18,Storm's Boots,15230000,57024d3d79e1465198945593eab0eeb9,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|depth_strider 3|growth 5|protection 5|,false
+2024-05-18,Livid Dagger,33000000,ba394a711557450ca7f2205cb0581644,withered,0,0,ultimate_soul_eater 5|smite 7|champion 10|ender_slayer 6|giant_killer 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|telekinesis 1|vampirism 5|fire_aspect 2|execute 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|,true
+2024-05-18,Maxor's Boots,17500000,681f3a84334848fe80c7bfd2604f0ded,necrotic,5,0,ultimate_last_stand 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,7920000,f5ed8379022049b7ab745ab42d8004cb,fabled,0,0,syphon 4|looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|ender_slayer 5|telekinesis 1|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Necron's Leggings,31500000,d22cd2121c8c4ec6bcc71a626fbebf6b,ancient,5,0,rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Storm's Boots,9499999,ab368fba72494e48ab703f41c89cf568,none,0,0,,false
+2024-05-18,Storm's Leggings,53000000,b4cbbeff77784f4cad1dcf6b09c3a00b,necrotic,5,0,smarty_pants 5|mana_vampire 6|growth 6|protection 6|ultimate_wisdom 5|rejuvenate 5|thorns 3|,true
+2024-05-18,Giant's Sword,138999000,ffd98f7a941c4a55826f8dbafb4a524d,none,0,0,,false
+2024-05-18,Goldor's Boots,1699000,9721d9cfa3704ffcb045293a97867c72,none,0,0,,false
+2024-05-18,Spirit Sceptre,22500000,cb2d5892d5074aa5ba6d50e51d259338,heroic,5,0,ultimate_wise 5|looting 4|cleave 5|syphon 3|sharpness 5|prosecute 5|lethality 5|,false
+2024-05-18,Storm's Helmet,11500000,70d2f05ba1bb44209acc3eba3b8485a9,none,5,0,thorns 3|protection 5|growth 5|respiration 3|aqua_affinity 1|,false
+2024-05-18,Bouquet of Lies,12870000,3381dd1b413b4de5857d21752aea82bb,sharp,5,0,ultimate_one_for_all 1|,false
+2024-05-18,Giant's Sword,147000000,6a228a70f2714b9eaffd0ebbfe73a842,withered,5,5,ultimate_soul_eater 5|sharpness 6|giant_killer 6|vampirism 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|fire_aspect 2|first_strike 4|venomous 5|cubism 5|prosecute 5|,false
+2024-05-18,Maxor's Boots,2150000,5317664a527549aeb4e546d1e476a56e,none,0,0,,false
+2024-05-18,Necron's Chestplate,37399999,abc0d8194ee24fbaa10e85443948b126,ancient,5,0,rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Storm's Leggings,33000000,3b49cbd0f2f34cdb8271ba2c66841af3,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Boots,23500000,414c378a70824b9d8ad16b5a0ec250a2,ancient,5,0,ultimate_last_stand 4|depth_strider 3|thorns 3|feather_falling 5|growth 5|protection 5|,true
+2024-05-18,Storm's Chestplate,39000000,b3744805d0b844e7985013b1efba14b5,loving,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Leggings,31650000,ea04b1d8bf364575ae5c2f00338d719e,ancient,5,0,rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Maxor's Helmet,3379999,346fa1096ef2423b9747749f690425a1,none,0,0,,false
+2024-05-18,Maxor's Boots,2200000,128cbbca5f9045449c3a16f8f6780d2e,none,0,0,,false
+2024-05-18,Necron's Chestplate,30000000,789a00454c294723879f2411a968a37a,ancient,5,0,rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Livid Dagger,13070000,c35da868cc2e49079451c4295f69f973,fabled,5,0,sharpness 6|ender_slayer 6|critical 6|impaling 3|luck 5|cleave 5|looting 3|syphon 3|telekinesis 1|scavenger 3|fire_aspect 2|vampirism 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|titan_killer 5|prosecute 5|lethality 5|,true
+2024-05-18,Goldor's Chestplate,13500000,4ccd200c4ed147da9cd6486b4746b1ae,none,1,0,,false
+2024-05-18,Necron's Leggings,50000000,ea2e95b404024c5e8bf8e8363e33a3b0,ancient,5,5,ultimate_legion 5|ferocious_mana 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Goldor's Boots,1690000,d08011bd097647a18e1b39cdff94c54b,none,0,0,,false
+2024-05-18,Giant's Sword,140000000,1d52705ac9a749379566f698a59c3658,withered,5,0,ultimate_swarm 5|impaling 3|luck 5|critical 5|thunderbolt 5|cleave 5|syphon 3|looting 3|ender_slayer 5|scavenger 3|vampirism 5|fire_aspect 2|first_strike 4|venomous 5|sharpness 5|titan_killer 5|cubism 5|prosecute 5|lethality 5|,false
+2024-05-18,Goldor's Leggings,6000000,34bd55ce724e4a128f80ff4e4e784a51,none,1,0,,false
+2024-05-18,Necron's Helmet,28000000,23abd3f3b8d4416abb95a9c1fcc08eb5,ancient,5,0,ferocious_mana 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Necron's Leggings,31998999,9b57f8c07c264b678a544fdb919c2a33,ancient,5,0,rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Goldor's Chestplate,33000000,a9fc419ac9754c3b89cd842500454bdd,giant,5,5,growth 6|rejuvenate 5|protection 5|,true
+2024-05-18,Spirit Sceptre,21200000,2e6a8c9d37f349ee87d82b7b87301a91,heroic,5,0,ultimate_wise 5|luck 5|critical 5|first_strike 4|sharpness 5|ender_slayer 5|scavenger 3|execute 5|giant_killer 5|,false
+2024-05-18,Storm's Chestplate,30400000,9a9221f1484042ee9d8dc8665498696d,loving,5,0,ultimate_wisdom 5|rejuvenate 5|growth 5|protection 5|,false
+2024-05-18,Maxor's Boots,18300000,dcaf0d57ab514499a0ebbe7838950dab,ancient,5,5,sugar_rush 3|mana_vampire 4|ultimate_wisdom 3|rejuvenate 5|feather_falling 6|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Maxor's Boots,2200000,1a6189b6e17f4c4988873d5a0c69a24a,none,0,0,,false
+2024-05-18,Necron's Boots,25000000,4e58a9cb006c4f49847331d266af5ae7,ancient,5,0,ultimate_wisdom 5|rejuvenate 5|feather_falling 10|protection 5|growth 5|,true
+2024-05-18,Maxor's Boots,29299000,4a815160d47641bd8b5a95d70c2f903e,ancient,0,5,ferocious_mana 6|ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Maxor's Leggings,7900000,f752bdce064644c68e515483bfc636c4,none,0,0,,false
+2024-05-18,Necron's Boots,24450000,83074366f3a5409cb28875d545bcf720,ancient,5,0,rejuvenate 5|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,37400000,710de517eda24c8482165662242bfd1b,ancient,5,0,rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Storm's Leggings,24500000,245964f0417c4b7c82a9043b9c49e7f0,necrotic,0,0,ultimate_wisdom 5|rejuvenate 5|hardened_mana 3|protection 5|growth 5|,false
+2024-05-18,Maxor's Chestplate,12499900,d78e7c7b558e4f3aa5e2c307350c48dd,none,1,0,,false
+2024-05-18,Livid Dagger,7400000,f524b951b244445cbbe2f4364bd6d310,fabled,5,0,giant_killer 6|syphon 4|lethality 6|critical 6|luck 5|cleave 5|looting 3|ender_slayer 5|scavenger 3|fire_aspect 2|vampirism 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|prosecute 5|,false
+2024-05-18,Necron's Helmet,28000000,1fe323f47dba41c6b438d7fc75c00469,ancient,5,0,rejuvenate 5|thorns 3|protection 5|respiration 3|growth 5|aqua_affinity 1|,true
+2024-05-18,Spirit Sceptre,23500000,1dc8f464be5642d6ab3cfa681e9dcdf0,heroic,5,0,ultimate_wise 5|venomous 5|smite 5|ender_slayer 5|life_steal 3|cubism 5|giant_killer 5|prosecute 5|,false
+2024-05-18,Goldor's Chestplate,13500000,7715eb28db96432792d511e6ebcdd1aa,none,0,0,,false
+2024-05-18,Necron's Leggings,31999999,c1626505f5b84888bc73bd606fe9b10e,ancient,5,0,rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Necron's Chestplate,37800000,e4ae97e97714456a9877dd16cd846e5a,ancient,5,0,rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Goldor's Chestplate,39499999,18202b1638544c7d8332c9b7bc349feb,giant,5,0,growth 6|ultimate_last_stand 5|protection 6|hardened_mana 6|true_protection 1|rejuvenate 5|,true
+2024-05-18,Necron's Boots,29599999,b451399ca2824f108aeb0da215c4a32a,ancient,5,5,ultimate_wisdom 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Leggings,30500000,52242f13aed04c8aa2f7f5fd8b73be59,ancient,5,5,ultimate_last_stand 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Necron's Boots,25000000,feb7f1bc80324481b1f8f86216607c6e,ancient,5,5,ultimate_last_stand 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Goldor's Boots,7100000,718bbb859b724211ab1dd1e58fa14e57,giant,0,0,rejuvenate 5|feather_falling 9|depth_strider 3|thorns 3|growth 5|protection 5|,false
+2024-05-18,Giant's Sword,236000000,4207ea3a143d47418a1f13c444f78e5b,withered,6,5,ultimate_soul_eater 5|champion 10|sharpness 6|ender_slayer 6|giant_killer 6|vampirism 6|syphon 4|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|fire_aspect 2|first_strike 4|venomous 5|cubism 5|lethality 5|prosecute 5|,true
+2024-05-18,Necron's Chestplate,69000000,0f7d86fdd15044e4a9593b2f64d03ddf,ancient,5,5,ultimate_legion 5|ferocious_mana 5|true_protection 1|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Giant's Sword,153000000,2f0cf40ac6ff40b4860760abe57e6e84,withered,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Spirit Sceptre,18500000,72e4a44371fe4e50907f240b1368296f,none,0,0,,false
+2024-05-18,Necron's Boots,17400000,17a8de96c0e248a3b19d3f69db83853e,ancient,0,0,rejuvenate 3|feather_falling 9|depth_strider 3|thorns 3|protection 5|growth 5|,false
+2024-05-18,Necron's Boots,35500000,5188095c403a4561933064f745753e0e,ancient,5,5,sugar_rush 3|ferocious_mana 5|rejuvenate 5|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,7200000,2633211a0a2a4014a19d06651a7f50cc,fabled,0,0,ultimate_one_for_all 1|,false
+2024-05-18,Giant's Sword,184900000,c370e93aecdd4a659f6bf11543e02286,withered,5,5,ultimate_soul_eater 5|champion 7|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|ender_slayer 5|fire_aspect 2|vampirism 5|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|prosecute 5|,true
+2024-05-18,Livid Dagger,6780000,578fe2a180354bf2ac06fe7962893e99,none,0,0,,false
+2024-05-18,Livid Dagger,12000000,5b8ec2fc786f4ff297de3f88bacd8b62,fabled,5,3,ultimate_one_for_all 1|,true
+2024-05-18,Livid Dagger,12000000,80feb3bb0c9e4bd5b8a136ecdfddc873,fabled,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Storm's Chestplate,58000000,9f152b4119f64c4caf87e08990815eb9,loving,5,5,ultimate_wisdom 5|mana_vampire 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,13999990,574372bb8a8547be9011b67c2daa9ec3,fabled,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Livid Dagger,7500000,641dcd2be8194ee0aabcaa68db1f83c6,fabled,4,0,ultimate_one_for_all 1|,false
+2024-05-18,Livid Dagger,8099999,45714a3c8efd4142b8854d43f1bfc1b2,fabled,3,0,ultimate_one_for_all 1|,false
+2024-05-18,Giant's Sword,155000000,7483fcf9301e4dc8b8e67e28b0942f4d,fabled,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Bouquet of Lies,8450000,ccb964c2ce9d40be8a2a69be68bdccdc,heroic,1,0,luck 5|critical 5|first_strike 4|cleave 5|looting 3|sharpness 5|ender_slayer 5|scavenger 3|fire_aspect 2|,false
+2024-05-18,Goldor's Boots,1690000,6747362d47b74545a60621a4c6e87721,none,0,0,,false
+2024-05-18,Goldor's Leggings,6299999,0015bdac424e446a954ec0cc6a3fd10d,none,0,0,,false
+2024-05-18,Maxor's Boots,2200000,2f38909559e94ee0b97e9e033102eb6b,none,0,0,,false
+2024-05-18,Storm's Boots,10000000,cfb005f21f784a2baf188c628a541537,necrotic,0,0,feather_falling 10|thorns 3|growth 5|protection 5|,false
+2024-05-18,Goldor's Chestplate,13500000,c92c3fc97c85472fa192b56923dd6849,none,0,0,ultimate_bank 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Necron's Leggings,20000000,d46c8e5a1dce44ef84b8983c34232e6c,ancient,5,0,rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Storm's Boots,30000000,06190dd91ee64947b70afa19f722f944,giant,5,0,rejuvenate 4|feather_falling 7|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Storm's Leggings,35000000,c264efe28ba34e5abacbbcd1e7c24b88,necrotic,5,0,ultimate_wisdom 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Storm's Chestplate,38900000,14e0969880954dd59cbe792578dabbd4,loving,5,0,rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,10999999,846034ce695847668963668e6d10c56c,withered,0,0,ultimate_soul_eater 2|syphon 4|lethality 6|impaling 3|luck 5|critical 5|cleave 5|looting 3|telekinesis 1|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|venomous 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|,false
+2024-05-18,Maxor's Boots,6900000,673b89c2792b427680c76aa047667b12,ancient,5,0,sugar_rush 3|feather_falling 10|depth_strider 3|growth 5|protection 5|,false
+2024-05-18,Spirit Sceptre,27000000,9338643087794a108d7d642795e21f01,heroic,5,2,ultimate_wise 5|smite 6|impaling 3|luck 5|critical 5|cleave 5|looting 3|knockback 2|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|lethality 5|,true
+2024-05-18,Storm's Boots,30999999,b3fa7bdacfdd47e29e19c646c87cdf18,necrotic,5,0,ultimate_legion 3|sugar_rush 3|rejuvenate 5|ferocious_mana 2|feather_falling 10|depth_strider 3|growth 5|protection 5|,true
+2024-05-18,Storm's Chestplate,39000000,eb40d6e9e26a4e549dcaa6a8b8855eaa,loving,5,0,ultimate_wisdom 5|growth 5|protection 5|,true
+2024-05-18,Maxor's Chestplate,15000000,58a1ab3f0e7c49a48ae25675950a8fe7,ancient,1,0,,false
+2024-05-18,Goldor's Leggings,6200000,03194b07c6154e379b3dde954d0aa3c3,none,0,0,,false
+2024-05-18,Storm's Helmet,25000000,f97caa444ddf477dbb4ad5c2934da56f,ancient,5,0,ultimate_last_stand 4|rejuvenate 5|thorns 3|protection 5|growth 5|respiration 3|aqua_affinity 1|,true
+2024-05-18,Necron's Chestplate,89899990,3824c52d23234690b5737fd67717be37,ancient,7,5,ultimate_legion 5|growth 6|reflection 5|protection 6|strong_mana 5|true_protection 1|rejuvenate 5|,true
+2024-05-18,Storm's Leggings,23500000,38f0619a5a234a72ab07a2c64588ca22,necrotic,5,0,ultimate_wisdom 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Goldor's Boots,5090000,40312096f879414b9687ee427f01c38e,giant,5,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Necron's Chestplate,33000000,fe84174d6f2f471b84d612a08e298f96,ancient,5,0,true_protection 1|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Storm's Boots,32000000,a177a9acef5b469395856a0f73066e57,necrotic,5,0,growth 6|protection 6|ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|,true
+2024-05-18,Storm's Boots,9700000,074b3267750c43aba7d7471081095131,none,1,0,depth_strider 3|thorns 3|feather_falling 5|protection 5|growth 5|,false
+2024-05-18,Livid Dagger,6989998,57abe26c264d4e2685ef1c95f9b8758a,none,0,0,,false
+2024-05-18,Spirit Sceptre,18500000,0b3c8ab2062d4c44903b15ec7fab5c8a,none,0,0,,false
+2024-05-18,Spirit Sceptre,17000000,cac8894cb91f49b0a91740f11d947a8e,heroic,2,0,ultimate_wise 4|critical 5|first_strike 4|cleave 5|sharpness 5|life_steal 3|giant_killer 5|,false
+2024-05-18,Storm's Helmet,11300000,14aa2fd3a6fe4bada0f0c99b14e5dd6c,wise,1,0,ultimate_wisdom 1|thorns 3|growth 5|protection 5|respiration 3|aqua_affinity 1|,false
+2024-05-18,Giant's Sword,175350000,751dfaea76b5420eb70218f3a519f9b5,fabled,5,0,ultimate_soul_eater 5|impaling 3|luck 5|critical 5|cleave 5|looting 3|scavenger 3|ender_slayer 5|knockback 2|vampirism 5|fire_aspect 2|life_steal 3|execute 5|giant_killer 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|lethality 5|,true
+2024-05-18,Storm's Leggings,13799000,0c69a2231cdc4026ad27db64dbb69438,necrotic,2,0,growth 5|protection 5|,false
+2024-05-18,Giant's Sword,155000000,74f599d1fcfb49689fdcd2eb746f71d4,withered,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Necron's Chestplate,37700000,18da48adfb394f5f8dcbb3c153710664,ancient,5,5,ultimate_last_stand 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Storm's Chestplate,40000000,ec4336ca8f2042aaab02da4714e2a9aa,loving,5,0,ultimate_wisdom 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Giant's Sword,137000000,5e586a159198448fbbf7364535db8d69,none,0,0,,false
+2024-05-18,Storm's Chestplate,22500000,53ca5951ae924e628202aa1e49c6af5f,necrotic,2,0,protection 5|growth 5|,false
+2024-05-18,Storm's Leggings,35000000,713ccfbba91542789ad19da8899ebdf8,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Livid Dagger,13000000,b5318335abbc4c3a837f911aac78d78a,fabled,0,0,ender_slayer 6|ultimate_combo 5|looting 4|critical 6|scavenger 4|luck 6|impaling 3|telekinesis 1|vampirism 5|execute 5|life_steal 3|giant_killer 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|lethality 5|,true
+2024-05-18,Giant's Sword,138999000,eb143bb195f14bf09649bbac2ae59894,none,0,0,,false
+2024-05-18,Storm's Chestplate,40000000,6f69ebaa2dff43aba61a8a4fbbade195,loving,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Maxor's Boots,136000000,dc6f9c1baf1f4f27ac89922a8832b6b4,ancient,7,5,ultimate_legion 5|growth 6|protection 6|strong_mana 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|,true
+2024-05-18,Spirit Sceptre,18600000,b5dc379c2dc24c4687ccff67896580a7,heroic,3,0,ultimate_wise 4|sharpness 5|vampirism 5|life_steal 3|giant_killer 5|prosecute 5|,false
+2024-05-18,Necron's Chestplate,43000000,c889c5b6ecf1455995fdcc94fea8f965,ancient,5,5,ultimate_legion 3|ferocious_mana 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Livid Dagger,6900000,3bb15ae8acd54b53ad744fbdfce1faf9,fabled,3,0,luck 5|first_strike 4|critical 5|syphon 3|sharpness 5|giant_killer 5|,false
+2024-05-18,Livid Dagger,7200000,9ec22b95c5f14954adf9e5fe33779a9e,spicy,2,0,luck 5|critical 5|cleave 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Spirit Sceptre,26000000,6a2d52f8b2ff48b697c83431decb5529,heroic,3,0,ultimate_wise 5|impaling 3|luck 5|cleave 5|thunderbolt 5|looting 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|lethality 5|,true
+2024-05-18,Storm's Boots,9999999,3241aa35467646f7bb4f586a0c96ba34,necrotic,0,0,rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,false
+2024-05-18,Spirit Sceptre,20000000,69408f4878c34bc6b79578d9061c43c4,heroic,5,0,ultimate_wise 5|ender_slayer 6|vampirism 6|dragon_hunter 1|fire_aspect 3|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|smite 6|luck 6|impaling 3|cleave 5|knockback 2|giant_killer 5|first_strike 4|venomous 5|cubism 5|prosecute 5|,false
+2024-05-18,Spirit Sceptre,19000000,954fe90b186646f887c8240232d7dbaf,sharp,2,0,bane_of_arthropods 5|impaling 3|critical 5|cleave 5|looting 3|ender_slayer 5|knockback 2|fire_aspect 2|life_steal 3|execute 5|giant_killer 5|first_strike 4|cubism 5|,false
+2024-05-18,Goldor's Boots,1690000,08b4db59a53c426ab759509939f54f45,none,0,0,,false
+2024-05-18,Goldor's Chestplate,34000000,5815dd26bb06412080b09e272da4d941,giant,0,5,reflection 5|hardened_mana 7|ultimate_last_stand 5|true_protection 1|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Maxor's Boots,33480000,bdc15b3a4bf2456f8945f9632e946d31,ancient,0,5,ferocious_mana 6|ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Goldor's Leggings,6299000,d9daf1620c0d43f49ec9616bcbcf4ce2,none,0,0,,false
+2024-05-18,Goldor's Boots,1700000,7a61cfaccc2141c293c3675a0a271084,none,0,0,,false
+2024-05-18,Necron's Leggings,22000000,e8cad8c29b834fedbe6edcae0ff80e50,ancient,5,0,rejuvenate 5|protection 5|growth 5|,false
+2024-05-18,Goldor's Chestplate,13500000,cd6e214b65724357a02d72f4aa164820,none,0,0,,false
+2024-05-18,Goldor's Leggings,6990000,e6e8bb00f686450d878c69cc87030a3d,none,0,0,,false
+2024-05-18,Maxor's Boots,9000000,ac2713894a0f46aab81bf96e31cab5e8,fierce,4,0,ultimate_last_stand 5|protection 5|growth 5|,false
+2024-05-18,Goldor's Chestplate,13200000,10356729b3b74dbf96267aae3b3a5336,none,0,0,,false
+2024-05-18,Necron's Helmet,13399000,def830a403344484a7b630502f21963b,none,0,0,,false
+2024-05-18,Necron's Leggings,21780000,d5b7ab6376fb415d8a30a7007804d8c7,none,5,0,,false
+2024-05-18,Goldor's Chestplate,69900000,6846cd4297f940b09e1a641748607245,giant,7,5,growth 6|ultimate_last_stand 5|protection 6|hardened_mana 6|true_protection 1|rejuvenate 5|thorns 3|,true
+2024-05-18,Necron's Chestplate,58000000,d1d5ef09b73c42a99cc52124c9c6adff,ancient,7,5,growth 6|ultimate_last_stand 5|protection 6|ferocious_mana 5|true_protection 1|rejuvenate 5|thorns 3|,true
+2024-05-18,Storm's Chestplate,43000000,f9cde94a4ad2453e87b3ae8a2199f366,loving,5,0,protection 6|ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-18,Livid Dagger,14600000,fa6589e76780401cab0ce8dd6d34f092,fabled,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Livid Dagger,8000000,7d52f16db9444c9ca155df4a67dff348,sharp,5,0,ender_slayer 6|looting 4|scavenger 4|luck 6|impaling 3|critical 5|cleave 5|knockback 2|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Maxor's Boots,19000000,905f581cf2054dbc94ba0dbe75464f4e,ancient,5,0,protection 6|ultimate_wisdom 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|,true
+2024-05-18,Spirit Sceptre,18000000,17923848ff7d4dd9a3ca1955e1d06757,heroic,5,0,ultimate_wise 5|luck 5|critical 5|cleave 5|looting 3|ender_slayer 5|knockback 2|scavenger 3|fire_aspect 2|life_steal 3|giant_killer 5|first_strike 4|sharpness 5|cubism 5|,false
+2024-05-18,Necron's Boots,17000000,8977ab95d99147409166823eb2fa16bf,ancient,5,0,sugar_rush 3|hardened_mana 5|respite 5|protection 5|growth 5|,false
+2024-05-18,Necron's Boots,17599000,ca224520e949445f8acaa7da91169643,ancient,5,0,rejuvenate 5|depth_strider 3|feather_falling 5|protection 5|growth 5|,false
+2024-05-18,Bouquet of Lies,8500000,a7ef0a0e4e584acab0702241a7bb41d1,none,0,0,,false
+2024-05-18,Goldor's Leggings,29993930,15abda07177942bd8685e125c483db44,giant,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Goldor's Leggings,27000000,cae9065ee52e4191be16c9f183573214,giant,5,5,ultimate_last_stand 5|mana_vampire 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Storm's Leggings,35000000,ad63d1174ae9440590469ab9ac461fa7,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Livid Dagger,9299999,f7306c7abd9043749d5b84ff16c9de0d,spicy,0,0,impaling 3|luck 5|critical 5|looting 3|syphon 3|ender_slayer 5|scavenger 3|telekinesis 1|vampirism 5|fire_aspect 2|giant_killer 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|lethality 5|prosecute 5|,false
+2024-05-18,Necron's Leggings,42499999,8be93755b26f4cb19c5051450f6f68d0,ancient,5,5,growth 6|ultimate_last_stand 5|protection 6|strong_mana 5|rejuvenate 5|thorns 3|,true
+2024-05-18,Livid Dagger,14000000,1b648901f1cd4d7a83e4b96c7eeb2969,withered,0,5,ultimate_soul_eater 5|champion 10|lethality 6|life_steal 4|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|telekinesis 1|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|,false
+2024-05-18,Livid Dagger,15000000,974f676f7c764371b8da31d6ea77d084,withered,0,10,sharpness 6|ender_slayer 6|giant_killer 6|life_steal 4|ultimate_combo 5|critical 6|luck 5|cleave 5|looting 3|scavenger 3|telekinesis 1|fire_aspect 2|vampirism 5|execute 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|lethality 5|,true
+2024-05-18,Necron's Chestplate,35000000,c04a3921b57944a2a8c4cdb2e6fa568b,ancient,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Spirit Sceptre,21000000,12cd2c6d949c449e9f2d7e53121f1194,heroic,3,0,ultimate_wise 5|critical 5|first_strike 3|cleave 5|syphon 3|sharpness 5|ender_slayer 5|scavenger 3|titan_killer 5|prosecute 5|,false
+2024-05-18,Giant's Sword,165330000,982c7acc86ef420bafcd8ae67014324b,withered,5,5,ultimate_soul_eater 5|sharpness 6|giant_killer 6|vampirism 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|fire_aspect 2|first_strike 4|venomous 5|cubism 5|prosecute 5|,false
+2024-05-18,Spirit Sceptre,22099000,80e76088a39a4ad1a5542469fa2321ef,heroic,5,0,ultimate_wise 5|luck 5|critical 5|cleave 5|looting 3|ender_slayer 5|knockback 2|scavenger 3|fire_aspect 2|life_steal 3|giant_killer 5|first_strike 4|sharpness 5|cubism 5|,false
+2024-05-18,Livid Dagger,9399999,7b88aba9c5174d2a85f6a3c9a4b6f6cd,fabled,5,0,ultimate_combo 5|looting 4|critical 6|luck 5|cleave 5|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|,false
+2024-05-18,Storm's Chestplate,48360000,b2620bc0d0454edc93dafdc4c88ec3da,loving,5,0,protection 6|ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-18,Livid Dagger,18000000,3f5d56fdf5164f8e9eab6ac41ed09e2c,fabled,5,0,ultimate_swarm 5|giant_killer 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|smite 6|luck 6|fire_aspect 2|vampirism 5|execute 5|venomous 5|triple_strike 4|,true
+2024-05-18,Giant's Sword,167000000,cb763b93fcf248fd89fa7110f2641274,withered,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Giant's Sword,189000000,02f03127973545a1a00910430f3fcee7,fabled,5,5,ultimate_soul_eater 5|champion 5|sharpness 6|ender_slayer 6|vampirism 6|fire_aspect 3|syphon 4|lethality 6|titan_killer 6|looting 4|critical 6|scavenger 4|luck 6|impaling 3|thunderbolt 5|cleave 5|venomous 5|first_strike 4|cubism 5|prosecute 5|,true
+2024-05-18,Storm's Boots,10200000,eedafeaa1b1c45ea89191eaec5a19ed3,necrotic,0,0,protection 5|growth 5|,false
+2024-05-18,Storm's Leggings,14000000,b79e8e25dd964a4787f2500c7f6e398c,necrotic,0,0,,false
+2024-05-18,Storm's Chestplate,23200000,09dde6f23f2e41708334aad3f3248054,necrotic,1,0,ultimate_refrigerate 2|rejuvenate 5|growth 5|protection 5|,false
+2024-05-18,Livid Dagger,16699999,edc71ed631fb4296954db7bfc24fb930,withered,0,5,ultimate_soul_eater 5|champion 10|life_steal 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|telekinesis 1|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|,false
+2024-05-18,Bouquet of Lies,11000000,42d3a2c704184aac85b083b0d9355509,sharp,5,0,ultimate_one_for_all 1|,false
+2024-05-18,Goldor's Chestplate,34888000,5f1ff7be012940b49d7c3e2f8c2ff584,giant,5,0,ultimate_last_stand 5|hardened_mana 6|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Necron's Chestplate,22100000,c3450858ef6142cb80938f92ca04908f,none,0,0,,false
+2024-05-18,Storm's Chestplate,115000000,18100650f85449dd835d845eaa3136fa,loving,5,5,ultimate_legion 5|growth 6|protection 6|true_protection 1|hardened_mana 5|rejuvenate 5|thorns 3|,true
+2024-05-18,Maxor's Boots,29000000,6b5c9357b3324c5db822adca008b27fa,necrotic,5,5,ultimate_wisdom 5|mana_vampire 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Goldor's Leggings,5999999,70f36ee43a714e3e89962e563679a1da,none,0,0,,false
+2024-05-18,Necron's Chestplate,37999999,61fe59f6d5af4ca1b10c7464b79210bb,ancient,5,5,thorns 3|growth 5|protection 5|,true
+2024-05-18,Giant's Sword,190000000,cd4a06e6d60d43cbad7445bff081e2f1,fabled,5,5,ultimate_soul_eater 5|champion 10|syphon 4|titan_killer 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|ender_slayer 5|fire_aspect 2|vampirism 5|venomous 5|first_strike 4|sharpness 5|cubism 5|lethality 5|prosecute 5|,true
+2024-05-18,Spirit Sceptre,68000000,2de8ef70729b41b8b161e6b74022226f,heroic,0,0,smite 7|ultimate_wise 5|ender_slayer 6|giant_killer 6|vampirism 6|fire_aspect 3|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|telekinesis 1|knockback 2|first_strike 4|venomous 5|cubism 5|lethality 5|prosecute 5|,true
+2024-05-18,Storm's Leggings,13790000,729a2ae78cb54544bad5080348cc49af,none,0,0,,false
+2024-05-18,Maxor's Boots,2100000,b5a643ee18c94f699d2eb56ec5df4337,none,0,0,,false
+2024-05-18,Spirit Sceptre,18000000,cdb25d5795b445c98979171ef5d1bd74,none,0,0,,false
+2024-05-18,Giant's Sword,136999999,c42dd1602db4458ebfc0af61e12f3fd4,none,0,0,,false
+2024-05-18,Bouquet of Lies,10150000,4dd1c7675580484eb65b7c34c56732b6,legendary,2,0,ultimate_wise 5|luck 5|critical 5|cleave 5|looting 3|ender_slayer 5|scavenger 3|fire_aspect 2|vampirism 5|giant_killer 5|first_strike 4|sharpness 5|,false
+2024-05-18,Necron's Boots,21999997,a9728cd42f7843a6b620aad682867bd5,ancient,5,5,ultimate_last_stand 5|rejuvenate 5|depth_strider 3|thorns 2|protection 5|growth 5|,false
+2024-05-18,Livid Dagger,8400000,289e61e7ffcb425eb52322bfdd693fa3,fabled,5,0,ultimate_one_for_all 1|,false
+2024-05-18,Giant's Sword,150000000,643a0a5426414df7bfc905660de4ef29,fabled,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Bouquet of Lies,8500000,a8ab06a9afb448d09afef3a9c7bd0048,none,0,0,,false
+2024-05-18,Livid Dagger,16000000,cfe3c805c92a425db8fdb30c6c3c85e0,fabled,5,0,ultimate_soul_eater 3|ender_slayer 6|syphon 4|luck 5|critical 5|cleave 5|looting 3|scavenger 3|vampirism 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|prosecute 5|lethality 5|,true
+2024-05-18,Giant's Sword,169000000,28eac7db1f4540f99024a6fee30a650b,withered,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Necron's Chestplate,30000000,db98ccddd7ce411aa59da5f4fa22e168,ancient,5,0,rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Livid Dagger,6000000,d4276c833b9244f2896e82f105df750d,fabled,5,0,ultimate_soul_eater 3|ender_slayer 6|syphon 4|luck 5|critical 5|cleave 5|looting 3|scavenger 3|vampirism 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|prosecute 5|lethality 5|,true
+2024-05-18,Necron's Boots,14500000,91ecc4198f354bd08d7f4ac2b6be70a0,ancient,0,0,,false
+2024-05-18,Necron's Chestplate,54999900,9aa2b4e220864faa8975212aa4119548,ancient,6,5,ultimate_last_stand 5|protection 6|strong_mana 5|true_protection 1|rejuvenate 5|growth 5|,true
+2024-05-18,Spirit Sceptre,18500000,71653277dd4145a294f7b9cf23e5bede,none,0,0,,false
+2024-05-18,Livid Dagger,8750000,a591311fd58d4351b54b176338d5ff16,fabled,5,0,syphon 4|ultimate_combo 5|looting 4|scavenger 4|luck 6|impaling 3|critical 5|cleave 5|thunderbolt 5|telekinesis 1|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Giant's Sword,141000000,cac10b0da81641e7b31f597ab6833866,none,0,0,,false
+2024-05-18,Spirit Sceptre,22400000,b60609031f1b44498231551f07dce969,heroic,5,0,ultimate_wise 5|ender_slayer 6|vampirism 6|dragon_hunter 1|fire_aspect 3|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|smite 6|luck 6|impaling 3|cleave 5|knockback 2|giant_killer 5|first_strike 4|venomous 5|cubism 5|prosecute 5|,false
+2024-05-18,Livid Dagger,6500000,a838b36dc971481380da28e9e2bdbb57,none,0,0,,false
+2024-05-18,Goldor's Leggings,6900000,c5a60d44274a4a19b70bd5735431c726,none,0,0,,false
+2024-05-18,Livid Dagger,7900000,fdf3353c2d4047ccb93fcb3f8cc05031,fabled,5,0,ultimate_one_for_all 1|,false
+2024-05-18,Bouquet of Lies,8600000,a722827f7572413885fcce72df560245,spicy,3,0,first_strike 4|critical 5|venomous 5|looting 3|thunderlord 5|ender_slayer 5|sharpness 5|fire_aspect 2|life_steal 3|giant_killer 5|lethality 5|,false
+2024-05-18,Goldor's Boots,1900000,aa87045268464514a0e59feb41e397d4,none,0,0,growth 5|protection 5|,false
+2024-05-18,Livid Dagger,6990000,972417b7082a459f9a0a687af1313fe7,none,0,0,,false
+2024-05-18,Livid Dagger,17999999,d08d25092d7b4daea477810ac41a5a06,withered,0,5,champion 10|ultimate_soul_eater 3|sharpness 6|looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|telekinesis 1|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|venomous 5|first_strike 4|thunderlord 5|cubism 5|lethality 5|,true
+2024-05-18,Necron's Leggings,60300000,e288b34d766e4ba3b61284cd40cd310d,ancient,5,5,ultimate_legion 5|ferocious_mana 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Giant's Sword,160000000,ec66615c4ce645adabbfd02e6334a05d,none,5,0,,true
+2024-05-18,Spirit Sceptre,24000000,3bed4d755c134404889605281ffa73c7,heroic,5,0,ultimate_wise 5|scavenger 4|smite 6|impaling 3|luck 5|critical 5|cleave 5|thunderbolt 5|looting 3|ender_slayer 5|fire_aspect 2|vampirism 5|giant_killer 5|venomous 5|triple_strike 4|cubism 5|prosecute 5|lethality 5|,false
+2024-05-18,Livid Dagger,6989999,57ad34b2ab0546a392a08bbe4fb10cf9,none,0,0,,false
+2024-05-18,Livid Dagger,12000000,7ad7c707b91c4a389ee10a12411e6b8f,sharp,3,0,champion 4|tabasco 3|sharpness 6|ultimate_combo 5|looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|thunderlord 5|cubism 5|lethality 5|,true
+2024-05-18,Bouquet of Lies,29999000,d60d6025cfb249b787765c41a51ad498,withered,0,0,ultimate_soul_eater 3|impaling 3|luck 5|critical 5|cleave 5|looting 3|ender_slayer 5|scavenger 3|knockback 2|vampirism 5|fire_aspect 2|execute 5|life_steal 3|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,true
+2024-05-18,Necron's Leggings,35660500,6b44ea7bdbc64c03be5872807d889789,ancient,5,0,ultimate_last_stand 5|ferocious_mana 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Boots,26000000,56847165097a4eb2bfd74d1a0262a852,ancient,5,0,rejuvenate 3|protection 5|growth 5|,true
+2024-05-18,Necron's Leggings,26700000,ac66687ea9c14a8693a08f2e69e3df3a,ancient,0,0,,true
+2024-05-18,Spirit Sceptre,18499999,6906c624259d4c4ea8a32f3b3ca7cadc,legendary,0,0,,false
+2024-05-18,Necron's Helmet,16000000,19d6ea57bc754f86adff03703e6839a7,ancient,5,0,thorns 3|protection 5|growth 5|respiration 3|aqua_affinity 1|,false
+2024-05-18,Goldor's Boots,1950000,a07e34ee2c2d406d86bec7856ad203ce,wise,0,0,protection 5|growth 5|,false
+2024-05-18,Necron's Helmet,28500000,a3c236ed7b4b482f97136f7735034a0a,ancient,3,0,thorns 3|protection 5|growth 5|respiration 3|aqua_affinity 1|,true
+2024-05-18,Storm's Chestplate,19898000,160a4a21543f458299dfd05bd4f9ba3b,none,0,0,,false
+2024-05-18,Necron's Chestplate,22088889,2d4e4f356b14491aaa5cde4dc7f300bd,none,0,0,,false
+2024-05-18,Necron's Leggings,30000000,9bd9721d9cf34332a74af76131264773,ancient,5,0,strong_mana 4|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Necron's Chestplate,31000000,28bb4a22aa504e6388cd7ebc313b4265,ancient,0,0,thorns 3|growth 5|protection 5|,true
+2024-05-18,Livid Dagger,11400000,19fd636fe7264c9b870bfe8bbd76b686,withered,0,0,ultimate_one_for_all 1|telekinesis 1|,false
+2024-05-18,Necron's Chestplate,33000000,81f2b900946a422c8998b25bff71237a,ancient,5,0,ultimate_last_stand 5|true_protection 1|rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Spirit Sceptre,22900000,b29a319c8630439a9100fbc4fabf8b5f,heroic,4,0,ultimate_wise 5|life_steal 4|lethality 6|looting 4|scavenger 4|thunderlord 6|smite 6|luck 6|impaling 3|critical 5|cleave 5|ender_slayer 5|vampirism 5|giant_killer 5|first_strike 4|venomous 5|cubism 5|prosecute 5|,false
+2024-05-18,Bouquet of Lies,8500000,bcb4951d97e94a00a6e54c18e0e47315,none,0,0,,false
+2024-05-18,Goldor's Boots,24999000,76f17510cc6a449cb6d02bfa44432ab6,giant,6,0,ultimate_last_stand 5|sugar_rush 3|hardened_mana 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Spirit Sceptre,29990000,0ca85a8083bd440c8c7134e882dd2ada,heroic,5,0,ultimate_wise 5|vampirism 6|looting 4|critical 6|scavenger 4|smite 6|luck 6|impaling 3|cleave 5|thunderbolt 5|ender_slayer 5|fire_aspect 2|execute 5|giant_killer 5|first_strike 4|venomous 5|cubism 5|,true
+2024-05-18,Spirit Sceptre,18600000,a68e1820a49e41b7be9e8d61e4e8ba8e,heroic,0,0,looting 4|scavenger 4|luck 6|impaling 3|sharpness 5|cubism 5|giant_killer 5|,false
+2024-05-18,Livid Dagger,9500000,51e8c8a8d6e443cc95a8e8e6c6cdcb1b,withered,5,0,ultimate_soul_eater 1|critical 6|triple_strike 4|thunderlord 5|sharpness 5|vampirism 5|execute 5|giant_killer 5|lethality 5|,false
+2024-05-18,Necron's Boots,13999999,7eef404c21cb4e4886d7f2558b3bc399,fierce,5,0,thorns 3|feather_falling 5|protection 5|growth 5|,false
+2024-05-18,Livid Dagger,8250000,b0d37b231ae447038e7110f74633df6a,dirty,5,0,ultimate_wise 1|impaling 3|luck 3|critical 5|cleave 5|thunderbolt 5|looting 3|syphon 3|knockback 2|ender_slayer 5|scavenger 3|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|venomous 5|triple_strike 4|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Necron's Leggings,107000000,f0dd39dd86f04aeeb5363c1ac3012ba5,ancient,7,5,ultimate_legion 5|smarty_pants 5|growth 6|hardened_mana 7|protection 6|rejuvenate 5|thorns 3|,true
+2024-05-18,Giant's Sword,144000000,85b4b528d1d545baa2e575b1ebcdacd1,none,0,0,,false
+2024-05-18,Storm's Helmet,10500000,27667b242b3c484b903332c678372141,none,0,0,,false
+2024-05-18,Spirit Sceptre,20000000,a587eef6dc34466b811ebf3e240cad42,none,0,0,ultimate_wise 5|impaling 3|critical 5|cleave 5|sharpness 5|cubism 5|,false
+2024-05-18,Storm's Leggings,13700000,2572c105152a4905ae5cb9ec58c43479,none,0,0,,false
+2024-05-18,Storm's Chestplate,19500000,e0e2e20371624d42a1ee3582ebf148c2,none,0,0,,false
+2024-05-18,Spirit Sceptre,34900000,d7959ff544dc40c4a78968cab447b763,none,0,0,,false
+2024-05-18,Goldor's Helmet,3200000,759e658e32ca4ff7af9c2beb57852485,none,0,0,,false
+2024-05-18,Livid Dagger,15000000,b14b1634773547959eff4c80da69f0f5,odd_sword,5,0,sharpness 6|life_steal 4|ultimate_combo 5|critical 6|luck 5|cleave 5|looting 3|telekinesis 1|scavenger 3|ender_slayer 5|fire_aspect 2|giant_killer 5|first_strike 4|thunderlord 5|cubism 5|prosecute 5|,true
+2024-05-18,Storm's Boots,9650000,4394dd40a0f646ec9beed54a9b53de5e,none,0,0,,false
+2024-05-18,Necron's Leggings,21560000,4abf0ab6fd274ac5990a3cd874d119b1,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Spirit Sceptre,18788000,2ee7c77a3b7b4c6694b42d6720e95f36,none,0,0,,false
+2024-05-18,Storm's Leggings,14000000,a1fbbcd2438445149719addd5d6a06e9,none,0,0,,false
+2024-05-18,Storm's Chestplate,19799000,478d13f4e63545ac8a9092c80d36dc87,none,0,0,,false
+2024-05-18,Storm's Boots,27000000,d92a8595fa3247afb24aa9931b046bfb,necrotic,5,0,ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|depth_strider 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,7000000,a16ecb1bb40645a7aadb4ed36b9a94de,none,0,0,,false
+2024-05-18,Storm's Chestplate,94000000,7fb6ed3495084e92916c5d75361ef23a,loving,7,5,ultimate_legion 5|growth 6|protection 6|rejuvenate 5|,true
+2024-05-18,Storm's Helmet,25400000,b117994cb4584e91ab659764cc919aa4,ancient,5,0,rejuvenate 5|thorns 3|protection 5|respiration 3|growth 5|aqua_affinity 1|,true
+2024-05-18,Maxor's Boots,1700000,19f176a540244cf099379fb6808c4f59,none,0,0,,false
+2024-05-18,Livid Dagger,7000000,4bc2f69392874659bf7e1e2b25a65826,withered,5,0,ultimate_soul_eater 4|looting 4|critical 6|smite 6|luck 5|cleave 5|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|life_steal 3|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|,false
+2024-05-18,Storm's Leggings,111900000,3f920a6c652b4c8a8c63f2ea87ba1956,necrotic,7,5,mana_vampire 7|smarty_pants 5|growth 6|ultimate_last_stand 5|protection 6|rejuvenate 5|thorns 3|,true
+2024-05-18,Spirit Sceptre,39500000,9f54d54beeb547cca7b991251df7cb5a,heroic,5,5,smite 7|champion 4|ultimate_wise 5|life_steal 4|looting 4|scavenger 4|thunderlord 6|luck 6|impaling 3|critical 5|cleave 5|ender_slayer 5|fire_aspect 2|vampirism 5|giant_killer 5|first_strike 4|venomous 5|cubism 5|lethality 5|prosecute 5|,true
+2024-05-18,Necron's Boots,12259990,cb6b3e16472049b08ff3f46eb965e453,none,0,0,,false
+2024-05-18,Necron's Chestplate,22300000,d5babdde61384e6cba3d7c3123a48bd4,none,0,0,,false
+2024-05-18,Necron's Boots,22000000,5b1bdb6e123b41568b4e3be4c75cf89a,ancient,5,0,rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Storm's Chestplate,19800000,3ab94f5cd7f7400090148224ba8d2735,none,0,0,,false
+2024-05-18,Necron's Leggings,16599999,8e86770927e2437dbac810e9117f5710,none,0,0,protection 5|growth 5|,false
+2024-05-18,Necron's Chestplate,29000000,c2f21bf844d347e59ced12f2641b1fc6,ancient,5,0,rejuvenate 5|protection 5|growth 5|,false
+2024-05-18,Storm's Chestplate,40000000,cf8cf4dc627a4587b98828f2726322fa,loving,5,0,protection 6|ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-18,Necron's Leggings,16600000,30abcaba1dcb4a6c8206182fe5e3ceb2,none,0,0,,false
+2024-05-18,Storm's Boots,9600000,af800bc13b5146dabf10e06b0a71dfc4,none,0,0,,false
+2024-05-18,Livid Dagger,9000000,836fa05ed670451bb3e5fe991f7b441c,spicy,5,0,ender_slayer 6|giant_killer 6|vampirism 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|smite 6|luck 6|impaling 3|cleave 5|telekinesis 1|fire_aspect 2|execute 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|,true
+2024-05-18,Necron's Helmet,13700000,9d4c2f228a054e7d97d35959aa083824,none,0,0,,false
+2024-05-18,Livid Dagger,8400000,524035ce55724dbd81716e13a955139c,fabled,5,0,ultimate_one_for_all 1|,false
+2024-05-18,Storm's Leggings,35000000,7fc3e11fe7484cac94624bbd510b86a1,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Storm's Boots,9600000,5de4caf1418f439fa907f9b696508ca7,none,0,0,,false
+2024-05-18,Storm's Helmet,10999999,5f659f6822eb4ae5975f0f5b408318f0,none,1,0,,false
+2024-05-18,Giant's Sword,164000000,63a03eb57d4846c18c5eee6db3db42d6,withered,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Storm's Boots,28960000,950696300289494896bd46b010039687,necrotic,5,5,ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|protection 5|growth 5|,true
+2024-05-18,Necron's Boots,28000000,48e7a7eb5560426badac2742270c3389,ancient,5,0,ultimate_last_stand 5|sugar_rush 3|rejuvenate 5|depth_strider 3|thorns 3|feather_falling 5|growth 5|protection 5|,true
+2024-05-18,Storm's Boots,30000000,8f79005c0aad4682a8de7f52b1832f0c,giant,0,0,ultimate_wisdom 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Bouquet of Lies,30000000,d68ae02eff9846ea98138838d5ab5299,withered,0,0,ultimate_soul_eater 4|titan_killer 6|looting 4|critical 6|scavenger 4|smite 6|luck 6|impaling 3|cleave 5|syphon 3|telekinesis 1|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|lethality 5|,true
+2024-05-18,Livid Dagger,8999000,d84d589ca66b46e9bcf07fbd556b8932,withered,0,0,ultimate_one_for_all 1|,false
+2024-05-18,Giant's Sword,180000000,ecd00fecde0f48e193e1dca5ddd2c369,withered,5,0,ultimate_soul_eater 5|champion 7|sharpness 6|giant_killer 6|vampirism 6|fire_aspect 3|syphon 4|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|ender_slayer 5|first_strike 4|venomous 5|cubism 5|prosecute 5|,false
+2024-05-18,Storm's Leggings,14000000,d4c927a9958d4d4183373b1692d91d9e,none,0,0,,false
+2024-05-18,Necron's Leggings,23000000,0ab5b8bb7c2848099f4c6ed01032788f,ancient,5,0,ultimate_refrigerate 1|rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Bouquet of Lies,8000000,2fc2bc52f384464b8dc793410cf8a7d3,none,0,0,,false
+2024-05-18,Maxor's Boots,2500000,289b6ea91c244ed696d70ca53d97dbf7,ancient,5,0,growth 6|feather_falling 6|depth_strider 3|thorns 3|protection 5|,false
+2024-05-18,Bouquet of Lies,12870000,f8ed7c0c92ca4e9e855c4c6ae1094a50,fabled,5,0,ultimate_wise 5|vampirism 6|life_steal 4|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|cleave 5|ender_slayer 5|fire_aspect 2|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|lethality 5|prosecute 5|,false
+2024-05-18,Spirit Sceptre,18789998,ae553adaadf1496a8d7f3f4d52f50afc,none,0,0,sharpness 5|,false
+2024-05-18,Maxor's Boots,3790000,c75a668785654690a51bc51ea7cc070b,ancient,0,0,,false
+2024-05-18,Necron's Chestplate,47000000,db48ce65c9624bc2b029465739c5cd0d,ancient,5,5,ultimate_legion 3|ferocious_mana 5|true_protection 1|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Maxor's Boots,4430000,71d7b15906384c598d7d25a505cb79ce,ancient,5,0,growth 6|feather_falling 6|depth_strider 3|thorns 3|protection 5|,false
+2024-05-18,Giant's Sword,145000000,cecc2733a9f245f4bb347027389f935f,none,0,0,,false
+2024-05-18,Storm's Leggings,29900000,ea1e689f9778441c9dc6f4b7caf3b76d,ancient,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Maxor's Boots,8500000,fb9fdc3f8ec8407882cef1e55da735b7,ancient,5,0,,false
+2024-05-18,Necron's Boots,45000000,4a52f47125b145ffbffc628c9be93e97,ancient,5,5,ultimate_legion 4|growth 6|protection 6|sugar_rush 3|ferocious_mana 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|,true
+2024-05-18,Maxor's Boots,6899000,645914795fa24c03ab20e9eec2bdf30e,fierce,5,0,depth_strider 3|protection 5|growth 5|,false
+2024-05-18,Maxor's Leggings,12000000,53ffd3b912fc49499719c5d0e8da2935,light,5,0,thorns 3|protection 5|growth 5|,false
+2024-05-18,Necron's Chestplate,57000000,ae4366c8242f45b89cb4184184f8b99d,ancient,7,5,ultimate_last_stand 5|mana_vampire 5|true_protection 1|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Necron's Leggings,55000000,f63117e6b4db484894c6616b6ddae7e9,ancient,7,5,growth 6|ultimate_last_stand 5|protection 6|strong_mana 5|rejuvenate 5|thorns 3|,true
+2024-05-18,Spirit Sceptre,36000000,a3d5896a9cdd4108bf4e5ad7fb069482,none,0,0,,false
+2024-05-18,Spirit Sceptre,18750000,3a24308d08b8412eaf1f0f0f6227e4bb,none,0,0,,false
+2024-05-18,Spirit Sceptre,18750000,4231da9d64ee43ddab87a0c9074d1980,none,0,0,,false
+2024-05-18,Storm's Leggings,46500000,685cbb06f16a445b82ee6eae5fad2542,necrotic,5,0,smarty_pants 5|growth 6|protection 6|ultimate_wisdom 5|mana_vampire 4|rejuvenate 5|,true
+2024-05-18,Necron's Chestplate,23000000,26564e192d514ec9a50138f5b01db0ee,none,0,0,pesterminator 3|mana_vampire 5|true_protection 1|rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Goldor's Boots,16000000,570d4fbc4f5e44de99ff4f01df8629a1,none,5,0,hardened_mana 5|feather_falling 10|growth 5|protection 5|,true
+2024-05-18,Necron's Chestplate,155000000,c089dca4d3ef43b0973e71079edeaca2,ancient,9,5,ultimate_legion 5|ferocious_mana 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Goldor's Boots,10000000,8875f0a9fc664c37aa7c6ae104d4abd1,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|protection 5|growth 5|,false
+2024-05-18,Livid Dagger,8500000,a70404fefd7b49d0ba39721327b0e5f6,fabled,5,0,thunderlord 6|smite 6|impaling 3|luck 5|critical 5|cleave 5|looting 3|syphon 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|venomous 5|triple_strike 4|cubism 5|lethality 5|,false
+2024-05-18,Livid Dagger,6900000,2ec45884862348d885ae68d83915127e,spicy,3,0,ultimate_swarm 2|luck 5|critical 5|cleave 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Livid Dagger,7900000,418b157837a94792b74e69eacf5c0ea7,heroic,3,0,ultimate_one_for_all 1|,false
+2024-05-18,Storm's Boots,9500000,af3d9fe4343f436f979ccb2f364dadf3,none,0,0,,false
+2024-05-18,Necron's Leggings,130000000,7e876539cbec4c3ab74ccdc315501c77,ancient,8,5,ultimate_legion 5|strong_mana 6|growth 6|protection 6|rejuvenate 5|thorns 3|,true
+2024-05-18,Necron's Helmet,17500000,7f1a2fea27414e499e3d1105bbdf7d9a,none,5,0,,false
+2024-05-18,Giant's Sword,155000000,d0c157d3c52d4c1eadc96ce8a2a98be9,withered,5,5,ultimate_one_for_all 1|,false
+2024-05-18,Goldor's Chestplate,33000000,d60281a9ec274e76b1947dfabe7baaa6,giant,5,0,growth 6|ultimate_last_stand 5|protection 6|hardened_mana 6|true_protection 1|rejuvenate 5|,true
+2024-05-18,Necron's Chestplate,21500000,cac6259e2b6e41e492c4c2c56b40c920,none,0,0,,false
+2024-05-18,Storm's Leggings,25000000,f8cfe39af4564752bce6513044c2ab99,ancient,5,0,ultimate_wisdom 5|protection 5|growth 5|,true
+2024-05-18,Storm's Boots,20000000,0a6cb97e79274adabeb186ffa76358b5,ancient,5,0,ultimate_wisdom 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Storm's Leggings,19010000,12c0970161e3468092459857b3b56ef5,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Giant's Sword,193499000,e0b554dcc03944d1935cfa3a188aadb1,withered,5,5,ultimate_soul_eater 5|sharpness 6|ender_slayer 6|vampirism 6|syphon 4|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|fire_aspect 2|giant_killer 5|first_strike 4|venomous 5|cubism 5|prosecute 5|lethality 5|,true
+2024-05-18,Storm's Chestplate,34000000,eef2acbad68346b4ab824088aaa1ee3d,ancient,5,0,ultimate_wisdom 5|mana_vampire 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Maxor's Boots,1200000,622e4d9aaaee4bbabba031e554b6857b,smart,0,0,,false
+2024-05-18,Storm's Chestplate,31599000,d52943ae7fc6449ba27675e4df5ef098,loving,5,0,ultimate_wisdom 5|true_protection 1|rejuvenate 5|hardened_mana 4|thorns 3|protection 5|growth 5|,false
+2024-05-18,Storm's Leggings,43560000,951dcf90d5904985a3c8121e102a5b1c,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Giant's Sword,181360000,df7c6dd02a584dc2a05667f07cf3482a,none,5,5,ultimate_soul_eater 5|smite 7|thunderlord 6|critical 5|first_strike 4|cleave 5|knockback 2|,true
+2024-05-18,Necron's Boots,26900000,364a3c3783b545f59a6e9b525e80fcce,ancient,5,0,depth_strider 3|thorns 3|feather_falling 5|protection 5|growth 5|,true
+2024-05-18,Goldor's Boots,1680000,611199c637454d63b425c15cf845d6cd,wise,0,0,protection 5|growth 5|,false
+2024-05-18,Storm's Boots,18000000,52ba23828b7e43c3bbd62608197fabaf,necrotic,5,0,ultimate_wisdom 5|sugar_rush 3|feather_falling 10|depth_strider 3|growth 5|protection 5|,false
+2024-05-18,Necron's Leggings,16699990,9f293ec608af400da906ccc7bb747031,none,0,0,,false
+2024-05-18,Bouquet of Lies,10410000,547f4a2733a34a4eafa1fb89cfc499f0,suspicious,0,0,sharpness 6|critical 6|impaling 3|luck 5|cleave 5|thunderbolt 5|looting 3|scavenger 3|ender_slayer 5|vampirism 5|life_steal 3|execute 5|giant_killer 5|venomous 5|triple_strike 4|cubism 5|lethality 5|,false
+2024-05-18,Necron's Leggings,32900000,8bcb382348014d6e95472479f308e08d,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Storm's Boots,9500000,b9cc62a1f8de4cff9d6344888542f3b7,none,0,0,,false
+2024-05-18,Storm's Chestplate,350000000,ead9b14ba2dc4c1886a0c4978b921a5b,ancient,1,5,ultimate_legion 5|growth 6|protection 6|true_protection 1|rejuvenate 5|,true
+2024-05-18,Bouquet of Lies,25000000,15c3ea6304654ede87ea8fd650f3ae83,withered,5,5,ender_slayer 6|giant_killer 6|fire_aspect 3|syphon 4|lethality 6|ultimate_combo 5|looting 4|critical 6|scavenger 4|thunderlord 6|smite 6|luck 6|impaling 3|cleave 5|vampirism 5|first_strike 4|venomous 5|cubism 5|prosecute 5|,true
+2024-05-18,Necron's Chestplate,39850000,0814dc78fe2e4bb8a7b102103e033b0b,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Giant's Sword,164000000,99721a74ac2947b28a622e801cbd04e8,withered,0,0,ultimate_one_for_all 1|telekinesis 1|,true
+2024-05-18,Livid Dagger,6900000,bc6c18f066c24212b5b2eea680dd7896,none,0,0,,false
+2024-05-18,Maxor's Boots,1930000,66cff0c463f84d3d93ebdda5a7ef48f0,smart,0,0,,false
+2024-05-18,Necron's Boots,12250000,f2427d8e177d4222a612ed449c5133d3,ancient,0,0,feather_falling 10|growth 5|protection 5|,false
+2024-05-18,Maxor's Helmet,4400000,8eda8ae4dce04eabafd1bb937f30be31,none,0,0,,false
+2024-05-18,Goldor's Boots,7000000,aae6d20b70cb4e6fbeb698667c37d2ab,giant,5,0,rejuvenate 5|depth_strider 3|feather_falling 5|protection 5|growth 5|,false
+2024-05-18,Goldor's Boots,2300000,b83c91d58c2844178bc95439f28a03c1,giant,4,0,thorns 3|feather_falling 5|protection 5|growth 5|,false
+2024-05-18,Spirit Sceptre,24000000,d8fb3d9b7b1e4f8c980256ee9763913e,heroic,5,0,ultimate_wise 5|luck 5|critical 5|cleave 5|looting 3|smite 5|scavenger 3|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|lethality 5|,false
+2024-05-18,Storm's Chestplate,39900000,ea117d5e76ac47a9836f955b43e5b0ed,loving,5,5,growth 6|reflection 5|protection 6|ultimate_wisdom 5|mana_vampire 5|true_protection 1|rejuvenate 5|,true
+2024-05-18,Necron's Leggings,18849999,95b0878d08f24309bd18772caac90df4,ancient,0,0,,false
+2024-05-18,Goldor's Leggings,6999000,fe81efb6035b446f9b0379201c0e0d21,none,0,0,,false
+2024-05-18,Maxor's Boots,33000000,67c4cfabe07b4e8d9bac3bf812d0a545,necrotic,0,0,ultimate_wisdom 5|mana_vampire 5|sugar_rush 3|rejuvenate 5|depth_strider 3|thorns 3|feather_falling 5|protection 5|growth 5|,true
+2024-05-18,Storm's Leggings,35000000,19ac9367a0094d69bdd9292509a48b1b,necrotic,5,5,smarty_pants 5|growth 6|protection 6|ultimate_wisdom 5|mana_vampire 5|rejuvenate 5|,true
+2024-05-18,Livid Dagger,8000000,8117d98cd6314bb0b755cd056e1422e5,fabled,5,0,impaling 3|luck 5|critical 5|cleave 5|looting 3|syphon 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Goldor's Chestplate,12000000,e90dc47545cc4cbb883e893422dfc459,giant,4,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Goldor's Leggings,7000000,e5d6319f67874de393eaeadc3bf6575e,giant,4,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Storm's Leggings,13700000,3ad506ebe9ca474aaa698e26bc4cc69f,none,0,0,,false
+2024-05-18,Livid Dagger,10000000,7b142508100144658a6bbe6ea60da9eb,fabled,5,0,ultimate_combo 5|impaling 3|luck 5|critical 5|cleave 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|prosecute 5|,false
+2024-05-18,Maxor's Boots,27000000,bede5fd8cca84606950b929e9d673527,necrotic,5,5,growth 6|protection 6|ultimate_wisdom 5|mana_vampire 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|,true
+2024-05-18,Maxor's Boots,30000000,7ed6ab487e4648b0bc400e767ecfc55d,ancient,5,0,rejuvenate 5|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Bouquet of Lies,8349000,df5c9a6a5c074060bcf8981b7c2a5570,none,0,0,,false
+2024-05-18,Storm's Chestplate,19900000,6f5bb9b04ccc479a943f0adf686b3ae5,none,0,0,,false
+2024-05-18,Necron's Leggings,16700000,e63f32aa29574da49d83e8c0b2f60a51,none,0,0,,false
+2024-05-18,Goldor's Leggings,7000000,d98025d62b914a67bc16e526573b61da,none,0,0,,false
+2024-05-18,Storm's Boots,9600000,9b4a5e35f2b84628b6457d18f7bcfa6a,none,0,0,,false
+2024-05-18,Goldor's Boots,1900000,e1d3070d4bc540309986b7d993195376,wise,0,0,protection 5|growth 5|,false
+2024-05-18,Necron's Boots,30000000,573dbcbd9aeb451ebb716d7a41dc2e0b,fierce,5,0,rejuvenate 5|ultimate_no_pain_no_gain 5|depth_strider 3|thorns 3|feather_falling 5|growth 5|protection 5|,true
+2024-05-18,Livid Dagger,10000000,79ee1009eb6e4131b5ae62bb5ae96680,fabled,0,0,ultimate_swarm 5|lethality 6|critical 6|thunderlord 6|impaling 3|luck 5|cleave 5|syphon 3|looting 3|ender_slayer 5|scavenger 3|fire_aspect 2|vampirism 5|first_strike 4|venomous 5|sharpness 5|cubism 5|titan_killer 5|prosecute 5|,false
+2024-05-18,Necron's Helmet,30030000,b741c3929948452085b9003e9d01c565,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Storm's Boots,19000000,2140dc738fbb4a7b9bdbe07517e242bb,necrotic,5,0,ultimate_wisdom 5|depth_strider 3|thorns 3|feather_falling 5|protection 5|growth 5|,false
+2024-05-18,Giant's Sword,164000000,046bdb68aad8447e8495a15069d7157e,spicy,5,0,ultimate_wise 5|luck 5|critical 5|cleave 5|looting 3|syphon 3|scavenger 3|ender_slayer 5|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,true
+2024-05-18,Spirit Sceptre,41000000,4b71d6cb4b074121adfd99448a15de05,none,0,0,,true
+2024-05-18,Goldor's Chestplate,13499999,b4b7f24b1d8542069c04ebd46a6434f9,none,1,0,protection 6|,false
+2024-05-18,Maxor's Boots,1800000,f37090bb10be49bda62158527728bb49,none,0,0,,false
+2024-05-18,Maxor's Helmet,4650000,e5ab6fc77669483aac4344c712703537,none,0,0,,false
+2024-05-18,Maxor's Leggings,6500000,0eea2ecb5a6941f7bc583a10e7542a94,necrotic,0,0,growth 5|protection 5|,false
+2024-05-18,Livid Dagger,7000000,502aead8ffe9481e9927795cc1f45a4e,none,0,0,,false
+2024-05-18,Necron's Chestplate,21500000,cccaf34ad8724c3788833efb6438979c,none,0,0,,false
+2024-05-18,Necron's Leggings,16799999,8715eeca68194aa78ef8a308d347d9f3,none,0,0,,false
+2024-05-18,Livid Dagger,8000000,ee68002ab653404bb43c35223c5854ce,fabled,3,0,sharpness 6|giant_killer 6|critical 6|impaling 3|luck 5|cleave 5|syphon 3|looting 3|telekinesis 1|ender_slayer 5|scavenger 3|fire_aspect 2|vampirism 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|prosecute 5|lethality 5|,false
+2024-05-18,Necron's Boots,11899000,421b2df9792d4879b0d716cafae54781,none,0,0,,false
+2024-05-18,Maxor's Boots,7500000,aea48d67dfc7443aa11582bf4044d88f,necrotic,5,0,ultimate_wisdom 2|rejuvenate 4|strong_mana 1|depth_strider 3|feather_falling 5|protection 5|growth 5|,false
+2024-05-18,Necron's Boots,29599999,f4351b7bdcd54b34bca4b0e90d189de9,ancient,5,0,ultimate_last_stand 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|,true
+2024-05-18,Maxor's Boots,20000000,76133193454d48fbb69a8d709aad57db,necrotic,5,0,ultimate_wisdom 5|mana_vampire 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Spirit Sceptre,27000000,ad28090bdb8b4351a24092d2f6ef1f6a,heroic,5,0,ultimate_wise 5|lethality 6|titan_killer 6|looting 4|critical 6|scavenger 4|thunderlord 6|smite 6|luck 6|cleave 5|syphon 3|telekinesis 1|ender_slayer 5|fire_aspect 2|vampirism 5|venomous 5|triple_strike 4|cubism 5|prosecute 5|,true
+2024-05-18,Necron's Boots,15020000,8744d0f93af446f391a0dd06a1a5034c,ancient,5,0,rejuvenate 5|depth_strider 3|growth 5|protection 5|,false
+2024-05-18,Spirit Sceptre,24000000,7ba43321017948eea8f74cff5c20442e,heroic,5,0,ultimate_wise 5|looting 4|scavenger 4|smite 6|impaling 3|luck 5|thunderbolt 5|ender_slayer 5|vampirism 5|life_steal 3|execute 5|first_strike 4|venomous 5|cubism 5|lethality 5|,false
+2024-05-18,Maxor's Helmet,4600000,a32f884a8e6c4385abac70f4f6bf49c7,necrotic,5,0,rejuvenate 5|growth 5|protection 5|,false
+2024-05-18,Livid Dagger,6950000,761e45e62d5f42d08837c30455267668,spicy,0,0,critical 6|,false
+2024-05-18,Giant's Sword,165000000,8d4d54dea3364cab8e9883197da07ae5,withered,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Spirit Sceptre,27200000,263850a043bd4a2cb0c1475236e39897,heroic,0,0,ultimate_wise 5|smite 6|luck 5|critical 5|thunderbolt 5|looting 3|scavenger 3|telekinesis 1|vampirism 5|life_steal 3|giant_killer 5|venomous 5|first_strike 4|prosecute 5|lethality 5|,true
+2024-05-18,Necron's Leggings,40790000,0607d1de45cb44d89582c96a4ad13948,ancient,5,0,ultimate_legion 3|growth 6|protection 6|ferocious_mana 5|smarty_pants 2|rejuvenate 5|thorns 3|,true
+2024-05-18,Goldor's Leggings,33000000,4f4cf2900a784464a2052414c6ae8d78,giant,0,0,rejuvenate 4|hardened_mana 3|growth 5|protection 5|,true
+2024-05-18,Livid Dagger,19500000,c0bc20f254554ee7ba297fe4b8531950,fabled,5,0,ultimate_soul_eater 3|ender_slayer 6|giant_killer 6|vampirism 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|telekinesis 1|fire_aspect 2|execute 5|venomous 5|first_strike 4|sharpness 5|cubism 5|,true
+2024-05-18,Goldor's Leggings,9700000,e08d97c559704383a5be9207e93d4e7d,giant,5,0,thorns 3|protection 5|growth 5|,false
+2024-05-18,Livid Dagger,8000000,0df83b19eb5d4a8f8fca3b5026f4de1a,fabled,5,0,champion 10|ultimate_combo 5|looting 4|critical 6|scavenger 4|smite 6|luck 6|impaling 3|cleave 5|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|first_strike 4|venomous 5|thunderlord 5|cubism 5|titan_killer 5|lethality 5|,false
+2024-05-18,Maxor's Boots,9400000,da4930bd03c34b2eaaa8f8869868551d,ancient,0,0,ultimate_last_stand 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|protection 5|growth 5|,false
+2024-05-18,Maxor's Boots,2000000,292edd3613bd4a33b73b80c51b33208a,fierce,3,0,feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,false
+2024-05-18,Livid Dagger,9000000,7c2e5fc1b1ce4903b69959264ccf6204,fabled,5,0,syphon 4|ultimate_combo 5|looting 4|scavenger 4|luck 6|impaling 3|critical 5|cleave 5|thunderbolt 5|telekinesis 1|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Giant's Sword,170000000,db2314c3cbd347c1aa7b0c2a5f32689b,withered,5,0,ultimate_soul_eater 5|champion 10|sharpness 6|giant_killer 6|vampirism 6|life_steal 4|lethality 6|looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|thunderbolt 5|ender_slayer 5|fire_aspect 2|first_strike 4|venomous 5|cubism 5|prosecute 5|,false
+2024-05-18,Giant's Sword,130000000,c67af1bcc5e64fbaa1abe283269bb461,withered,5,5,ultimate_soul_eater 5|champion 5|thunderbolt 6|tabasco 3|sharpness 6|vampirism 6|fire_aspect 3|syphon 4|looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|ender_slayer 5|execute 5|giant_killer 5|first_strike 4|venomous 5|cubism 5|lethality 5|,true
+2024-05-18,Necron's Chestplate,26000000,638edb2b22064bbfa6e5cc68fd6a1505,giant,5,0,thorns 3|protection 5|growth 5|,false
+2024-05-18,Spirit Sceptre,18750000,91472777c31d4b78af1dc81176ec9abb,heroic,0,0,,false
+2024-05-18,Necron's Leggings,35000000,de8247f3f05442c7abfb85bead09e31f,ancient,5,5,ultimate_last_stand 5|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Maxor's Boots,55000000,d41f1eab593040758019964dfef29973,necrotic,5,5,ultimate_wisdom 5|mana_vampire 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|growth 5|protection 5|,true
+2024-05-18,Giant's Sword,170000000,5d5eba02311b484baf781b5e6132249e,withered,5,5,ultimate_soul_eater 5|sharpness 6|syphon 4|first_strike 4|critical 5|cleave 5|thunderbolt 5|fire_aspect 2|execute 5|giant_killer 5|lethality 5|,true
+2024-05-18,Necron's Chestplate,21400000,06a8c779c7d34fae96dd7486f6eb1ce3,fierce,2,0,protection 5|growth 5|,false
+2024-05-18,Necron's Leggings,16799999,8bdde90e0a114421b9bd9577a85d29ce,none,0,0,,false
+2024-05-18,Necron's Boots,11900000,a23524c8a82942a69d7905cc45e06efc,none,0,0,,false
+2024-05-18,Necron's Helmet,25000000,aa58f2ae90624d98b3156a5e0630ab67,ancient,5,0,thorns 3|protection 5|growth 5|respiration 3|aqua_affinity 1|,true
+2024-05-18,Maxor's Leggings,6850000,c52f966c95fb4cb5ad9c8a23c77eac2e,none,0,0,,false
+2024-05-18,Necron's Chestplate,22899969,ee5efc792c804bb7baaa71b38cb54f5b,ancient,2,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Maxor's Boots,38998000,0a877d1c55f04eba8887437cd9d752a1,necrotic,0,5,growth 6|protection 6|ultimate_wisdom 5|mana_vampire 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|,true
+2024-05-18,Giant's Sword,168000000,cacbd716a5f8431fa3916c7bbe54ed8b,withered,5,0,ultimate_soul_eater 5|champion 10|ender_slayer 6|giant_killer 6|vampirism 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|smite 6|luck 6|impaling 3|cleave 5|knockback 2|fire_aspect 2|execute 5|venomous 5|first_strike 4|cubism 5|,true
+2024-05-18,Livid Dagger,6850000,cba319bc54e24f16a4630ca590aa147a,none,0,0,,false
+2024-05-18,Necron's Boots,14600000,4fb461763df4430d9faa204d9c451854,renowed,5,0,protection 5|growth 5|,false
+2024-05-18,Necron's Helmet,13500000,799c797a06004a7fbcc0355f536c2880,none,0,0,,false
+2024-05-18,Livid Dagger,15876547,dc7e9431815f41f9bcba1b09599ef702,fabled,0,5,ultimate_one_for_all 1|telekinesis 1|,true
+2024-05-18,Bouquet of Lies,16500000,63ec318d285c40e99434bb2855d343a7,withered,5,0,ultimate_combo 5|looting 4|scavenger 4|thunderlord 6|luck 6|impaling 3|critical 5|cleave 5|syphon 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|giant_killer 4|first_strike 4|venomous 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Necron's Chestplate,45000000,f5559e65cc2a452498b5b72d56ae4f07,ancient,5,5,ultimate_last_stand 5|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Livid Dagger,12400000,aad356f91dde430f987c1610b35fe683,fabled,5,0,impaling 3|luck 5|critical 5|cleave 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,true
+2024-05-18,Necron's Leggings,18849999,2d2daa36e2fe4b549e74646e24d8523a,ancient,0,0,,false
+2024-05-18,Spirit Sceptre,7990000,1654fe2ddf7141c1962c7bac60ac6c12,none,0,0,,false
+2024-05-18,Necron's Chestplate,24200000,30c9ee350891444c9d5f3a4802eada6c,ancient,0,0,,false
+2024-05-18,Necron's Leggings,147000000,04e757cd193e4ab3be0cb1da9fbe36cd,ancient,7,5,ultimate_legion 5|ferocious_mana 8|growth 6|protection 6|rejuvenate 5|thorns 3|,true
+2024-05-18,Livid Dagger,7920000,25f13a9ba32d45b7bed4ee8def8ff703,fabled,5,0,ultimate_one_for_all 1|,false
+2024-05-18,Storm's Helmet,25000000,ed35d5be1f1246c4837af53046917929,ancient,5,0,ultimate_wisdom 5|rejuvenate 5|protection 5|respiration 3|growth 5|aqua_affinity 1|,true
+2024-05-18,Storm's Chestplate,40400000,c7ff4dc4b0384ef6861a5a90d6546732,loving,0,0,ultimate_wisdom 5|hardened_mana 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,7500000,0992a1e91a294f12a974f60fb0130b1c,fabled,5,0,giant_killer 6|ultimate_swarm 2|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|,false
+2024-05-18,Giant's Sword,152000000,0cdb4d4c27c948afb3e16b801617947d,fabled,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Necron's Chestplate,48900000,2ecc49de32504fb2820b9e40c5b525d8,ancient,5,5,ultimate_legion 3|growth 6|protection 6|rejuvenate 5|,true
+2024-05-18,Goldor's Boots,1950000,ab6f0d890c9c41509aee6ef822289fc2,smart,0,0,protection 5|growth 5|,false
+2024-05-18,Necron's Helmet,13799999,9f3a5b9cc86a446f8d670bcaaa427b00,none,0,0,,false
+2024-05-18,Necron's Helmet,19700000,1711d46b191d4610b0009f14938d4fcc,ancient,5,0,rejuvenate 5|growth 5|protection 5|respiration 3|aqua_affinity 1|,false
+2024-05-18,Spirit Sceptre,18750000,f4e5673b99c147dfa29986a560164dd4,none,0,0,,false
+2024-05-18,Livid Dagger,7490000,7bd30d991c154d27939cfc7504d841fc,fabled,0,0,looting 4|critical 6|scavenger 4|luck 6|impaling 3|cleave 5|syphon 3|telekinesis 1|ender_slayer 5|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Maxor's Boots,22770000,29abb9ba26f344e5bc47c54bea40202d,ancient,5,5,ultimate_legion 3|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,24200000,5e161422d3a64ac294ca5e00f6acc534,ancient,0,0,,false
+2024-05-18,Necron's Chestplate,43250000,9dddde9be177481fb7382fd8ecad513d,ancient,5,0,ultimate_wisdom 5|true_protection 1|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Necron's Leggings,21000000,903e13be31b64130bb9d898dbfbfd8d3,ancient,4,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Storm's Boots,39000000,84b641f8029842f1bb19ce9f85b6ba44,necrotic,5,5,growth 6|protection 6|ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|,true
+2024-05-18,Livid Dagger,8800000,4ea7056c19254e7dbae04c5ecffb394b,fabled,5,0,ultimate_one_for_all 1|,false
+2024-05-18,Maxor's Boots,17800000,5e476a3b9b464f0f8d3bda8083d6d136,ancient,5,0,growth 6|rejuvenate 5|protection 5|,true
+2024-05-18,Necron's Chestplate,28500000,aa230058167844dea04d2a237a919930,ancient,5,0,rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Giant's Sword,150000000,3c98ca7379424fb4870dc4eb138e569e,fabled,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Giant's Sword,168000000,c9de40edb1684fb68e5a714821a94f77,withered,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Maxor's Leggings,9900000,9d40cd3b9c8b437ca4d334fb1da394a3,ancient,0,0,,false
+2024-05-18,Spirit Sceptre,19000000,1de20e60937745b9a55bbdebef5e5e70,none,0,0,,false
+2024-05-18,Bouquet of Lies,12800000,67ba967bc7f84b31ba3edc46af15ec74,fabled,5,0,ultimate_one_for_all 1|telekinesis 1|,false
+2024-05-18,Necron's Chestplate,65000000,8bb48b81502541acbec6e1984e00bb0c,ancient,0,5,ultimate_legion 4|protection 6|true_protection 1|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-18,Necron's Chestplate,68000000,77d4f8775d3b4d33a82bdb455aaac13a,ancient,5,5,ultimate_legion 3|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,8300000,68e778645ed4469bb7c598df3280040e,withered,5,0,vampirism 6|ultimate_combo 4|syphon 4|looting 4|critical 6|scavenger 4|impaling 3|luck 5|cleave 5|telekinesis 1|ender_slayer 5|fire_aspect 2|giant_killer 5|venomous 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|lethality 5|prosecute 5|,false
+2024-05-18,Storm's Leggings,56000000,441df19815134fc0a0ccff60ccd7173a,necrotic,5,5,smarty_pants 5|protection 6|ultimate_wisdom 5|rejuvenate 5|thorns 3|growth 5|,true
+2024-05-18,Necron's Boots,18100000,bc757af57d984f679159b7e6e39fa480,ancient,5,0,depth_strider 3|thorns 3|feather_falling 5|growth 5|protection 5|,false
+2024-05-18,Necron's Leggings,28900000,3d078bf96ab94c3e9a31715516f6d30a,ancient,5,0,rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Necron's Chestplate,28999999,51c0476963934ca5a466c0de908cf198,ancient,5,0,rejuvenate 5|protection 5|growth 5|,false
+2024-05-18,Necron's Leggings,16799999,c2cebfa68aca4fc7b5f73c4f663d39a3,none,0,0,,false
+2024-05-18,Necron's Chestplate,60000000,df68acfa466044d7827f2a7508d008a6,ancient,0,0,ultimate_legion 4|true_protection 1|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Chestplate,27500000,60d400570127415db38d0ead34e2e205,ancient,0,0,growth 6|protection 6|,false
+2024-05-18,Necron's Boots,26000000,e9dcd9e951a44e05b9d13ca4e717c47d,ancient,5,0,rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Storm's Boots,9699000,e09328d4e3f747f49579fbf3a85096df,none,1,0,,false
+2024-05-18,Spirit Sceptre,24000000,2ccf7b1566cc4deb9c599ef21b690fdb,heroic,5,0,ultimate_wise 5|life_steal 4|looting 4|critical 6|scavenger 4|thunderlord 6|smite 6|luck 6|impaling 3|cleave 5|ender_slayer 5|vampirism 5|giant_killer 5|first_strike 4|venomous 5|cubism 5|lethality 5|prosecute 5|,false
+2024-05-18,Necron's Leggings,29000000,571404c9560c405ebe97615ae93f7a6b,ancient,5,5,rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Giant's Sword,160000000,56d05cb0b0b9481fb321a62bc082324d,withered,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Necron's Chestplate,88000000,bcc8448d4ae54c31bd4951760a7bc216,ancient,5,0,ultimate_legion 5|growth 6|protection 6|rejuvenate 5|,true
+2024-05-18,Necron's Leggings,28000000,7a8df40bc7cc49639d5b2ddd855224da,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Necron's Boots,24000000,0fd9dac6008b471b8bc6288b216018be,ancient,5,0,ultimate_last_stand 5|strong_mana 3|rejuvenate 5|thorns 3|protection 5|growth 5|,true
+2024-05-18,Livid Dagger,7999000,3491212a23474536b76d708e8994592e,fabled,5,0,looting 4|smite 6|impaling 3|luck 5|critical 5|syphon 3|scavenger 3|ender_slayer 5|telekinesis 1|vampirism 5|giant_killer 5|first_strike 4|thunderlord 5|cubism 5|lethality 5|prosecute 5|,false
+2024-05-18,Necron's Helmet,28710000,17e576b1bcf3420d9d3a63e2ed00a771,ancient,5,0,hecatomb 2|thorns 3|protection 5|growth 5|respiration 3|aqua_affinity 1|,true
+2024-05-18,Storm's Leggings,13700000,7da2e5c547344fb3b5ccb172cc898daf,none,0,0,,false
+2024-05-18,Necron's Leggings,31000000,d030098084fb4b8d9ff5d06b592444a8,ancient,0,0,ultimate_last_stand 4|rejuvenate 5|thorns 3|growth 5|protection 5|,true
+2024-05-18,Necron's Boots,23000000,ecb7549b4d774da890c415ba69ab0d33,ancient,5,0,rejuvenate 5|protection 5|growth 5|,true
+2024-05-18,Spirit Sceptre,23000000,b6473ef6cf0a48ef90a37931815d9390,heroic,5,0,ultimate_wise 5|luck 5|critical 5|cleave 5|looting 3|ender_slayer 5|scavenger 3|life_steal 3|giant_killer 5|first_strike 4|sharpness 5|cubism 5|,false
+2024-05-18,Storm's Chestplate,56000000,6edd5179da5046bcb78426efee6147e0,loving,5,5,growth 6|protection 6|ultimate_wisdom 5|true_protection 1|hardened_mana 5|rejuvenate 5|thorns 3|,true
+2024-05-18,Maxor's Boots,7800000,6653c40dc9d1483e9f9b5e5923ae7587,ancient,5,0,sugar_rush 3|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|protection 5|growth 5|,false
+2024-05-18,Bouquet of Lies,19210000,824a969206fe4d34bd33e83dbf8ba1ab,fabled,5,0,impaling 3|luck 5|critical 5|cleave 5|looting 3|syphon 3|ender_slayer 5|telekinesis 1|scavenger 3|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|venomous 5|triple_strike 4|thunderlord 5|sharpness 5|cubism 5|lethality 5|,true
+2024-05-18,Giant's Sword,164000000,a9934022e2db45438d95aba21e348fa6,withered,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Livid Dagger,7500000,0eb154791256408894fe0f6c7260d420,fabled,5,0,ultimate_combo 5|critical 6|impaling 3|luck 5|cleave 5|looting 3|syphon 3|ender_slayer 5|telekinesis 1|scavenger 3|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|venomous 5|first_strike 4|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Livid Dagger,7000000,14440b1c7b2842f2ab3b464bf6cc5941,heroic,2,0,critical 5|first_strike 4|sharpness 5|vampirism 5|life_steal 3|giant_killer 5|,false
+2024-05-18,Livid Dagger,7000000,86440cb02b9c4e01ae1a04d51e8264a9,fabled,5,0,ultimate_wise 1|luck 5|critical 5|cleave 5|syphon 3|looting 3|ender_slayer 5|scavenger 3|fire_aspect 2|vampirism 5|execute 5|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Maxor's Boots,2000000,02a0c2d0a67f4bba9dad32701fff1ee7,none,0,0,,false
+2024-05-18,Maxor's Boots,2100000,37ba317f37614bf796337766ca992220,smart,0,0,,false
+2024-05-18,Livid Dagger,16888888,9f064421604b4b5aa3ec46ae5211e172,fabled,5,0,ultimate_soul_eater 3|ender_slayer 6|giant_killer 6|vampirism 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|telekinesis 1|fire_aspect 2|execute 5|venomous 5|first_strike 4|sharpness 5|cubism 5|,true
+2024-05-18,Goldor's Helmet,3000000,ae0a33c39b664aaeb8250b7921b3af6d,none,0,0,,false
+2024-05-18,Necron's Leggings,25700000,b4341710b7034ba1b012d9b8e40b2249,ancient,5,0,thorns 3|protection 5|growth 5|,false
+2024-05-18,Storm's Boots,9680000,c8b94d9062b4445596d3374f5773d064,smart,0,0,protection 5|growth 5|,false
+2024-05-18,Necron's Boots,16999999,ec10c02c3ae84923bc3968022131ed08,ancient,5,0,rejuvenate 5|feather_falling 6|depth_strider 3|protection 5|growth 5|,false
+2024-05-18,Storm's Helmet,11000000,78ae813017874925ae0c101ef9bfba27,wise,0,0,rejuvenate 5|thorns 3|growth 5|protection 5|respiration 3|,false
+2024-05-18,Storm's Leggings,13700000,e6480076bffd4a368717107de0406a28,none,0,0,,false
+2024-05-18,Storm's Chestplate,29000000,913b3b505acc44b9b43082303562ecf0,loving,5,0,growth 6|rejuvenate 5|protection 5|,false
+2024-05-18,Giant's Sword,193000000,e0ff9a0ee3fe4473b21bfe5107316f1b,withered,5,5,ultimate_soul_eater 5|champion 5|sharpness 6|giant_killer 6|vampirism 6|fire_aspect 3|life_steal 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|ender_slayer 5|execute 5|first_strike 4|venomous 5|cubism 5|,true
+2024-05-18,Maxor's Leggings,7899998,c8035d84be8d44d688e770b258b0b9a1,none,0,0,,false
+2024-05-18,Livid Dagger,7000000,8fbb191f94494df7932b69d1e713a1bf,spicy,0,0,impaling 3|luck 5|critical 5|cleave 5|looting 3|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|execute 5|life_steal 3|giant_killer 5|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Storm's Chestplate,19800000,2c94caa0826a49d3be836fdd96c8932d,none,0,0,,false
+2024-05-18,Giant's Sword,181000000,8894947341bb4c2d93f7ac3762a0d1db,fabled,5,0,ultimate_soul_eater 5|champion 10|sharpness 6|ender_slayer 6|giant_killer 6|vampirism 6|fire_aspect 3|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|execute 5|first_strike 4|venomous 5|cubism 5|,true
+2024-05-18,Livid Dagger,17000000,19eb382e59bf4ef1b31eedaaebd27ce7,fabled,0,5,ultimate_soul_eater 3|sharpness 6|ender_slayer 6|giant_killer 6|vampirism 6|syphon 4|lethality 6|looting 4|critical 6|scavenger 4|thunderlord 6|luck 6|impaling 3|cleave 5|telekinesis 1|fire_aspect 2|execute 5|first_strike 4|venomous 5|cubism 5|,true
+2024-05-18,Giant's Sword,185000000,ea1dcafd96cf42c1898629eb575637c1,withered,5,0,prosecute 6|ultimate_soul_eater 5|sharpness 6|life_steal 4|lethality 6|looting 4|critical 6|luck 5|scavenger 3|knockback 2|vampirism 5|first_strike 4|venomous 5|titan_killer 5|,true
+2024-05-18,Necron's Boots,52000000,b8c549152c124a6f818e0dcf852bef49,ancient,0,5,growth 6|ultimate_last_stand 5|protection 6|sugar_rush 3|ferocious_mana 5|rejuvenate 5|feather_falling 10|depth_strider 3|thorns 3|,true
+2024-05-18,Spirit Sceptre,24500000,1c69d08e75284b8184786893a11262c0,heroic,5,0,ultimate_wise 5|impaling 3|luck 5|critical 5|thunderbolt 5|cleave 5|smite 5|looting 3|syphon 3|scavenger 3|ender_slayer 5|vampirism 5|fire_aspect 2|execute 5|giant_killer 5|venomous 5|first_strike 4|cubism 5|lethality 5|,false
+2024-05-18,Necron's Chestplate,27888888,65fe428328f8436eaa75ac50246db709,ancient,5,0,thorns 3|growth 5|protection 5|,false
+2024-05-18,Bouquet of Lies,10800000,25f4a9666d8a41aebda25a9089d2466e,withered,2,0,ultimate_combo 5|luck 4|first_strike 4|cleave 5|smite 5|looting 2|,false
+2024-05-18,Necron's Chestplate,35000000,008adb7a1d01406e90b12e3dd888ed75,ancient,5,0,ultimate_last_stand 5|true_protection 1|rejuvenate 5|growth 5|protection 5|,true
+2024-05-18,Necron's Helmet,31900000,d6d3dae0780741c4a2dc9279d6344998,ancient,0,0,ultimate_legion 3|rejuvenate 5|growth 5|respiration 3|protection 5|aqua_affinity 1|,true
+2024-05-18,Maxor's Boots,30000000,d1eaa3184d7245bfa55e0e4218965a26,ancient,0,0,ultimate_legion 4|rejuvenate 5|feather_falling 10|depth_strider 3|growth 5|protection 5|,true
+2024-05-18,Goldor's Boots,1950000,cfd4e4bbcf914833bce9cd22c50811f4,titanic,0,0,protection 5|growth 5|,false
+2024-05-18,Necron's Leggings,26000000,68902535aa5e4dce85d085e80f72ef8c,ancient,5,0,rejuvenate 5|thorns 3|growth 5|protection 5|,false
+2024-05-18,Giant's Sword,170000000,e9c2792e51134fb8ba737b3600dbab97,withered,5,5,ultimate_one_for_all 1|,true
+2024-05-18,Livid Dagger,6800000,5e7f151554854743aa81c288bbd171b2,none,0,0,,false
+2024-05-18,Livid Dagger,7700000,7aa673c66bcb4b4e8de3f069265433f7,spicy,0,0,impaling 3|luck 5|critical 5|thunderbolt 5|looting 3|telekinesis 1|scavenger 3|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|venomous 5|sharpness 5|cubism 5|lethality 5|,false
+2024-05-18,Maxor's Boots,3780000,974d79f468bd42d1b118fd425e00f141,ancient,0,0,,false
+2024-05-18,Livid Dagger,6799000,60db02b228764e3ea29ea9c6a281787d,none,0,0,,false
+2024-05-18,Giant's Sword,174900000,9c264297fccf4a1a92d9351ce47e3aeb,withered,5,0,ultimate_one_for_all 1|,true
+2024-05-18,Storm's Chestplate,31310000,2ad355fb9e02455eb12b8bdc0c4ad838,loving,5,0,ultimate_wisdom 5|rejuvenate 5|thorns 3|protection 5|growth 5|,false
+2024-05-18,Spirit Sceptre,25000000,0c1652be85354bd987e2dac7b8cba6b8,none,5,0,thunderlord 7|ultimate_wise 5|critical 6|scavenger 4|luck 5|first_strike 4|sharpness 5|giant_killer 5|,true
+2024-05-18,Spirit Sceptre,19000000,4be3f2106479464da99ac8afdb2d6d23,none,0,0,,false
+2024-05-18,Livid Dagger,7400000,325d510af3af4fc08e62a5eeb80db89f,none,0,0,ultimate_wise 5|luck 5|critical 5|venomous 5|cleave 5|looting 3|sharpness 5|life_steal 3|execute 5|,false
+2024-05-18,Livid Dagger,6800000,13c3526426934b829c7445457a311cdf,fabled,4,0,critical 6|luck 6|cleave 5|thunderbolt 5|looting 3|scavenger 3|knockback 2|ender_slayer 5|fire_aspect 2|vampirism 5|life_steal 3|execute 5|giant_killer 5|first_strike 4|sharpness 5|cubism 5|,false
+2024-05-18,Maxor's Boots,37000000,ed06db98a5184720838bbfed3f269107,ancient,5,0,ultimate_last_stand 5|rejuvenate 5|sugar_rush 1|ferocious_mana 1|depth_strider 3|thorns 3|protection 5|growth 5|,true
+2024-05-18,Storm's Leggings,22999999,7755d389f66c4c3fab4d07fa27bfd94a,necrotic,5,0,ultimate_wisdom 5|rejuvenate 5|protection 5|growth 5|,false
+2024-05-18,Storm's Boots,26999999,18e41a25f7c14244be70bea36d736313,necrotic,5,5,ultimate_wisdom 5|sugar_rush 3|rejuvenate 5|feather_falling 10|protection 5|growth 5|,true
+2024-05-18,Spirit Sceptre,28149396,0a47a122f2f5489bb3dd98ad340ff4a8,heroic,0,0,champion 7|ultimate_wise 5|vampirism 6|looting 4|scavenger 4|luck 6|impaling 3|critical 5|cleave 5|telekinesis 1|ender_slayer 5|knockback 2|fire_aspect 2|life_steal 3|giant_killer 5|first_strike 4|venomous 5|thunderlord 5|sharpness 5|cubism 5|lethality 5|prosecute 5|,true

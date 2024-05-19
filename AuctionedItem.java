@@ -65,7 +65,7 @@ public abstract class AuctionedItem {
             info.put("price", jsonData.substring(priceLocation[0], priceLocation[1]));
             String itemBytesStr = grabInfo("item_bytes", jsonData);
             String itemBytesClean = decompressGzipString(itemBytesStr);
-            itemBytesClean = cleanString(itemBytesClean);
+//            itemBytesClean = cleanString(itemBytesClean);
 
             info.put("item_bytes", itemBytesClean);
         } else{

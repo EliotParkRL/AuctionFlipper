@@ -3,7 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="/backup.csv">
+        <entry key="/model_predict_input.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

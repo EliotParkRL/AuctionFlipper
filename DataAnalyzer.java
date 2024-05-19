@@ -6,7 +6,7 @@ public class DataAnalyzer {
     public int analyzeData(){
         try {
             // Create ProcessBuilder for calling Python script
-            ProcessBuilder pb = new ProcessBuilder("/usr/bin/python3", "GetDataPrices.py");
+            ProcessBuilder pb = new ProcessBuilder("/Users/natha/PycharmProjects/test/venv/bin/python", "GetDataPrices.py");
 
             // Start the process
             Process process = pb.start();

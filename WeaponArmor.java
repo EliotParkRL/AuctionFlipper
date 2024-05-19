@@ -1,11 +1,6 @@
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Extension of the AuctionedItem abstract class that works with weapons and armor
@@ -18,6 +13,7 @@ public class WeaponArmor extends AuctionedItem{
     String reforge;
     int starLevel;
     boolean isRecombobulated = false;
+    double predictedPrice = 0.0;
 
     /**
      * constructor
@@ -29,6 +25,30 @@ public class WeaponArmor extends AuctionedItem{
         name = findName();
         isWeaponArmor();
         enchants = returnEnchants();
+    }
+
+    /**
+     *
+     * @param aItemName
+     * @param aReforge
+     * @param aStarLevel
+     * @param aFBPs
+     * @param aEnchants
+     * @param aIsRecomb
+     */
+    public WeaponArmor(String aItemName, String aReforge, int aStarLevel, int aFBPs, ArrayList<String> aEnchants, boolean aIsRecomb) throws IOException {
+        name = aItemName;
+        reforge = aReforge.toLowerCase();
+        starLevel = aStarLevel;
+        numFPBS = aFBPs;
+        enchants = aEnchants;
+        isRecombobulated = aIsRecomb;
+        this.writeArrayListToCSV("model_predict_input.csv");
+        //nathan can you write this, assigns a price to predictedPrice double
+    }
+
+    public int getPredictedPrice(){
+        return (int)predictedPrice;
     }
 
     public void isWeaponArmor(){

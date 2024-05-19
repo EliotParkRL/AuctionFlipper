@@ -29,6 +29,9 @@ public abstract class AuctionedItem {
         this.date = String.valueOf(LocalDate.now());
     }
 
+    public AuctionedItem(){}
+
+
     /**
      * Returns the reasonable JSON data
      * @return the readable JSON data

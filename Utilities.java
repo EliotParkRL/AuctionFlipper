@@ -4,15 +4,13 @@ import javax.sound.sampled.Clip;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.io.File;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
-import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Handles copying and notifying when a flip has been found
  */
-public class Clipboard {
+public class Utilities {
 
     /**
      * copies a string to the clipboard and plays a ding
@@ -47,5 +45,30 @@ public class Clipboard {
         } catch (Exception e) {
             System.out.println("Error playing sound: " + e.getMessage());
         }
+    }
+
+    /**
+     * Converts a comma-separated string into an ArrayList of strings.
+     * chat
+     * @param input the comma-separated string
+     * @return an ArrayList containing the values from the input string
+     */
+    public static ArrayList<String> convertToArrayList(String input) {
+        // Create an ArrayList to hold the values
+        ArrayList<String> arrayList = new ArrayList<>();
+
+        // Check if the input is null or empty
+        if (input == null || input.isEmpty()) {
+            return arrayList;
+        }
+
+        // Split the input string by commas
+        String[] values = input.split(",");
+
+        // Convert the array to an ArrayList
+        arrayList.addAll(Arrays.asList(values));
+
+        // Return the resulting ArrayList
+        return arrayList;
     }
 }

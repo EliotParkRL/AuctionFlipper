@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/model_predict_sample.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/model_train_input.csv">
           <value>
             <Attribute>

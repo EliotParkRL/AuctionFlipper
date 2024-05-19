@@ -34,15 +34,13 @@ pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
-single_features = {'champion': [10], 'cleave': [6], 'cubism': [6],  #
-                   'execute': [6], 'fire_aspect': [3],  #
-                   'first_strike': [5], 'lethality': [6],  #
-                   'prosecute': [6], 'thunderbolt': [6],  #
-                   'triple_strike': [5], 'vampirism': [6], 'venemous': [6],  #
-                   'ultimate_one_for_all': [1],  #
-                   #
-                   ###
-                   'counter_strike': [5],  #
+single_features = {'champion': [10], 'cleave': [6], 'cubism': [6],
+                   'execute': [6], 'fire_aspect': [3],
+                   'first_strike': [5], 'lethality': [6],
+                   'prosecute': [6], 'thunderbolt': [6],
+                   'triple_strike': [5], 'vampirism': [6], 'venemous': [6],
+                   'ultimate_one_for_all': [1],
+                   'counter_strike': [5],
                    }
 multi_feature = {'critical': [6, 7],
                  'ender_slayer': [6, 7],
@@ -62,13 +60,34 @@ multi_feature = {'critical': [6, 7],
                  'protection': [6, 7],
                  }
 
-calc_feature = {'big_brain': [3, 5],
+calc_feature = {'divine_gift': [1, 3],
+                'dragon_hunter': [1, 5],
+                'ultimate_chimera': [1, 5],
+                'ultimate_combo': [1, 5],
+                'ultimate_fatal_tempo': [1, 5],
+                'ultimate_habanero_tactics': [4, 5],
                 'utlimate_inferno': [1, 5],
-                'ultimate_legion': [1, 5],
                 'ultimate_swarm': [1, 5],
                 'ultimate_soul_eater': [1, 5],
+                'big_brain': [3, 5],
+                'ferocious_mana': [1, 10],
+                'hardened_mana': [1, 10],
+                'hecatomb': [1, 10],
+                'pesterminator': [1, 5],
+                'refrigerate': [1, 5],
+                'rejuvenate': [1, 5],
+                'smarty_pants': [1, 5],
+                'strong_mana': [1, 10],
+                'sugar_rush': [1, 3],
+                'transylvanian': [4, 5],
+                'ultimate_bank': [1, 5],
+                'ultimate_last_stand': [1, 5],
+                'ultimate_legion': [1, 5],
+                'ultimate_wise': [1, 5],
+                'ultimate_wisdom': [1, 5],
                 'mana_vampire': [1, 10]
                 }
+
 
 def set_noncalc_enchants_feature(feature_col, enchants_str, feature_map):
     enchants_list = feature_map[feature_col]
@@ -87,16 +106,25 @@ def set_calc_enchants_feature(feature_col, enchants_str, calc_feature_map):
                 return enchants_dict[enchants_value]
     return 0
 
-def get_model_dataframe(file):
-    df = pd.read_csv(file)
-    reforge_features = ['giant', 'none', 'ancient', 'withered', 'fabled', 'loving', 'necrotic']
-    #reforge_features = df.Reforge.unique().tolist()
-    enchants_features = []
 
+def get_model_dataframe(file):
+    # read the csv file
+    df = pd.read_csv(file)
+    df = df.rename(columns={'Item Name': 'ItemName',
+                            'Auction ID': 'AuctionID',
+                            'Recomb': 'recomb',
+                            'FPBs': 'fpbs'})
+
+    reforge_features = ['giant', 'none', 'ancient', 'withered', 'fabled', 'loving', 'necrotic', 'spicy', 'heroic',
+                        'pure', 'titanic', 'light', 'fierce', 'legendary', 'sharp', 'suspicious']
+    # reforge_features = df.Reforge.unique().tolist()
+    enchants_features = []
+    recomb_features = ['recomb']
+    fpbs_features = ['fpbs']
+
+    df['recomb'] = df['recomb'].astype(np.int16)
     df['Enchants'] = df['Enchants'].fillna('')
     df = df[df.Reforge.isin(reforge_features)]
-    df = df.rename(columns={'Item Name': 'ItemName',
-                            'Auction ID': 'AuctionID'})
 
     # calc features
     calc_feature_map = {}
@@ -154,48 +182,45 @@ def get_model_dataframe(file):
 
     reforge_data = df[['AuctionID', 'Price', 'Reforge']]
     reforge_data = reforge_data.assign(ReforgeValue=1)
-    #reforge_data['ReforgeValue'] = 1
+    # reforge_data['ReforgeValue'] = 1
     reforge_data = reforge_data.pivot_table(index=['AuctionID', 'Price'], columns='Reforge', values='ReforgeValue')
     reforge_data = reforge_data.reset_index()
     for reforge_feature in reforge_features:
-        if reforge_feature not in  reforge_data.columns.tolist():
+        if reforge_feature not in reforge_data.columns.tolist():
             reforge_data[reforge_feature] = np.NaN
     reforge_data = reforge_data.fillna(0)
 
-    enchants_data = df[['AuctionID'] + enchants_features]
-    regress_data = reforge_data.merge(enchants_data, on=['AuctionID'])
-    regress_feature = reforge_features + enchants_features
+    other_data = df[['AuctionID'] + enchants_features + recomb_features + fpbs_features]
+    regress_data = reforge_data.merge(other_data, on=['AuctionID'])
+    regress_features = reforge_features + enchants_features + recomb_features + fpbs_features
 
-    return regress_data[['Price'] + regress_feature], regress_feature
+    return regress_data[['Price', 'AuctionID'] + regress_features], regress_features
+
 
 def get_predict_model(model_train_input_file):
     regress_data, regress_feature = get_model_dataframe(model_train_input_file)
 
     regress_fit = sm.OLS(regress_data['Price'], regress_data[regress_feature]).fit()
+    print(regress_fit.summary())
     return regress_fit
+
 
 def predict_price(model_train_input_file, model_predict_input_file):
     # build model
     regress_fit = get_predict_model(model_train_input_file)
     pred_data, pred_features = get_model_dataframe(model_predict_input_file)
-    if 'Price' in pred_data.columns:
-        pred_data = pred_data.drop('Price', axis=1)
-    predictions = regress_fit.predict(pred_data)
-    print(predictions)
-
-
-    # pred_data = tmp1[reforge_features].drop_duplicates()
-    # predictions = regress_fit.predict(pred_data)
-    # predictions = pd.DataFrame(predictions)
-    # predictions.columns = ['PredictedPrice']
-    # predictions_all = pd.concat([predictions, pred_data], axis=1)
-    # predictions_all = predictions_all.melt(id_vars='PredictedPrice', value_vars=list_feautres)
-    # predictions_all = predictions_all[predictions_all.value == 1]
-    # predictions_all = predictions_all.drop('value', axis=1)
-    # predictions_all.columns = ['PredictedPrice', 'Feature']
-
-    # print(predictions_all)
+    pred_data = pred_data.sort_values('AuctionID')
+    print(pred_data.head())
+    # if 'Price' in pred_data.columns:
+    #     pred_data = pred_data.drop('Price', axis=1)
+    predictions = regress_fit.predict(pred_data[pred_features])
+    pred_data['PredictedPrice'] = predictions
+    pred_data['AbsDiff'] = abs(pred_data['PredictedPrice'] / pred_data['Price'] - 1)
+    pred_data = pred_data.sort_values('AbsDiff', ascending=True)
+    print(pred_data[['AuctionID', 'Price', 'PredictedPrice', 'AbsDiff']].head(20))
+    # pd.plot(pred_data[['Price', 'PredictedPrice']])
 
 
 if __name__ == "__main__":
-    predict_price('model_train_input.csv', 'model_predict_sample.csv', )
+    # pred_data, pred_features = get_model_dataframe('model_predict_input_test.csv')
+    predict_price('model_train_input.csv', 'model_predict_input.csv', )

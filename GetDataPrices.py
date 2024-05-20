@@ -23,6 +23,8 @@
 # numfpbs 0-5                                                                                                               (1)
 # recomb                                                                                                                    (1)
 #                                                                                                                           (142)
+# Debugging doesn't work for some reason, put into pycharm or something similar to debug properly
+
 
 import numpy as np
 import pandas as pd

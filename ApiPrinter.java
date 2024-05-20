@@ -18,8 +18,10 @@ public class ApiPrinter {
 //        for(WeaponArmor item : test){
 //            System.out.println(item.getReasonableJSON());
 //        }
-//        DataAnalyzer data = new DataAnalyzer();
-//        data.analyzeData();
+        DataAnalyzer data = new DataAnalyzer();
+        data.downloadPKGs();
+        data.analyzeData();
+
 //        for (WeaponArmor item : test2){
 //            if(!item.getName().isEmpty()) {
 //                item.writeArrayListToCSV("model_predict_input.csv");

@@ -18,6 +18,9 @@ GetDataPrices will analyze the data within model_train_input and calculate price
 Makes calls to the API in order to grab information about past and new auctions.  
 
 6. All methods other than those listed and ApiPrinter  
-These can be used to improve the project. The original goal of this project was to make an auction flipper.  
+These were written and can be used to improve the project even though they weren't used. The original goal of this project was to make an auction flipper; 
+however, given the limited time, we weren't able to utilize them to make a true auction flipper.  
 You can use these methods to help create one if you find a way to improve the price calculator (it is missing certain features: dungeon levels, gemstones, and attributes).
+
+
 Good luck if you'd like to try that.

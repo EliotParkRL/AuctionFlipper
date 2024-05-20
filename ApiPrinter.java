@@ -12,7 +12,6 @@ public class ApiPrinter {
         test = WeaponArmor.createAuctionedItemsFromApi(finishedAuctions, true); //DELETE
         String temp = finishedAuctions;
         test2 = WeaponArmor.createAuctionedItemsFromApi(MainCaller.CallNewAuctions(), false);
-        int count = 0;
 //        StopWatch watch = new StopWatch();
 //        watch.startWatch();
 //        for(WeaponArmor item : test){

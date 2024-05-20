@@ -24,6 +24,14 @@
 # recomb                                                                                                                    (1)
 #                                                                                                                           (142)
 # Debugging doesn't work for some reason, put into pycharm or something similar to debug properly
+import pkg_resources
+
+for package in ['pandas', 'statsmodels']:
+    """Downloads pandas and statsmodels in /usr/bin/python3 if you do not have it"""
+    try:
+        dist = pkg_resources.get_distribution(package)
+    except pkg_resources.DistributionNotFound:
+        print('Please run DataAnalyzer.downloadPKGs to install ' + package)
 
 
 import numpy as np

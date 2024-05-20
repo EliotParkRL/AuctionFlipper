@@ -20,7 +20,11 @@ public abstract class AuctionedItem {
     String date;
 
 
-
+    /**
+     * Constructs a new AuctionedItem with the provided JSON data and sold status.
+     * @param jsonData the data of the item
+     * @param sold the current for sale status of the item
+     */
     public AuctionedItem(String jsonData, boolean sold){
         this.sold = sold;
         this.jsonData = jsonData;
@@ -29,6 +33,9 @@ public abstract class AuctionedItem {
         this.date = String.valueOf(LocalDate.now());
     }
 
+    /**
+     * constructs a new AuctionItem
+     */
     public AuctionedItem(){}
 
 
@@ -99,6 +106,11 @@ public abstract class AuctionedItem {
 
     }
 
+    /**
+     * gets the name of the item
+     * @param info information about the item
+     * @return the item name
+     */
     String getName(HashMap<String, String> info){
         int nameLocation = info.get("item_bytes").indexOf("item_name");
         String itemName = info.get("item_bytes").substring(nameLocation + "item_bytes".length() + 1, info.get("item_bytes").length() - 1);
@@ -135,18 +147,12 @@ public abstract class AuctionedItem {
     }
 
     /**
-     * dumps json, maybe use later idk
-     * @return guess bro
+     * dumps json
+     * @return jsonData
      */
     public String dumpJSON(){
         return jsonData;
     }
-
-    /**
-     * creates auctionItems from api string dump
-     * @param data api string dump
-     */
-
 
     /**
      * deletes empty lines in an array of strings, chatGPT cooked
@@ -208,6 +214,12 @@ public abstract class AuctionedItem {
             return "something broke";
         }
     }
+
+    /**
+     * cleans the string so it is only the necessary information
+     * @param inputString the string containing the items and their characteristics
+     * @return the cleaned string
+     */
 
     String cleanString(String inputString) {
         // Define the regular expression pattern to match Latin characters, spaces, and ✪

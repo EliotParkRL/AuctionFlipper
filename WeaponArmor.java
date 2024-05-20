@@ -47,10 +47,17 @@ public class WeaponArmor extends AuctionedItem{
         //nathan can you write this, assigns a price to predictedPrice double
     }
 
+    /**
+     * gets the predicted price
+     * @return the predicted price
+     */
     public int getPredictedPrice(){
         return (int)predictedPrice;
     }
 
+    /**
+     * checks if the item a weapon or armor
+     */
     public void isWeaponArmor(){
         if(!name.isEmpty()){
             apiData = ApiCaller.auctionDetails(getAuctionID());
@@ -65,10 +72,17 @@ public class WeaponArmor extends AuctionedItem{
 //
 //    }
 
+    /**
+     * gets the number of FPBS
+     * @return the number of FPBS
+     */
     public int getNumFPBS(){
         return numFPBS;
     }
 
+    /**
+     * finds the reforge status of the item
+     */
     private void findReforge(){
         if(apiData.contains("reforge")) {
             reforge = (grabInfo("reforge", apiData));
@@ -78,14 +92,24 @@ public class WeaponArmor extends AuctionedItem{
         }
     }
 
+    /**
+     * finds whether the item has been recombobulated
+     */
     private void findRecomb(){
         isRecombobulated = apiData.contains("rarity_upgrades");
     }
 
+    /**
+     * returns whether the item has been recombobulated
+     * @return whether the item has been recombobulated
+     */
     public boolean getRecomb(){
         return isRecombobulated;
     }
 
+    /**
+     * finds the star level of the item
+     */
     private void findStarLevel(){
         int start = apiData.indexOf("upgrade_level")+15;
         int end = apiData.indexOf("upgrade_level")+16;
@@ -96,6 +120,10 @@ public class WeaponArmor extends AuctionedItem{
         }
     }
 
+    /**
+     * counts the FBPS
+     * @return the number of FBPS
+     */
     private int countFBPS(){
         int fpbs = 0;
         String itemBytes = getItemBytes();
@@ -117,7 +145,7 @@ public class WeaponArmor extends AuctionedItem{
 
     /**
      * getter method for the item starLevel
-     * @return item name ie "Necron's Chestplate"
+     * @return item starLevel
      */
     public int getStarLevel(){
         return starLevel;
@@ -133,7 +161,7 @@ public class WeaponArmor extends AuctionedItem{
 
     /**
      * getter method for the item reforge
-     * @return item name ie "ancient"
+     * @return item reforge ie "ancient"
      */
     public String getReforge(){
         return reforge;

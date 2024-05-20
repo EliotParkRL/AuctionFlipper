@@ -88,6 +88,7 @@ calc_feature = {'divine_gift': [1, 3],
 
 
 def set_noncalc_enchants_feature(feature_col, enchants_str, feature_map):
+    """Returns 1 and 0's for noncalc enchants"""
     enchants_list = feature_map[feature_col]
     for enchants_value in enchants_list:
         if enchants_value in enchants_str:
@@ -97,6 +98,7 @@ def set_noncalc_enchants_feature(feature_col, enchants_str, feature_map):
 
 
 def set_calc_enchants_feature(feature_col, enchants_str, calc_feature_map):
+    """returns powers of 2 for calc enchants"""
     enchants_list = calc_feature_map[feature_col]
     for enchants_dict in enchants_list:
         for enchants_value in enchants_dict.keys():
@@ -106,6 +108,7 @@ def set_calc_enchants_feature(feature_col, enchants_str, calc_feature_map):
 
 
 def get_model_dataframe(file):
+    """returns a tuple of the dataframe of features and a list of the features"""
     # read the csv file
     df = pd.read_csv(file)
     df = df.rename(columns={'Item Name': 'ItemName',
@@ -113,17 +116,17 @@ def get_model_dataframe(file):
                             'Recomb': 'recomb',
                             'FPBs': 'fpbs'})
 
-    reforge_features = ['giant', 'none', 'ancient', 'withered', 'fabled', 'loving', 'necrotic', 'spicy', 'heroic',
-                        'pure', 'titanic', 'light', 'fierce', 'legendary', 'sharp', 'suspicious']
+    # features for each category
+    reforge_features = ['giant', 'none', 'ancient', 'withered', 'fabled', 'loving', 'necrotic', 'suspicious']
     item_features = ["Goldor's Leggings", "Necron's Leggings", "Storm's Chestplate", 'Livid Dagger', "Goldor's Chestplate",
                      "Necron's Boots", "Necron's Chestplate", "Storm's Boots", "Necron's Helmet", "Goldor's Boots",
                      'Spirit Sceptre', "Goldor's Helmet", "Maxor's Boots", "Storm's Leggings", "Storm's Helmet",
                      'Bouquet of Lies', "Maxor's Chestplate", "Maxor's Leggings", "Maxor's Helmet", "item_none"]
-    # reforge_features = df.Reforge.unique().tolist()
     enchants_features = []
     recomb_features = ['recomb']
     fpbs_features = ['fpbs']
 
+    # clean a little to avoid dataframe problems
     df['recomb'] = df['recomb'].astype(np.int16)
     df['Enchants'] = df['Enchants'].fillna('')
     idx = df.Reforge.isin(reforge_features)
@@ -132,7 +135,7 @@ def get_model_dataframe(file):
     df.loc[~idx, 'ItemName'] = 'item_none'
     #df = df[df.Reforge.isin(reforge_features)]
 
-    # calc features
+    # calc enchant features
     calc_feature_map = {}
     for feature in calc_feature.keys():
         feature_value_list = calc_feature[feature]
@@ -177,9 +180,9 @@ def get_model_dataframe(file):
                                                                                       enchants_str=x,
                                                                                       feature_map=feature_map))
 
+    # add features for item_name
     item_data = df[['AuctionID', 'Price', 'ItemName']]
     item_data = item_data.assign(ItemValue=1)
-    # reforge_data['ReforgeValue'] = 1
     item_data = item_data.pivot_table(index=['AuctionID', 'Price'], columns='ItemName', values='ItemValue')
     item_data = item_data.reset_index()
     for item_feature in item_features:
@@ -187,9 +190,9 @@ def get_model_dataframe(file):
             item_data[item_feature] = np.NaN
     item_data = item_data.fillna(0)
 
+    # add features for reforge
     reforge_data = df[['AuctionID', 'Price', 'Reforge']]
     reforge_data = reforge_data.assign(ReforgeValue=1)
-    # reforge_data['ReforgeValue'] = 1
     reforge_data = reforge_data.pivot_table(index=['AuctionID', 'Price'], columns='Reforge', values='ReforgeValue')
     reforge_data = reforge_data.reset_index()
     for reforge_feature in reforge_features:
@@ -197,6 +200,7 @@ def get_model_dataframe(file):
             reforge_data[reforge_feature] = np.NaN
     reforge_data = reforge_data.fillna(0)
 
+    # merge everything
     other_data = df[['AuctionID'] + enchants_features + recomb_features + fpbs_features]
     regress_data = reforge_data.merge(other_data, on=['AuctionID'], how='left')
     regress_data = regress_data.merge(item_data[['AuctionID']+item_features], on=['AuctionID'], how='left')
@@ -206,6 +210,7 @@ def get_model_dataframe(file):
 
 
 def get_predict_model(model_train_input_file):
+    """Calculates the prices of each factor linearly"""
     regress_data, regress_feature = get_model_dataframe(model_train_input_file)
 
     regress_fit = sm.OLS(regress_data['Price'], regress_data[regress_feature]).fit()
@@ -214,13 +219,13 @@ def get_predict_model(model_train_input_file):
 
 
 def predict_price(model_train_input_file, model_predict_input_file):
+    """Predict prices given information written the same way as the original file"""
     # build model
     regress_fit = get_predict_model(model_train_input_file)
     pred_data, pred_features = get_model_dataframe(model_predict_input_file)
     pred_data = pred_data.sort_values('AuctionID')
     print(pred_data.head())
-    # if 'Price' in pred_data.columns:
-    #     pred_data = pred_data.drop('Price', axis=1)
+
     predictions = regress_fit.predict(pred_data[pred_features])
     pred_data['PredictedPrice'] = predictions
     pred_data['AbsDiff'] = abs(pred_data['PredictedPrice'] / pred_data['Price'] - 1)

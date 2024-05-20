@@ -3,7 +3,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class DataAnalyzer {
-    public int analyzeData(){
+    /**
+     * Analyzes our auction data
+     * @return the predicted prices and tables
+     */
+    public static int analyzeData(){
         try {
             // Create ProcessBuilder for calling Python script
             ProcessBuilder pb = new ProcessBuilder("/usr/bin/python3", "GetDataPrices.py");
@@ -30,7 +34,7 @@ public class DataAnalyzer {
     /**
      * Downloads needed pkgs for python
      */
-    public void downloadPKGs(){
+    public static void downloadPKGs(){
         try {
             // Create ProcessBuilder for calling Python script
             ProcessBuilder pb = new ProcessBuilder("/usr/bin/python3", "DownloadPKGs.py");

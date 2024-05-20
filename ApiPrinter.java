@@ -18,9 +18,8 @@ public class ApiPrinter {
 //        for(WeaponArmor item : test){
 //            System.out.println(item.getReasonableJSON());
 //        }
-        DataAnalyzer data = new DataAnalyzer();
-        data.downloadPKGs();
-        data.analyzeData();
+//        DataAnalyzer.downloadPKGs();
+        DataAnalyzer.analyzeData();
 
 //        for (WeaponArmor item : test2){
 //            if(!item.getName().isEmpty()) {

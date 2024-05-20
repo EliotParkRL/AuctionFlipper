@@ -21,9 +21,9 @@ Makes calls to the API in order to grab information about past and new auctions.
 These were written and can be used to improve the project even though they weren't used. The original goal of this project was to make an auction flipper; 
 however, given the limited time, we weren't able to utilize them to make a true auction flipper.
 Some steps to improve:
-1. Add more features to the price calculator. The price calculator is missing dungeon levels, gemstones, and attributes for armor and weapons that need these.
-2. Create a graphics interface using grid_layout in order to allow instant copying from the utilities file if you find an item to buy.
-3. Allow automatic data gathering while flipping and play a ding when an item to flip comes up.
+A. Add more features to the price calculator. The price calculator is missing dungeon levels, gemstones, and attributes for armor and weapons that need these.
+B. Create a graphics interface using grid_layout in order to allow instant copying from the utilities file if you find an item to buy.
+C. Allow automatic data gathering while flipping and play a ding when an item to flip comes up.
 
 
 Best of luck to anyone trying to improve it if you choose to do so.

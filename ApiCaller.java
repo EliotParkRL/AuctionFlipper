@@ -205,6 +205,11 @@ public class ApiCaller {
         return URLEncoder.encode(value, "UTF-8");
     }
 
+    /**
+     * gives the details of the auction from coflnet
+     * @param uuid of the auction
+     * @return coflnet response
+     */
     public static String auctionDetails(String uuid){
         try {
             // Construct the API endpoint URL with the UUID directly appended to it

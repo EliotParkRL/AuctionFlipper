@@ -75,7 +75,6 @@ public abstract class AuctionedItem {
             info.put("price", jsonData.substring(priceLocation[0], priceLocation[1]));
             String itemBytesStr = grabInfo("item_bytes", jsonData);
             String itemBytesClean = decompressGzipString(itemBytesStr);
-//            itemBytesClean = cleanString(itemBytesClean);
 
             info.put("item_bytes", itemBytesClean);
         } else{
@@ -96,12 +95,6 @@ public abstract class AuctionedItem {
             info.put("item_bytes", itemBytesClean);
         }
         return info;
-//        if(sold){
-//            return ApiCaller.auctionDetails(grabInfo("auction_id"));
-//        } else {
-//            return ApiCaller.auctionDetails(grabInfo("uuid"));
-//        }
-
     }
 
     /**
@@ -180,7 +173,7 @@ public abstract class AuctionedItem {
     }
 
     /**
-     * parses item_bytes, chatgpt cooked with gas
+     * parses a Gzip string (chatgpt)
      * @param base64CompressedString MUST NOT HAVE FORWARD SLASHES
      * @return decompressed string
      */
@@ -276,8 +269,4 @@ public abstract class AuctionedItem {
         writer.append('\n');
         writer.close();
     }
-//    public static ArrayList<String> getEnchants(String input){
-//
-//
-//    }
 }
